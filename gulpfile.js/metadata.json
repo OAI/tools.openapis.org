@@ -1,0 +1,21 @@
+[
+  {
+    "title": "IMPLEMENTATIONS.md",
+    "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/IMPLEMENTATIONS.md",
+    "processor": "processors/openapi-implementations-md-processor.js"
+  },
+  {
+    "title": "https://openapi.tools/",
+    "url": "https://raw.githubusercontent.com/apisyouwonthate/openapi.tools/master/_data/tools.yml",
+    "processor": "processors/openapi-tools-processor.js"
+  },
+  {
+    "title": "openapi3 tags",
+    "processor": "processors/tagged-repository-processor.js"
+  },
+  {
+    "title": "master",
+    "url": "docs/tools.yaml",
+    "processor": "processors/master-processor.js"
+  }
+]
