@@ -51,7 +51,7 @@ gulp full
 In order to access the GitHub API, gulp will need to be provided with a GitHub username and a [personal access token](https://github.com/settings/tokens/new) as environment variables:
 
 ```bash
-GITHUB_TOKEN=<username> GITHUB_TOKEN=<personal-access-token> gulp full
+GITHUB_USER=<username> GITHUB_TOKEN=<personal-access-token> gulp full
 ```
 
 ### Metadata Update
