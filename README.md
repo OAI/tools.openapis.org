@@ -48,6 +48,12 @@ yarn install
 gulp full
 ```
 
+In order to access the GitHub API, gulp will need to be provided with a GitHub username and a [personal access token](https://github.com/settings/tokens/new) as environment variables:
+
+```bash
+GITHUB_TOKEN=<username> GITHUB_TOKEN=<personal-access-token> gulp full
+```
+
 ### Metadata Update
 
 The goal of the metadata update is to provide consistent repository metadata without sourcing new tooling:
@@ -68,4 +74,3 @@ gulp metadata
 ### Website
 
 This is a work-in-progress and as yet undocumented.
-
