@@ -14,6 +14,27 @@ const repositoryResponse = require('../../data/repo/github/repository-response.j
 
 const readmeResponse = '# Brief\n\nIt\'s for chopping up OpenAPI specs and that. Feed it some URIs, it merrily chops away. Good for paring down massive specs into bite-sized chunks. OpenAPI only (not Swagger).\n\nMore details to follow soon...\n\n# Usage\n\nDo as follows:\n\n```bash\ngit clone https://github.com/SensibleWood/openapi-chopper\ncd openapi-chopper\nyarn install && mkdir build\n./scripts/chopper.js --input test/data/petstore-input.yaml --output build/test-output.yaml /pet\n```\n\nLovely :thumbsup:\n"';
 
+const stub200Response = (stub, callNumber, data, etag, lastModified) => {
+  stub.onCall(callNumber)
+    .returns(new Promise((resolve) => {
+      resolve({
+        data,
+        status: 200,
+        headers: { etag, 'last-modified': lastModified },
+      });
+    }));
+};
+
+const stub304Response = (stub, callNumber, etag, lastModified) => {
+  stub.onCall(callNumber)
+    .returns(new Promise((resolve) => {
+      resolve({
+        status: 304,
+        headers: { etag, 'last-modified': lastModified },
+      });
+    }));
+};
+
 describe(__filename, () => {
   describe('getGithubRepositoryMetadata', () => {
     let sandbox;
@@ -76,28 +97,8 @@ describe(__filename, () => {
       )).to.be.rejected;
     });
     it('Successfully return metadata and readme from GitHub with no cache control data', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            data: repositoryResponse,
-            status: 200,
-            headers: {
-              etag: repoEtag,
-              'last-modified': repoLastModified,
-            },
-          });
-        }));
-      stub.onCall(1)
-        .returns(new Promise((resolve) => {
-          resolve({
-            data: readmeResponse,
-            status: 200,
-            headers: {
-              etag: readmeEtag,
-              'last-modified': readmeLastModified,
-            },
-          });
-        }));
+      stub200Response(stub, 0, repositoryResponse, repoEtag, repoLastModified);
+      stub200Response(stub, 1, readmeResponse, readmeEtag, readmeLastModified);
 
       await expect(getGithubRepositoryMetadata(
         'https://github.com/api-stuff/openapi-chopper',
@@ -115,17 +116,7 @@ describe(__filename, () => {
       });
     });
     it('Repository metadata available but readme missing', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            data: repositoryResponse,
-            status: 200,
-            headers: {
-              etag: repoEtag,
-              'last-modified': repoLastModified,
-            },
-          });
-        }));
+      stub200Response(stub, 0, repositoryResponse, repoEtag, repoLastModified);
       stub.onCall(1)
         .throws({ response: { status: 404 } });
 
@@ -142,16 +133,7 @@ describe(__filename, () => {
       });
     });
     it('Repository metadata has not been updated and readme missing', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            status: 304,
-            headers: {
-              etag: repoEtag,
-              'last-modified': repoLastModified,
-            },
-          });
-        }));
+      stub304Response(stub, 0, repoEtag, repoLastModified);
       stub.onCall(1)
         .throws({ response: { status: 404 } });
 
@@ -169,17 +151,7 @@ describe(__filename, () => {
       });
     });
     it('Repository metadata has been updated at GitHub and readme missing', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            data: repositoryResponse,
-            status: 200,
-            headers: {
-              etag: newRepoEtag,
-              'last-modified': newRepoLastModified,
-            },
-          });
-        }));
+      stub200Response(stub, 0, repositoryResponse, newRepoEtag, newRepoLastModified);
       stub.onCall(1)
         .throws({ response: { status: 404 } });
 
@@ -197,26 +169,8 @@ describe(__filename, () => {
       });
     });
     it('Repository metadata and readme have not been updated', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            status: 304,
-            headers: {
-              etag: repoEtag,
-              'last-modified': repoLastModified,
-            },
-          });
-        }));
-      stub.onCall(1)
-        .returns(new Promise((resolve) => {
-          resolve({
-            status: 304,
-            headers: {
-              etag: readmeEtag,
-              'last-modified': readmeLastModified,
-            },
-          });
-        }));
+      stub304Response(stub, 0, repoEtag, repoLastModified);
+      stub304Response(stub, 1, readmeEtag, readmeLastModified);
 
       await expect(getGithubRepositoryMetadata(
         'https://github.com/api-stuff/openapi-chopper',
@@ -240,26 +194,8 @@ describe(__filename, () => {
       });
     });
     it('Repository metadata has been updated and readme has not', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            status: 304,
-            headers: {
-              etag: repoEtag,
-              'last-modified': repoLastModified,
-            },
-          });
-        }));
-      stub.onCall(1)
-        .returns(new Promise((resolve) => {
-          resolve({
-            status: 304,
-            headers: {
-              etag: readmeEtag,
-              'last-modified': readmeLastModified,
-            },
-          });
-        }));
+      stub200Response(stub, 0, repositoryResponse, newRepoEtag, newRepoLastModified);
+      stub304Response(stub, 1, readmeEtag, readmeLastModified);
 
       await expect(getGithubRepositoryMetadata(
         'https://github.com/api-stuff/openapi-chopper',
@@ -275,35 +211,16 @@ describe(__filename, () => {
       )).to.eventually.deep.equal({
         repositoryMetadata: {
           ...expectedRepositoryMetadata,
-          repoEtag,
-          repoLastModified,
+          repoEtag: newRepoEtag,
+          repoLastModified: newRepoLastModified,
           readmeEtag,
           readmeLastModified,
         },
       });
     });
     it('Repository metadata has not been updated and readme has', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            status: 304,
-            headers: {
-              etag: repoEtag,
-              'last-modified': repoLastModified,
-            },
-          });
-        }));
-      stub.onCall(1)
-        .returns(new Promise((resolve) => {
-          resolve({
-            data: readmeResponse,
-            status: 200,
-            headers: {
-              etag: newReadmeEtag,
-              'last-modified': newReadmeLastModified,
-            },
-          });
-        }));
+      stub304Response(stub, 0, repoEtag, repoLastModified);
+      stub200Response(stub, 1, readmeResponse, newReadmeEtag, newReadmeLastModified);
 
       await expect(getGithubRepositoryMetadata(
         'https://github.com/api-stuff/openapi-chopper',
@@ -328,28 +245,8 @@ describe(__filename, () => {
       });
     });
     it('Repository metadata and readme have been updated', async () => {
-      stub.onCall(0)
-        .returns(new Promise((resolve) => {
-          resolve({
-            data: repositoryResponse,
-            status: 200,
-            headers: {
-              etag: newRepoEtag,
-              'last-modified': newRepoLastModified,
-            },
-          });
-        }));
-      stub.onCall(1)
-        .returns(new Promise((resolve) => {
-          resolve({
-            data: readmeResponse,
-            status: 200,
-            headers: {
-              etag: newReadmeEtag,
-              'last-modified': newReadmeLastModified,
-            },
-          });
-        }));
+      stub200Response(stub, 0, repositoryResponse, newRepoEtag, newRepoLastModified);
+      stub200Response(stub, 1, readmeResponse, newReadmeEtag, newReadmeLastModified);
 
       await expect(getGithubRepositoryMetadata(
         'https://github.com/api-stuff/openapi-chopper',
