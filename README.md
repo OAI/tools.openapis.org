@@ -91,4 +91,4 @@ GITHUB_ACTOR=<username> GITHUB_TOKEN=<personal-access-token> && yarn run build:m
 
 ### Website
 
-This is a work-in-progress and as yet undocumented.
+This is a work-in-progress and has yet to be undocumented.
