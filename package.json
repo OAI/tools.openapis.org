@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gulp",
+    "build:full": "gulp full",
+    "build:metadata": "gulp metadata",
     "coverage": "export NODE_ENV=test && nyc --reporter=html --reporter=text ./node_modules/.bin/_mocha test/lib/* --exit --recursive --timeout 10000",
     "coverage:desktop": "yarn run coverage && open coverage/index.html",
     "start": "npx @11ty/eleventy --serve",
