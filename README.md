@@ -57,19 +57,17 @@ The full build takes the following approach:
 * Get repository metadata from GitHub.
 * Write to [docs/tools.yaml](docs/tools.yaml).
 
-Currently this build is not scheduled and is [in the backlog](https://github.com/OAI/Tooling/issues/9) to implement.
+Currently this build is scheduled using [GitHub Actions](.github/workflows/full.yaml) and runs once a week on Sunday.
 
-To run the full build:
+The schedule will be reviewed as we collect data to see if executing it with greater frequency would be beneficial.
+
+> If you plan to run the build interactively access to the GitHub API is required. This is supported through [basic authentication](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication) using a GitHub username (set by default in GitHub Actions as GITHUB_ACTOR, which is fine for orchestrating the workflow) and a [personal access token](https://github.com/settings/tokens/new) as environment variables.
+
+To run the full build at the command line:
 
 ```bash
 yarn install
-gulp full
-```
-
-In order to access the GitHub API, gulp will need to be provided with a GitHub username and a [personal access token](https://github.com/settings/tokens/new) as environment variables:
-
-```bash
-GITHUB_USER=<username> GITHUB_TOKEN=<personal-access-token> gulp full
+GITHUB_ACTOR=<username> GITHUB_TOKEN=<personal-access-token> && yarn run build:full
 ```
 
 ### Metadata Update
@@ -80,13 +78,15 @@ The goal of the metadata update is to provide consistent repository metadata wit
 * Get repository metadata from GitHub.
 * Write to [docs/tools.yaml](docs/tools.yaml).
 
-Currently this build is not scheduled and is [in the backlog](https://github.com/OAI/Tooling/issues/9) to implement.
+Currently this build is scheduled using [GitHub Actions](.github/workflows/metadata.yaml) and runs every day.
 
-To run the metadata build:
+The scheduled will be reviewed as we collect data to see if executing it with greater frequency would be beneficial.
+
+To run the metadata build at the command line:
 
 ```bash
 yarn install # If you haven't done this already
-gulp metadata
+GITHUB_ACTOR=<username> GITHUB_TOKEN=<personal-access-token> && yarn run build:metadata
 ```
 
 ### Website

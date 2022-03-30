@@ -1,0 +1,24 @@
+name: Collect new data from target sources
+
+on:
+  schedule:
+    - cron: 0 3 * * 0
+
+jobs:
+  get-data-from-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 17
+      - run: yarn install --frozen-lockfile
+      - run: yarn run build:full
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: apt update && apt install -y git
+      - run: git config --global user.name "Tooling Builder"
+      - run: git config --global user.email "tooling@openapis.org"
+      - run: |
+          git commit -m "chore: Updates to OpenAPI tooling source data" docs/tools.yaml
+          git push origin main

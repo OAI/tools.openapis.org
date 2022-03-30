@@ -1,6 +1,6 @@
 {
   "environmentVariables": [
-    "GITHUB_USER",
+    "GITHUB_ACTOR",
     "GITHUB_TOKEN"
   ],
   "sources": [
