@@ -1,3 +1,5 @@
+name: Partial build (metadata-refresh only)
+
 on:
   schedule:
     - cron: 0 3 * * *

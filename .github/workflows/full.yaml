@@ -1,4 +1,4 @@
-name: Collect new data from target sources
+name: Full build (New data)
 
 on:
   schedule:
