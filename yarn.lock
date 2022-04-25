@@ -855,6 +855,11 @@ batch@0.6.1:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha1-3DQxT05nkxgJP8dgJyUl+UvyXBY=
 
+bayes@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/bayes/-/bayes-1.0.0.tgz#5c50b569a6d600653b01bc47626278da20170d11"
+  integrity sha512-dJkTHtGBbOLtrmcm37R44jelbgKalMPXLLmhNceEgeLRJLdDTU2DoEF7L+UqM3m36dve7/Vka4hgaacT7a8Jjw==
+
 beeper@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/beeper/-/beeper-1.1.1.tgz#e6d5ea8c5dad001304a70b22638447f69cb2f809"

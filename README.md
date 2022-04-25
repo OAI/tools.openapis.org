@@ -61,13 +61,15 @@ Currently this build is scheduled using [GitHub Actions](.github/workflows/full.
 
 The schedule will be reviewed as we collect data to see if executing it with greater frequency would be beneficial.
 
-> If you plan to run the build interactively access to the GitHub API is required. This is supported through [basic authentication](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication) using a GitHub username (set by default in GitHub Actions as GITHUB_ACTOR, which is fine for orchestrating the workflow) and a [personal access token](https://github.com/settings/tokens/new) as environment variables.
+> If you plan to run the build interactively access to the GitHub API is required. This is supported through [basic authentication](https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api#authentication) using a GitHub username and a [personal access token](https://github.com/settings/tokens/new) as environment variables.
+
+We've used customer environment variables rather than default GitHub variables provided by Actions to allow a separation of concerns.
 
 To run the full build at the command line:
 
 ```bash
 yarn install
-GITHUB_ACTOR=<username> GITHUB_TOKEN=<personal-access-token> && yarn run build:full
+GH_API_USERNAME=<username> GH_API_TOKEN=<personal-access-token> && yarn run build:full
 ```
 
 ### Metadata Update
@@ -86,7 +88,7 @@ To run the metadata build at the command line:
 
 ```bash
 yarn install # If you haven't done this already
-GITHUB_ACTOR=<username> GITHUB_TOKEN=<personal-access-token> && yarn run build:metadata
+GH_API_USERNAME=<username> GH_API_TOKEN=<personal-access-token> && yarn run build:metadata
 ```
 
 ### Website
