@@ -1,4 +1,4 @@
-name: Partial build (metadata-refresh only)
+name: Metadata refresh
 
 on:
   schedule:

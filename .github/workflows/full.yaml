@@ -1,4 +1,4 @@
-name: Full build (New data)
+name: Full build
 
 on:
   schedule:
