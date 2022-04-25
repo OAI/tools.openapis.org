@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 17
-      - run: sudo apt-get update && apt-get install -y git
+      - run: sudo apt-get update && sudo apt-get install -y git
       - run: yarn install --frozen-lockfile
       - run: yarn run build:metadata
         env:
