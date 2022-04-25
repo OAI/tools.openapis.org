@@ -3,6 +3,7 @@ name: Metadata refresh
 on:
   schedule:
     - cron: 0 3 * * 1-6
+  workflow_dispatch:
 
 jobs:
   get-metadata:
