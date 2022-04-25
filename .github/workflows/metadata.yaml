@@ -13,7 +13,8 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn run build:metadata
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GH_API_USERNAME: ${{secrets.GH_API_USERNAME}}
+          GH_API_TOKEN: ${{secrets.GH_API_TOKEN}}
       - run: apt update && apt install -y git
       - run: git config --global user.name "Tooling Builder"
       - run: git config --global user.email "tooling@openapis.org"

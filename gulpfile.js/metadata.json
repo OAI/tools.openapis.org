@@ -1,27 +1,35 @@
 {
   "environmentVariables": [
-    "GITHUB_ACTOR",
-    "GITHUB_TOKEN"
+    "GH_API_USERNAME",
+    "GH_API_TOKEN"
   ],
   "sources": [
     {
       "title": "IMPLEMENTATIONS.md",
       "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/IMPLEMENTATIONS.md",
-      "processor": "processors/openapi-implementations-md-processor.js"
+      "processor": "../processors/openapi-implementations-md-processor.js"
     },
     {
       "title": "https://openapi.tools/",
       "url": "https://raw.githubusercontent.com/apisyouwonthate/openapi.tools/master/_data/tools.yml",
-      "processor": "processors/openapi-tools-processor.js"
+      "processor": "../processors/openapi-tools-processor.js"
     },
     {
       "title": "openapi3 tags",
-      "processor": "processors/tagged-repository-processor.js"
+      "processor": "../processors/tagged-repository-processor.js",
+      "topic": "openapi3",
+      "version": "v3"
+    },
+    {
+      "title": "openapi31 tags",
+      "processor": "../processors/tagged-repository-processor.js",
+      "topic": "openapi31",
+      "version": "v3_1"
     },
     {
       "title": "master",
       "url": "docs/tools.yaml",
-      "processor": "processors/master-processor.js"
+      "processor": "../processors/master-processor.js"
     }
   ]
 }
