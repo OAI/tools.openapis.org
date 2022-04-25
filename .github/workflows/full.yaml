@@ -13,12 +13,12 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 17
+      - run: sudo apt-get update && apt-get install -y git
       - run: yarn install --frozen-lockfile
       - run: yarn run build:full
         env:
           GH_API_USERNAME: ${{secrets.GH_API_USERNAME}}
           GH_API_TOKEN: ${{secrets.GH_API_TOKEN}}
-      - run: apt update && apt install -y git
       - run: git config --global user.name "Tooling Builder"
       - run: git config --global user.email "tooling@openapis.org"
       - run: |
