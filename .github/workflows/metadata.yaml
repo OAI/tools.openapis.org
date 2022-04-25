@@ -2,7 +2,7 @@ name: Partial build (metadata-refresh only)
 
 on:
   schedule:
-    - cron: 0 3 * * *
+    - cron: 0 3 * * 1-6
 
 jobs:
   get-metadata:
