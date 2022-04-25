@@ -3,7 +3,7 @@ const YAML = require('js-yaml');
 
 const { expect } = require('chai');
 
-const Classifier = require('../../lib/classifer');
+const Classifier = require('../../../lib/transform/classifer');
 
 describe(__filename, () => {
   describe('constructor function', () => {

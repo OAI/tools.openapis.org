@@ -87,14 +87,25 @@ describe(__filename, () => {
         },
       });
     });
-    it('Error thrown when any other HTTP error returned from Axios', async () => {
+    it('Error thrown accessing repository metadata when any other HTTP error returned from Axios', async () => {
       stub.onCall(0).throws({ response: { status: 400 } });
 
       await expect(getGithubRepositoryMetadata(
         'https://github.com/api-stuff/openapi-chopper',
         'username',
         'password',
-      )).to.be.rejected;
+      )).to.be.rejectedWith('Bad HTTP response 400 returned when calling repository URL: https://api.github.com/repos/api-stuff/openapi-chopper');
+    });
+    it('Repository metadata available but readme call returns non-404 error', async () => {
+      stub200Response(stub, 0, repositoryResponse, repoEtag, repoLastModified);
+      stub.onCall(1)
+        .throws({ response: { status: 400 } });
+
+      await expect(getGithubRepositoryMetadata(
+        'https://github.com/api-stuff/openapi-chopper',
+        'username',
+        'password',
+      )).to.be.rejectedWith('Bad HTTP response 400 returned when calling README URL: https://api.github.com/repos/api-stuff/openapi-chopper/readme');
     });
     it('Successfully return metadata and readme from GitHub with no cache control data', async () => {
       stub200Response(stub, 0, repositoryResponse, repoEtag, repoLastModified);
