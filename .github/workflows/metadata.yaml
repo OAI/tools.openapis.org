@@ -17,6 +17,7 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn run build:metadata
         env:
+          GH_API_CONCURRENCY_LIMIT: ${{secrets.GH_API_CONCURRENCY_LIMIT}}
           GH_API_USERNAME: ${{secrets.GH_API_USERNAME}}
           GH_API_TOKEN: ${{secrets.GH_API_TOKEN}}
       - run: git config --global user.name "Tooling Builder"
