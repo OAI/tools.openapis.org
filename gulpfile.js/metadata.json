@@ -1,7 +1,8 @@
 {
   "environmentVariables": [
-    "GH_API_USERNAME",
-    "GH_API_TOKEN"
+    "GH_API_CONCURRENCY_LIMIT",
+    "GH_API_TOKEN",
+    "GH_API_USERNAME"
   ],
   "sources": [
     {
