@@ -11,7 +11,7 @@ const {
   readSourceData,
   mergeSources,
   normaliseSources,
-} = require('../lib');
+} = require('../lib/data');
 
 // This is complete scan of the source data. All sources will be retrieved and processed
 // though the transformation code, rebuilding tools.yaml
