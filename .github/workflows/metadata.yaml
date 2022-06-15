@@ -15,7 +15,7 @@ jobs:
           node-version: 17
       - run: sudo apt-get update && sudo apt-get install -y git
       - run: yarn install --frozen-lockfile
-      - run: yarn run build:metadata
+      - run: yarn run build:data:metadata
         env:
           GH_API_CONCURRENCY_LIMIT: ${{secrets.GH_API_CONCURRENCY_LIMIT}}
           GH_API_USERNAME: ${{secrets.GH_API_USERNAME}}
