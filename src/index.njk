@@ -1,0 +1,75 @@
+---
+<!-- layout: base.njk -->
+name: Homepage
+---
+
+<html>
+
+<head>
+  <title>
+    {% block title %}OpenAPI Tooling{% endblock %}
+  </title>
+  <link rel="shortcut icon" href="https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png">
+  <link rel="stylesheet" type="text/css" href="/assets/main.css" />
+
+</head>
+
+<body>
+  <div class="flex flex-col">
+
+    {% include "nav-bar.njk" %}
+
+    <div class="max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto">
+      <div class="px-2 mt-12 mb-24">
+
+        <div class="text-center">
+          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mb-4">
+            OpenAPI Tooling</h1>
+
+          <h2
+            class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
+            A collection of open-source and commerical tools for creating your APIs with OpenAPI
+            <br>
+            Sourced from and published for the community
+          </h2>
+        </div>
+
+        <div class="relative flex py-5 items-center">
+          <div class="flex-grow border-t border-gray-400"></div>
+        </div>
+
+
+        <div class="relative bg-white pt-8">
+          <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+            <p class="text-gray-700 text-lg leading-relaxed font-regular mt-2 max-w-prose mx-auto">Select a category
+              below to browse the available tooling</p>
+            <p class="text-gray-700 text-lg leading-relaxed font-regular mt-2 max-w-prose mx-auto">(You might find a
+              tool is in more than one category...<br>and some categories
+              overlap, but it'll be refined over time as we tweak it)</p>
+            <div class="mt-12 text-left">
+              <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                {% set categoriesWithCount = tools | categoriesWithCount %}
+
+                {{categoriesWithCount | log}}
+
+                {% for category in categoriesWithCount %}
+                <div
+                  class="flex flex-col justify-between border border-gray-200 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-lg px-6 pb-8 hover:bg-lightgreen">
+                  <h3 class="text-primary-800 font-heading text-2xl font-semibold tracking-heading leading-snug mt-8">
+                    <a href="categories/{{ category[0] | slug}}.html">{{
+                      category[0] }} ({{ category[1] }})</a>
+                  </h3>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/index.js"></script>
+</body>
+
+</html>

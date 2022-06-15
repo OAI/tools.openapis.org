@@ -25,7 +25,7 @@ const full = () => src('gulpfile.js/metadata.json')
   .pipe(transform('utf8', getRepositoryMetadata))
   .pipe(transform('utf8', classifyTools))
   .pipe(rename('tools.yaml'))
-  .pipe(dest('docs/'));
+  .pipe(dest('src/_data'));
 
 // This is a scan of the metadata associated with the repositories already
 // held in the repository. No new source data is retrieved from sources
@@ -34,7 +34,7 @@ const metadata = () => src('gulpfile.js/metadata.json')
   .pipe(transform('utf8', readLocalSourceData))
   .pipe(transform('utf8', getRepositoryMetadata))
   .pipe(rename('tools.yaml'))
-  .pipe(dest('docs/'));
+  .pipe(dest('src/_data'));
 
 exports.full = full;
 exports.metadata = metadata;
