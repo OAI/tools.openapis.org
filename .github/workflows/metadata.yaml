@@ -26,6 +26,7 @@ jobs:
           git commit -m "chore: Updates to OpenAPI tooling metadata" src/_data/tools.yaml
           git push origin main
   build-site:
+    needs: get-metadata
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

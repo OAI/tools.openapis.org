@@ -26,6 +26,7 @@ jobs:
           git commit -m "chore: Updates to OpenAPI tooling source data" docs/tools.yaml
           git push origin main
   build-site:
+    needs: get-data-from-sources
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
