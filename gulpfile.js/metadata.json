@@ -29,7 +29,7 @@
     },
     {
       "title": "master",
-      "url": "docs/tools.yaml",
+      "url": "src/_data/tools.yaml",
       "processor": "../processors/master-processor.js"
     }
   ]
