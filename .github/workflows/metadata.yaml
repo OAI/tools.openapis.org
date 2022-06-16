@@ -20,24 +20,9 @@ jobs:
           GH_API_CONCURRENCY_LIMIT: ${{secrets.GH_API_CONCURRENCY_LIMIT}}
           GH_API_USERNAME: ${{secrets.GH_API_USERNAME}}
           GH_API_TOKEN: ${{secrets.GH_API_TOKEN}}
-      - run: git config --global user.name "Tooling Builder"
-      - run: git config --global user.email "tooling@openapis.org"
-      - run: |
-          git commit -m "chore: Updates to OpenAPI tooling metadata" src/_data/tools.yaml
-          git push origin main
-  build-site:
-    needs: get-metadata
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 17
-      - run: sudo apt-get update && sudo apt-get install -y git
-      - run: yarn install --frozen-lockfile
       - run: yarn run build:site
       - run: git config --global user.name "Tooling Builder"
       - run: git config --global user.email "tooling@openapis.org"
       - run: |
-          git commit -m "chore: Updates to OpenAPI tooling site based on new data" docs
+          git commit -a -m "chore: Metadata build (updates to OpenAPI tooling metadata and site rebuild)"
           git push origin main
