@@ -29,6 +29,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addFilter('categoriesWithCount', getCategoriesWithCount);
 
+  eleventyConfig.addGlobalData('hostedAt', process.env.HOSTED_AT || true);
+
   return {
     dir: {
       input: 'src',
