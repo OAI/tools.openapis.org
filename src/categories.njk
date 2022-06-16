@@ -38,10 +38,10 @@ permalink: categories/{{ category.category | slug }}.html
             <th class="px-4 py-2">Description</th>
             <th class="px-4 py-2">Homepage</th>
             <th class="px-4 py-2">Repository</th>
-            <th class="px-4 py-2">Swagger?</th>
-            <th class="px-4 py-2">3.0?</th>
             <th class="px-4 py-2">3.1?</th>
-            <th class="px-4 py-2">Repository Stars</th>
+            <th class="px-4 py-2">3.0?</th>
+            <th class="px-4 py-2">2.0?</th>
+            <th class="px-4 py-2">Stars</th>
           </tr>
         {# <thead> #}
         {% for tool in category.tools %}
@@ -52,9 +52,9 @@ permalink: categories/{{ category.category | slug }}.html
           <td class="px-4 py-2">{{tool.displayDescription}}</td>
           <td class="px-4 py-2">{% if tool.homepage %}<a target="_blank" href={{tool.homepage}}>Link</a>{% else %}N/A{% endif %}</td>
           <td class="px-4 py-2">{% if tool.repository %}<a target="_blank" href={{tool.repository}}>Link</a>{% else %}N/A{% endif %}</td>
-          <td class="px-4 py-2">{{tool.swagger}}</td>
-          <td class="px-4 py-2">{{tool.version30}}</td>
           <td class="px-4 py-2">{{tool.version31}}</td>
+          <td class="px-4 py-2">{{tool.version30}}</td>
+          <td class="px-4 py-2">{{tool.swagger}}</td>
           <td class="px-4 py-2">{{tool.stars}}</td>
         </tr>
         {% endfor %}
@@ -88,12 +88,10 @@ permalink: categories/{{ category.category | slug }}.html
     <div id="{{tool.id}}-info" hidden>
       <h1 class="pb-8">{{tool.displayName}}</h1>
       
+      <p>{{tool.displayDescription}}</p>
+
       <table class="border-collapse table-auto w-full text-sm">
         <tbody>
-          <tr>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Description</td>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.displayDescription}}</td>
-          </tr>
           <tr>
             <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
             <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.owner}}</td>
