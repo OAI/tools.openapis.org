@@ -8,7 +8,7 @@
     "build:data": "gulp",
     "build:data:full": "gulp full",
     "build:data:metadata": "gulp metadata",
-    "build:site:webpack": "webpack",
+    "build:site:webpack": "webpack --mode ${NODE_ENV:-development}",
     "build:site:eleventy": "eleventy",
     "build:site": "NODE_ENV=production npm-run-all -l clean build:site:*",
     "coverage": "export NODE_ENV=test && nyc --reporter=html --reporter=text ./node_modules/.bin/_mocha test/lib/* --exit --recursive --timeout 10000",
