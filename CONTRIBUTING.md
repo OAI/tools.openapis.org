@@ -61,6 +61,6 @@ The design approach has been to use JavaScript to drive data transformation wher
 
 Please therefore:
 
-* Consider using JavaScript over over transformation approaches for the sake of consistency.
+* Consider using JavaScript over other transformation approaches for the sake of consistency.
 * Create a package in `lib/site` that drives data transformation and then include it in a package in `src/_data`.
 * Write a unit test for your package in `test/lib/site`.
