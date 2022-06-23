@@ -144,3 +144,7 @@ yarn run serve
 ```
 
 The development server is set to reload on change. Now isn't that convenient.
+
+## Contributing
+
+Please refer to the [Contributing Guide](CONTRIBUTING.md)
