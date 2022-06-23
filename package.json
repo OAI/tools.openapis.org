@@ -5,7 +5,6 @@
   "author": "Chris Wood <chris@arborcomputing.com>",
   "license": "MIT",
   "scripts": {
-    "build:data": "gulp",
     "build:data:full": "gulp full",
     "build:data:metadata": "gulp metadata",
     "build:site:webpack": "webpack --mode ${NODE_ENV:-development}",
