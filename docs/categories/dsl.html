@@ -125,6 +125,19 @@
         
         <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
           <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+            <button type="button" id="f4ab0e00ab487873f90c7f20db81bf8b-open-button">kotlin-openapi3-dsl</button>
+          </td>
+          <td class="px-4 py-2">Build your OpenApi3 spec in kotlin!</td>
+          <td class="px-4 py-2"><a target="_blank" href=https://github.com/derveloper/kotlin-openapi3-dsl>Link</a></td>
+          <td class="px-4 py-2"><a target="_blank" href=https://github.com/derveloper/kotlin-openapi3-dsl>Link</a></td>
+          <td class="px-4 py-2">No</td>
+          <td class="px-4 py-2">Yes</td>
+          <td class="px-4 py-2">No</td>
+          <td class="px-4 py-2">42</td>
+        </tr>
+        
+        <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
+          <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
             <button type="button" id="4aecd85d2c2ac753e61e3b2ea4d58e2d-open-button">rented-apartment</button>
           </td>
           <td class="px-4 py-2">Съемная квартира</td>
@@ -353,6 +366,44 @@
 
     
 
+    <div id="f4ab0e00ab487873f90c7f20db81bf8b-info" hidden>
+      <h1 class="pb-8">kotlin-openapi3-dsl</h1>
+      
+      <p>Build your OpenApi3 spec in kotlin!</p>
+
+      <table class="border-collapse table-auto w-full text-sm">
+        <tbody>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">derveloper</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">42</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">6</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">5</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2017-10-29T00:33:35Z</td>
+          <tr class="">
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2022-06-06T16:17:40Z</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+    
+
     <div id="4aecd85d2c2ac753e61e3b2ea4d58e2d-info" hidden>
       <h1 class="pb-8">rented-apartment</h1>
       
@@ -491,6 +542,20 @@
     toolOpenButtonbda876c6645d589b7595411a464db1c3.onclick = function() {
       const wrapper = document.getElementById("tool-content")
       const content = document.getElementById("bda876c6645d589b7595411a464db1c3-info")
+
+      content.removeAttribute("hidden")
+
+      wrapper.appendChild(content)
+      modal.style.display = "block";
+    }
+
+    
+    
+    let toolOpenButtonf4ab0e00ab487873f90c7f20db81bf8b = document.getElementById("f4ab0e00ab487873f90c7f20db81bf8b-open-button");
+
+    toolOpenButtonf4ab0e00ab487873f90c7f20db81bf8b.onclick = function() {
+      const wrapper = document.getElementById("tool-content")
+      const content = document.getElementById("f4ab0e00ab487873f90c7f20db81bf8b-info")
 
       content.removeAttribute("hidden")
 
