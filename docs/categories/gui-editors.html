@@ -212,6 +212,19 @@ It supports a *text view* as well as a rendered SwaggerUI-like *graphical interf
         
         <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
           <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+            <button type="button" id="eff815e9a2d41cfd4464f36c69bc11ce-open-button">APIGit</button>
+          </td>
+          <td class="px-4 py-2">native Git based collaboration platform for API design, document, mock and share.</td>
+          <td class="px-4 py-2"><a target="_blank" href=https://apigit.com>Link</a></td>
+          <td class="px-4 py-2"><a target="_blank" href=https://github.com/apigitlabs>Link</a></td>
+          <td class="px-4 py-2">Yes</td>
+          <td class="px-4 py-2">Yes</td>
+          <td class="px-4 py-2">Yes</td>
+          <td class="px-4 py-2">N/A</td>
+        </tr>
+        
+        <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
+          <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
             <button type="button" id="9440025e6c756188ef68d4f144bd42bb-open-button">JSON Designer</button>
           </td>
           <td class="px-4 py-2">Visualize JSON models from imported OpenAPI YAML. Edit models and export OpenAPI YAML.</td>
@@ -677,6 +690,44 @@ It supports a *text view* as well as a rendered SwaggerUI-like *graphical interf
 
     
 
+    <div id="eff815e9a2d41cfd4464f36c69bc11ce-info" hidden>
+      <h1 class="pb-8">APIGit</h1>
+      
+      <p>native Git based collaboration platform for API design, document, mock and share.</p>
+
+      <table class="border-collapse table-auto w-full text-sm">
+        <tbody>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          </tr>
+          <tr>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          <tr class="">
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
+            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+    
+
     <div id="9440025e6c756188ef68d4f144bd42bb-info" hidden>
       <h1 class="pb-8">JSON Designer</h1>
       
@@ -899,6 +950,20 @@ It supports a *text view* as well as a rendered SwaggerUI-like *graphical interf
     toolOpenButton94f410082dd5e91b5d75df09846e8687.onclick = function() {
       const wrapper = document.getElementById("tool-content")
       const content = document.getElementById("94f410082dd5e91b5d75df09846e8687-info")
+
+      content.removeAttribute("hidden")
+
+      wrapper.appendChild(content)
+      modal.style.display = "block";
+    }
+
+    
+    
+    let toolOpenButtoneff815e9a2d41cfd4464f36c69bc11ce = document.getElementById("eff815e9a2d41cfd4464f36c69bc11ce-open-button");
+
+    toolOpenButtoneff815e9a2d41cfd4464f36c69bc11ce.onclick = function() {
+      const wrapper = document.getElementById("tool-content")
+      const content = document.getElementById("eff815e9a2d41cfd4464f36c69bc11ce-info")
 
       content.removeAttribute("hidden")
 
