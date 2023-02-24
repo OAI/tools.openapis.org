@@ -26,5 +26,6 @@ jobs:
       - run: git config --global user.name "Tooling Builder"
       - run: git config --global user.email "tooling@openapis.org"
       - run: |
+          git add docs/categories
           git commit -a -m "chore: Metadata build (updates to OpenAPI tooling metadata and site rebuild)"
           git push origin main
