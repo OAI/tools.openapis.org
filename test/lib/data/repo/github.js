@@ -41,6 +41,7 @@ describe(__filename, () => {
     let stub;
 
     const expectedRepositoryMetadata = {
+      repositoryId: 334182395,
       archived: false,
       created: '2021-01-29T15:19:21Z',
       description: 'For chopping up OpenAPI specification documents... like it says on the tin...',
@@ -72,7 +73,31 @@ describe(__filename, () => {
     afterEach(() => sandbox.restore());
 
     it('Error when args incorrect', async () => {
-      await expect(getGithubRepositoryMetadata()).to.be.rejectedWith('url, username and password must be supplied');
+      await expect(getGithubRepositoryMetadata())
+        .to.be.rejectedWith('url, username and password must be supplied');
+    });
+    it('Mark GitHub repository as moved when 301 is returned', async () => {
+      const newUrl = 'https://api.github.com/repositories/66666666';
+
+      stub.onCall(0)
+        .returns(new Promise((resolve) => {
+          resolve({
+            status: 301,
+            data: { message: 'Moved Permanently', url: newUrl },
+          });
+        }));
+      stub200Response(stub, 1, { html_url: newUrl });
+
+      await expect(getGithubRepositoryMetadata(
+        'https://github.com/api-stuff/openapi-chopper',
+        'username',
+        'password',
+      )).to.eventually.deep.equal({
+        repositoryMetadata: {
+          moved: true,
+          newUrl,
+        },
+      });
     });
     it('Mark GitHub repository not found in metadata when 404 returned', async () => {
       stub.onCall(0).throws({ response: { status: 404 } });
