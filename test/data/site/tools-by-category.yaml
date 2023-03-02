@@ -41,6 +41,7 @@
       swagger: 'No'
       version30: 'Yes'
       version31: 'Yes'
+      owner: Tufin
       stars: 84
       watchers: 84
       forks: 8
@@ -86,6 +87,7 @@
       swagger: 'Yes'
       version30: 'Yes'
       version31: 'No'
+      owner: swagger-api
       stars: 568
       watchers: 568
       forks: 455
@@ -1008,6 +1010,7 @@
       swagger: 'No'
       version30: 'No'
       version31: 'No'
+      owner: swagger-api
       stars: 6972
       watchers: 6972
       forks: 2107
@@ -1359,6 +1362,7 @@
       swagger: 'No'
       version30: 'Yes'
       version31: 'No'
+      owner: springdoc
       stars: 1830
       watchers: 1830
       forks: 277
@@ -1975,6 +1979,7 @@
       swagger: 'No'
       version30: 'Yes'
       version31: 'No'
+      owner: metadevpro
       stars: 270
       watchers: 270
       forks: 47
@@ -2098,6 +2103,7 @@
       swagger: 'Yes'
       version30: 'Yes'
       version31: 'No'
+      owner: Mermade
       stars: 598
       watchers: 598
       forks: 107
@@ -2207,6 +2213,7 @@
       swagger: 'No'
       version30: 'No'
       version31: 'No'
+      owner: microsoft
       stars: 960
       watchers: 960
       forks: 158
@@ -2258,6 +2265,7 @@
       swagger: 'Yes'
       version30: 'Yes'
       version31: 'Yes'
+      owner: oasis-tcs
       stars: 135
       watchers: 135
       forks: 59
@@ -2449,6 +2457,7 @@
       swagger: 'No'
       version30: 'Yes'
       version31: 'No'
+      owner: kevindew
       stars: 68
       watchers: 68
       forks: 11
@@ -2496,6 +2505,7 @@
       swagger: 'Yes'
       version30: 'Yes'
       version31: 'No'
+      owner: swagger-api
       stars: 568
       watchers: 568
       forks: 455
@@ -3701,6 +3711,7 @@
       swagger: 'No'
       version30: 'Yes'
       version31: 'No'
+      owner: metadevpro
       stars: 270
       watchers: 270
       forks: 47
@@ -3814,6 +3825,7 @@
       swagger: 'No'
       version30: 'No'
       version31: 'No'
+      owner: microsoft
       stars: 960
       watchers: 960
       forks: 158
@@ -3862,6 +3874,7 @@
       swagger: 'No'
       version30: 'Yes'
       version31: 'No'
+      owner: kevindew
       stars: 68
       watchers: 68
       forks: 11
@@ -3906,6 +3919,7 @@
       swagger: 'No'
       version30: 'No'
       version31: 'No'
+      owner: swagger-api
       stars: 6972
       watchers: 6972
       forks: 2107
@@ -4269,6 +4283,7 @@
       swagger: 'Yes'
       version30: 'Yes'
       version31: 'No'
+      owner: Mermade
       stars: 598
       watchers: 598
       forks: 107
@@ -4388,6 +4403,7 @@
       swagger: 'Yes'
       version30: 'Yes'
       version31: 'Yes'
+      owner: oasis-tcs
       stars: 135
       watchers: 135
       forks: 59
