@@ -9,7 +9,7 @@
     "build:data:metadata": "gulp metadata",
     "build:site:webpack": "webpack --mode ${NODE_ENV:-development}",
     "build:site:eleventy": "eleventy",
-    "build:site": "NODE_ENV=production npm-run-all -l clean build:site:*",
+    "build:site": "NODE_ENV=production npm-run-all -l clean build:site:* && echo Setting CNAME to ${CNAME:-tools.openapis.org} && echo ${CNAME:-tools.openapis.org} > docs/CNAME",
     "build:all": "npm run build:data:full && npm run build:site",
     "coverage": "export NODE_ENV=test && nyc --reporter=html --reporter=text ./node_modules/.bin/_mocha test/lib/* --exit --recursive --timeout 10000",
     "coverage:desktop": "yarn run coverage && open coverage/index.html",
