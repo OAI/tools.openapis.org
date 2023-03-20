@@ -1,4 +1,9 @@
+@import 'github-fork-ribbon-css/gh-fork-ribbon.css';
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+.github-fork-ribbon:before { background-color: #94c73d; }

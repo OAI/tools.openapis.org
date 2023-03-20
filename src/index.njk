@@ -14,6 +14,8 @@ name: Homepage
   </head>
 
   <body>
+    {% include "fork-me.njk" %}
+
     <div class="flex flex-col">
 
       {% include "nav-bar.njk" %}
@@ -22,15 +24,12 @@ name: Homepage
         <div class="px-2 mt-12 mb-24">
 
           <div class="text-center">
-            <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mb-4">
+            <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-7xl leading-snug mb-4">
             OpenAPI Tooling</h1>
 
-            <h2
-            class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
-            A collection of open-source and commercial tools for creating your APIs with OpenAPI
-            <br>
-            Sourced from and published for the community
-          </h2>
+            <p class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
+            A collection of open-source and commercial tools for creating your APIs with OpenAPI<br>Sourced from and published for the community</p>
+
           </div>
 
           <div class="relative flex py-5 items-center">
@@ -38,7 +37,44 @@ name: Homepage
           </div>
 
           <div class="relative bg-white pt-8">
+            <div class="text-center">
+              <h2 class="text-primary-800 font-heading text-lg font-bold tracking-heading md:text-5xl leading-snug mb-2">Adding Your Tools</h2>
+              <p class="text-gray-700 text-lg leading-relaxed font-regular mt-2 max-w-prose mx-auto">Want to add your tools to this repository?<br>You've got two options...</p>
+
+              <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+                <div class="mt-12 text-left">
+                  <ul class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-2">
+                    <li class="flex flex-col justify-between border border-gray-200 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-lg px-6 pb-8">
+                      <div>
+                        <h3 class="text-primary-800 font-heading text-2xl font-semibold tracking-heading leading-snug mt-8">GitHub Topics</h3>
+                        <p class="text-gray-700 text-lg leading-relaxed font-regular mt-2 max-w-prose mx-auto">You publish your tool on GitHub and make it available to the community. Add a topic on GitHub and your repository will show up here. New tools are added weekly.</p>
+                      </div>
+                      <div class="flex justify-between">
+                        <a rel="noreferrer noopener" class="text-secondary-500 underline hover:text-gray-800 font-medium transition ease-in-out duration-300 mt-6 inline-block" target="_blank" href="https://github.com/OAI/Tooling#how-can-you-help">Adding Topics</a>
+                      </div>
+
+                    </li>
+                    <li class="flex flex-col justify-between border border-gray-200 shadow-md hover:shadow-lg transition-all duration-300 ease-in-out rounded-lg px-6 pb-8">
+                      <div>
+                        <h3 class="text-primary-800 font-heading text-2xl font-semibold tracking-heading leading-snug mt-8">Raise an Issue</h3>
+                        <p class="text-gray-700 text-lg leading-relaxed font-regular mt-2 max-w-prose mx-auto">You provide tools on a commercial basis or your repository is not available in GitHub. Raise an issue and we'll add your tool to the data we use to build this website.</p>
+                      </div>
+                      <div class="flex justify-between">
+                        <a rel="noreferrer noopener" class="text-secondary-500 underline hover:text-gray-800 font-medium transition ease-in-out duration-300 mt-6 inline-block" target="_blank" href="https://github.com/OAI/Tooling/issues/new?assignees=&labels=&template=add_tool_request.md&title=">Create New Issue</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative bg-white pt-8">
+
             <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+              <br>
+              <h2 class="text-primary-800 font-heading text-lg font-bold tracking-heading md:text-5xl leading-snug mb-2">Categories</h2>
+
               <p class="text-gray-700 text-lg leading-relaxed font-regular mt-2 max-w-prose mx-auto">Select a category
               below to browse the available tooling</p>
               <p class="text-gray-700 text-lg leading-relaxed font-regular mt-2 max-w-prose mx-auto">(You might find a
