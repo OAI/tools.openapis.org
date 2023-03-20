@@ -7,22 +7,24 @@ permalink: categories/{{ category.category | slug }}.html
 ---
 
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="../assets/main.css" />
-</head>
-<body>
-  <div class="flex flex-col">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../assets/main.css"/>
+  </head>
+  <body>
+    {% include "fork-me.njk" %}
 
-    {% include "nav-bar.njk" %}
+    <div class="flex flex-col">
 
-    <div class="max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto">
-      <div class="px-2 mt-12 mb-24">
+      {% include "nav-bar.njk" %}
 
-      <div class="text-center">
-        <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mb-4">
-          {{category.category}}</h1>
+      <div class="max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto">
+        <div class="px-2 mt-12 mb-24">
 
-        <h2
+          <div class="text-center">
+            <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mb-4">
+              {{category.category}}</h1>
+
+            <h2
           class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
           Click on a heading to sort
           <br>
@@ -30,165 +32,183 @@ permalink: categories/{{ category.category | slug }}.html
           <br>
           Note: The homepage and repository links may lead to the same place!
         </h2>
+          </div>
+          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            {# <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"> #}
+            <tr class="text-s text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+              <th class="px-4 py-2">Name</th>
+              <th class="px-4 py-2">Description</th>
+              <th class="px-4 py-2">Homepage</th>
+              <th class="px-4 py-2">Repository</th>
+              <th class="px-4 py-2">3.1?</th>
+              <th class="px-4 py-2">3.0?</th>
+              <th class="px-4 py-2">2.0?</th>
+              <th class="px-4 py-2">Stars</th>
+            </tr>
+            {# <thead> #}
+            {% for tool in category.tools %}
+              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
+                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                  <button type="button" id="{{tool.id}}-open-button">{{tool.displayName}}</button>
+                </td>
+                <td class="px-4 py-2">{{tool.displayDescription}}</td>
+                <td class="px-4 py-2">
+                  {% if tool.homepage %}
+                    <a target="_blank" href={{tool.homepage}}>Link</a>
+                  {% else %}N/A{% endif %}
+                </td>
+                <td class="px-4 py-2">
+                  {% if tool.repository %}
+                    <a target="_blank" href={{tool.repository}}>Link</a>
+                  {% else %}N/A{% endif %}
+                </td>
+                <td class="px-4 py-2">{{tool.version31}}</td>
+                <td class="px-4 py-2">{{tool.version30}}</td>
+                <td class="px-4 py-2">{{tool.swagger}}</td>
+                <td class="px-4 py-2">{{tool.stars}}</td>
+              </tr>
+            {% endfor %}
+          </table>
+        </div>
       </div>
-      <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        {# <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"> #}
-          <tr class="text-s text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-            <th class="px-4 py-2">Name</th>
-            <th class="px-4 py-2">Description</th>
-            <th class="px-4 py-2">Homepage</th>
-            <th class="px-4 py-2">Repository</th>
-            <th class="px-4 py-2">3.1?</th>
-            <th class="px-4 py-2">3.0?</th>
-            <th class="px-4 py-2">2.0?</th>
-            <th class="px-4 py-2">Stars</th>
-          </tr>
-        {# <thead> #}
-        {% for tool in category.tools %}
-        <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-          <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-            <button type="button" id="{{tool.id}}-open-button">{{tool.displayName}}</button>
-          </td>
-          <td class="px-4 py-2">{{tool.displayDescription}}</td>
-          <td class="px-4 py-2">{% if tool.homepage %}<a target="_blank" href={{tool.homepage}}>Link</a>{% else %}N/A{% endif %}</td>
-          <td class="px-4 py-2">{% if tool.repository %}<a target="_blank" href={{tool.repository}}>Link</a>{% else %}N/A{% endif %}</td>
-          <td class="px-4 py-2">{{tool.version31}}</td>
-          <td class="px-4 py-2">{{tool.version30}}</td>
-          <td class="px-4 py-2">{{tool.swagger}}</td>
-          <td class="px-4 py-2">{{tool.stars}}</td>
-        </tr>
+    </div>
+
+    <!-- Overlay for a given tool -->
+
+    <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
+
+      <!-- Modal for a given tool -->
+
+      <div class="relative top-40 mx-auto p-5 border w-2/5 shadow-lg rounded-md bg-white">
+        <div class="mt-3 text-center">
+
+          <div id="tool-content"></div>
+
+          <div class="items-center px-4 py-3">
+            <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tool-collection" hidden>
+      {% for tool in category.tools %}
+
+        <div id="{{tool.id}}-info" hidden>
+          <h1 class="pb-8">{{tool.displayName}}</h1>
+
+          <p>{{tool.displayDescription}}</p>
+
+          <table class="border-collapse table-auto w-full text-sm">
+            <tbody>
+              <tr>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.owner}}</td>
+              </tr>
+              <tr>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.stars}}</td>
+              </tr>
+              <tr>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.watchers}}</td>
+              </tr>
+              <tr>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.forks}}</td>
+              </tr>
+              <tr>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
+                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.created}}</td>
+                <tr class="">
+                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
+                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.lastUpdated}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
         {% endfor %}
-      </table>
-    </div>
-  </div>
-</div>
+      </div>
 
-  <!-- Overlay for a given tool -->
+      <script type="text/javascript">
+        const getCellValue = (tr, idx) => tr
+          .children[idx]
+          .innerText || tr
+          .children[idx]
+          .textContent;
+        const comparer = (idx, asc) => (a, b) => (
+          (v1, v2) => v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)
+          ? v1 - v2
+          : v1.toString().localeCompare(v2))(getCellValue(
+          asc
+          ? a
+          : b,
+        idx), getCellValue(
+          asc
+          ? b
+          : a,
+        idx));
 
-<div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
+        document
+          .querySelectorAll('th')
+          .forEach(th => th.addEventListener('click', (() => {
+            const table = th.closest('table');
 
-  <!-- Modal for a given tool -->
+            Array
+              .from(table.querySelectorAll('tr:nth-child(n+2)'))
+              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+              .forEach(tr => table.appendChild(tr));
+          })));
+      </script>
 
-<div class="relative top-40 mx-auto p-5 border w-2/5 shadow-lg rounded-md bg-white">
-	<div class="mt-3 text-center">
+      <script type="text/javascript">
 
+        const modal = document.getElementById("modal");
+        const toolCloseButton = document.getElementById("modal-close-button");
 
-    <div id="tool-content"></div>
+        const closeModal = function () {
+          const collection = document.getElementById("tool-collection")
+          const wrapper = document.getElementById("tool-content")
+          const children = wrapper.children
 
-		<div class="items-center px-4 py-3">
-			<button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
-		</div>
-	</div>
-</div>
-</div>
+          for (let i = 0; i < children.length; i++) {
+            children[i].setAttribute("hidden", "")
+            collection.appendChild(children[i])
+          }
 
-  <div id="tool-collection" hidden>
-    {% for tool in category.tools %}
-
-    <div id="{{tool.id}}-info" hidden>
-      <h1 class="pb-8">{{tool.displayName}}</h1>
-      
-      <p>{{tool.displayDescription}}</p>
-
-      <table class="border-collapse table-auto w-full text-sm">
-        <tbody>
-          <tr>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.owner}}</td>
-          </tr>
-          <tr>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.stars}}</td>
-          </tr>
-          <tr>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.watchers}}</td>
-          </tr>
-          <tr>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.forks}}</td>
-          </tr>
-          <tr>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.created}}</td>
-          <tr class="">
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-            <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">{{tool.lastUpdated}}</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-
-
-    {% endfor %}
-  </div>
-
-  <script type="text/javascript">
-    const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
-    const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
-        v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
-        )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
-
-    document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-        const table = th.closest('table');
-        
-    Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
-        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-        .forEach(tr => table.appendChild(tr) );
-    })));
-
-  </script>
-
-  <script type="text/javascript">
-    
-    const modal = document.getElementById("modal");
-    const toolCloseButton = document.getElementById("modal-close-button");
-
-    const closeModal = function () {
-      const collection = document.getElementById("tool-collection")
-      const wrapper = document.getElementById("tool-content")
-      const children = wrapper.children
-
-      for (let i = 0; i < children.length; i++) {
-        children[i].setAttribute("hidden","")
-        collection.appendChild(children[i])
-      }
-
-      modal.style.display = "none";
-    }
-
-    toolCloseButton.onclick = closeModal;
-
-    {% for tool in category.tools %}
-    
-    let toolOpenButton{{tool.id}} = document.getElementById("{{tool.id}}-open-button");
-
-    toolOpenButton{{tool.id}}.onclick = function() {
-      const wrapper = document.getElementById("tool-content")
-      const content = document.getElementById("{{tool.id}}-info")
-
-      content.removeAttribute("hidden")
-
-      wrapper.appendChild(content)
-      modal.style.display = "block";
-    }
-
-    {% endfor %}
-
-    document
-      .addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
-          closeModal();
-      }
-    })
-
-    window.onclick = function(event) {
-      if (event.target == modal) {
           modal.style.display = "none";
-      }
-    }
+        }
 
-  </script>
-</body>
-</html>
+        toolCloseButton.onclick = closeModal;
+
+        {% for tool in category.tools %}
+
+          let toolOpenButton {{tool.id}} = document.getElementById("{{tool.id}}-open-button");
+
+          toolOpenButton {{tool.id}}.onclick = function () {
+            const wrapper = document.getElementById("tool-content")
+            const content = document.getElementById("{{tool.id}}-info")
+
+            content.removeAttribute("hidden")
+
+            wrapper.appendChild(content)
+            modal.style.display = "block";
+          }
+
+        {% endfor %}
+
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape') {
+            closeModal();
+          }
+        })
+
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+      </script>
+    </body>
+  </html>
