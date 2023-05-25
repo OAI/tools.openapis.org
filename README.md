@@ -117,6 +117,50 @@ export GH_API_USERNAME GH_API_TOKEN GH_AP_CONCURRENCY_LIMIT
 yarn run build:metadata
 ```
 
+### Testing Locally
+
+To test locally you can clone or fork the Tooling repository and create yourself a `.env` file that meets your needs. For example:
+
+```text
+export GH_API_USERNAME=<your GitHub username>
+export GH_API_TOKEN=<your GitHub personal access token>
+export GH_API_CONCURRENCY_LIMIT=2
+export TOOLING_REPOSITORY_OWNER=<your GitHub organisation or username>
+export TOOLING_REPOSITORY_REPO_NAME=Tooling
+```
+
+With this in-hand there's a bunch of options to send into either `yarn run build:full` or `yarn run build:metadata`:
+
+- `--metadata`: If you don't want to run everything you can change the configuration that drives the build (more on this below).
+- `--env-file`: Supply an alternative .env file as described above.
+- `--output-dir`: Change where you write the `tools.yaml` file.
+- `--dry-run`: Don't do destructive things like closing issues (actually this is all it does right now).
+
+#### Configuration File
+
+The build is driven by a configuration file, the default being [`gulpfile.js/metadata.json`](gulpfile.js/metadata.json) which is validated at the start of the build using the JSON Schema found in [`validate-metadata.js`](lib/data/transform/validate-metadata.js).
+
+The purpose of the configuration file is to define what data sources are collected. It contains an array of objects, each with two mandatory properties:
+
+- `title`: The name of data processor. This is recorded in `tools.yaml` to identify which processor picked the data up.
+- `processor`: Path to a JavaScript library that implements the data collection logic.
+
+Other properties specific to a particular data source can be defined as required.
+
+These data processors collect data and pass it into the Gulp pipeline for processing. That's all they do - everything else is done downstream in the JavaScript libraries found in the [`transform`](lib/data/transform/) directory.
+
+If you want to test only a subset of data sources in isolation you can create your own configuration file. For example, if you are testing the GitHub issue-sourced data processor you can define just this in the configuration file - you'd only get those tools in the resultant `tools.yaml` file.
+
+You should also consider whether to test with a subset of master data from `src/_data/tools.yaml` (as it is voluminous). You can edit your configuration file to point somewhere else e.g.:
+
+```json
+{
+  "title": "master",
+  "url": "<Path to your alternative tools.yaml file>",
+  "processor": "../processors/master-processor.js"
+}
+```
+
 ## Website
 
 The website is a static site built from the tooling data. It is exposed by GitHub Pages and can be found [here](https://oai.github.io/Tooling).
