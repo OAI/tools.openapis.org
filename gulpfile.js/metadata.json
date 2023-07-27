@@ -2,7 +2,9 @@
   "environmentVariables": [
     "GH_API_CONCURRENCY_LIMIT",
     "GH_API_TOKEN",
-    "GH_API_USERNAME"
+    "GH_API_USERNAME",
+    "TOOLING_REPOSITORY_OWNER",
+    "TOOLING_REPOSITORY_REPO_NAME"
   ],
   "sources": [
     {
@@ -26,6 +28,11 @@
       "processor": "../processors/tagged-repository-processor.js",
       "topic": "openapi31",
       "version": "v3_1"
+    },
+    {
+      "title": "Tooling repository issues",
+      "processor": "../processors/open-tooling-repository-issues.js",
+      "masterDataFileName": "src/_data/tools.yaml"
     },
     {
       "title": "master",

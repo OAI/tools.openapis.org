@@ -36,7 +36,7 @@ const stub304Response = (stub, callNumber, etag, lastModified) => {
 };
 
 describe(__filename, () => {
-  describe('getGithubRepositoryMetadata', () => {
+  describe('getGithubRepositoryMetadata function', () => {
     let sandbox;
     let stub;
 
