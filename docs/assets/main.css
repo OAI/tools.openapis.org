@@ -824,6 +824,9 @@ video {
 .w-44{
   width: 11rem;
 }
+.w-1\/5{
+  width: 20%;
+}
 .min-w-full{
   min-width: 100%;
 }
@@ -995,6 +998,9 @@ video {
 .pt-8{
   padding-top: 2rem;
 }
+.pr-8{
+  padding-right: 2rem;
+}
 .text-left{
   text-align: left;
 }
@@ -1020,6 +1026,10 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .font-bold{
   font-weight: 700;
