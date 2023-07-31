@@ -12,6 +12,7 @@ describe(__filename, () => {
 
     expect(categories).to.deep.equal(
       [
+        ['All', 1032],
         ['Parsers', 257],
         ['Server Implementations', 184],
         ['Server', 111],

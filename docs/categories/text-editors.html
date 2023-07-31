@@ -28,732 +28,878 @@
   </div>
 </div>
 
-      <div class="max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto">
-        <div class="px-2 mt-12 mb-24">
+      <div class="container mx-auto">
 
-          <div class="text-center">
-            <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mb-4">
-              Text Editors</h1>
+        <div class="text-center">
+          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
+            Text Editors</h1>
 
-            <h2
+          <h2
           class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
-          Click on a heading to sort
+          Click on a heading to sort.
           <br>
-          Click the name of a tool to find out more
+          Filter using one or more keywords
           <br>
+          Click the More Details button for more information on a tool
+          <br><br>
           Note: The homepage and repository links may lead to the same place!
         </h2>
-          </div>
-          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            
-            <tr class="text-s text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-              <th class="px-4 py-2">Name</th>
-              <th class="px-4 py-2">Description</th>
-              <th class="px-4 py-2">Homepage</th>
-              <th class="px-4 py-2">Repository</th>
-              <th class="px-4 py-2">3.1?</th>
-              <th class="px-4 py-2">3.0?</th>
-              <th class="px-4 py-2">2.0?</th>
-              <th class="px-4 py-2">Stars</th>
-            </tr>
-            
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="782ecbb10f1ff8ac9685e0ed24e52e58-open-button">VSCode OpenAPI</button>
-                </td>
-                <td class="px-4 py-2">VisualStudio Code OpenAPI tools</td>
-                <td class="px-4 py-2">
+        </div>
+
+        <div class="sm:-mx-6 lg:-mx-8">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+            <div class="py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8">
+              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
+                <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
+              </svg>
+              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4" id="search-by-name-and-description" placeholder="Filter by keywords"/>
+            </div>
+            <div class="overflow-hidden">
+              <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
+                
+                <tr class="text-s text-center text-black border-b  border-neutral-500">
+                  <th class="sortable-heading px-4 py-2">Name</th>
+                  <th class="sortable-heading px-4 py-2">Description</th>
+                  <th class="sortable-heading px-4 py-2">Homepage</th>
+                  <th class="sortable-heading px-4 py-2">Repository</th>
+                  <th class="sortable-heading px-4 py-2">3.1?</th>
+                  <th class="sortable-heading px-4 py-2">3.0?</th>
+                  <th class="sortable-heading px-4 py-2">2.0?</th>
+                  <th class="sortable-heading px-4 py-2">Stars</th>
+                  <th class="px-4 py-2">Properties</th>
+                </tr>
+                
+                
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">VSCode OpenAPI</td>
+                    <td class="px-4 py-2">VisualStudio Code OpenAPI tools</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/42crunch/vscode-openapi>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">264</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="782ecbb10f1ff8ac9685e0ed24e52e58-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">KaiZen-OpenAPI-Editor</td>
+                    <td class="px-4 py-2">Eclipse Editor for the Swagger-OpenAPI Description Language</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/RepreZen/KaiZen-OpenAPI-Editor>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/reprezen/kaizen-openapi-editor>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">110</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="3927b9da31ce0c8291351fc07cace0ae-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Atom/linter-swagger</td>
+                    <td class="px-4 py-2">This plugin for Atom Linter will lint OpenAPI, both JSON and YAML using swagger-parser node package.</td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://atom.io/packages/linter-swagger>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://github.com/42crunch/vscode-openapi>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Atom/linter-openapi</td>
+                    <td class="px-4 py-2">This plugin for Atom Linter will lint OpenAPI YAML files using openapi-enforcer node package.</td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://atom.io/packages/linter-openapi>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">264</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="3927b9da31ce0c8291351fc07cace0ae-open-button">KaiZen-OpenAPI-Editor</button>
-                </td>
-                <td class="px-4 py-2">Eclipse Editor for the Swagger-OpenAPI Description Language</td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Swagger Editor</td>
+                    <td class="px-4 py-2">Swagger Editor</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/swagger-api/swagger-editor>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/swagger-api/swagger-editor>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">8270</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="951cf61d12c812ef9b201ad76b5d278d-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://github.com/RepreZen/KaiZen-OpenAPI-Editor>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">SwaggerHub</td>
+                    <td class="px-4 py-2">API design and documentation platform to improve collaboration, standardize development workflow and centralize their API discovery and consumption.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://swagger.io/tools/swaggerhub/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Senya Editor</td>
+                    <td class="px-4 py-2">JetBrains IDE plugin to show Swagger UI as a preview, for visual feedback as you edit.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://senya.io>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://github.com/reprezen/kaizen-openapi-editor>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">VSCode/openapi-lint</td>
+                    <td class="px-4 py-2">OpenAPI 2.0/3.0.x intellisense, validator, linter, converter and resolver extension for Visual Studio Code</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=mermade.openapi-lint>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/mermade/openapi-lint-vscode>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">50</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="ab48d5ce77b0c9f808ee6c600d40888c-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">110</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="184d87fb65f889fa033f623a7b67df1a-open-button">Atom/linter-swagger</button>
-                </td>
-                <td class="px-4 py-2">This plugin for Atom Linter will lint OpenAPI, both JSON and YAML using swagger-parser node package.</td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">VSCode/Redocly OpenAPI</td>
+                    <td class="px-4 py-2">Redocly VS Code extension</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=Redocly.openapi-vs-code>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/redocly/redocly-vs-code>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">22</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="491454b1f2a266a142515a7eee661b08-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://atom.io/packages/linter-swagger>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="60dd32764dfe435b0eaaa2189ab1bc8c-open-button">Atom/linter-openapi</button>
-                </td>
-                <td class="px-4 py-2">This plugin for Atom Linter will lint OpenAPI YAML files using openapi-enforcer node package.</td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://atom.io/packages/linter-openapi>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="951cf61d12c812ef9b201ad76b5d278d-open-button">Swagger Editor</button>
-                </td>
-                <td class="px-4 py-2">Swagger Editor</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/swagger-api/swagger-editor>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/swagger-api/swagger-editor>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">8270</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="4b7adfae5ed14133b59e6f80811da841-open-button">SwaggerHub</button>
-                </td>
-                <td class="px-4 py-2">API design and documentation platform to improve collaboration, standardize development workflow and centralize their API discovery and consumption.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://swagger.io/tools/swaggerhub/>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="0c1c17e79f2ccf9a2140cd587e84a115-open-button">Senya Editor</button>
-                </td>
-                <td class="px-4 py-2">JetBrains IDE plugin to show Swagger UI as a preview, for visual feedback as you edit.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://senya.io>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="ab48d5ce77b0c9f808ee6c600d40888c-open-button">VSCode/openapi-lint</button>
-                </td>
-                <td class="px-4 py-2">OpenAPI 2.0/3.0.x intellisense, validator, linter, converter and resolver extension for Visual Studio Code</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=mermade.openapi-lint>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/mermade/openapi-lint-vscode>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">50</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="491454b1f2a266a142515a7eee661b08-open-button">VSCode/Redocly OpenAPI</button>
-                </td>
-                <td class="px-4 py-2">Redocly VS Code extension</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=Redocly.openapi-vs-code>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/redocly/redocly-vs-code>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">22</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="8348b06da005508392b6fa17c12d3ca4-open-button">Stoplight Studio</button>
-                </td>
-                <td class="px-4 py-2">Stoplight Studio is a GUI/text editor with linting and mocking built right in.  It can run on the desktop with local files, and in the browser powered by your  existing GitHub, GitLab, or BitBucket repos.
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Stoplight Studio</td>
+                    <td class="px-4 py-2">Stoplight Studio is a GUI/text editor with linting and mocking built right in.  It can run on the desktop with local files, and in the browser powered by your  existing GitHub, GitLab, or BitBucket repos.
 </td>
-                <td class="px-4 py-2">
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://stoplight.io/studio>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://stoplight.io/studio>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">VSCode OpenAPI Snippets</td>
+                    <td class="px-4 py-2">OpenAPI snippets and external file validation extension for VSCode</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=proohit.openapi-snippets>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/proohit/openapi-snippets>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">8</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="641631c1edd1eaf61a89b81a4ae7c8eb-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="641631c1edd1eaf61a89b81a4ae7c8eb-open-button">VSCode OpenAPI Snippets</button>
-                </td>
-                <td class="px-4 py-2">OpenAPI snippets and external file validation extension for VSCode</td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">draig-car</td>
+                    <td class="px-4 py-2">This is a REPL OpenAPI3 description document text editor. It provides both a CLI and and a REPL you can use to test your APIs, but you can also test database queries, start and stop database (containers), generate fake data automatically, start your test microservice and much more. You don&#39;t have to exit from your REPL! Or you can use the CLI to do the same if you want, giving you the option to automatize your contract-first based dev cycles.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://gitlab.com/robarago/draig-car>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://gitlab.com/robarago/draig-car>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=proohit.openapi-snippets>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/proohit/openapi-snippets>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">8</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="ce0dc163dc2b30744344ee24800647a0-open-button">draig-car</button>
-                </td>
-                <td class="px-4 py-2">This is a REPL OpenAPI3 description document text editor. It provides both a CLI and and a REPL you can use to test your APIs, but you can also test database queries, start and stop database (containers), generate fake data automatically, start your test microservice and much more. You don&#39;t have to exit from your REPL! Or you can use the CLI to do the same if you want, giving you the option to automatize your contract-first based dev cycles.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://gitlab.com/robarago/draig-car>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://gitlab.com/robarago/draig-car>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <!-- Overlay for a given tool -->
-
-    <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
-
-      <!-- Modal for a given tool -->
-
-      <div class="relative top-40 mx-auto p-5 border w-2/5 shadow-lg rounded-md bg-white">
-        <div class="mt-3 text-center">
-
-          <div id="tool-content"></div>
-
-          <div class="items-center px-4 py-3">
-            <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="tool-collection" hidden>
-      
+      <!-- Overlay for a given tool -->
 
-        <div id="782ecbb10f1ff8ac9685e0ed24e52e58-info" hidden>
-          <h1 class="pb-8">VSCode OpenAPI</h1>
+      <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
 
-          <p>VisualStudio Code OpenAPI tools</p>
+        <!-- Modal for a given tool -->
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">42Crunch</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">264</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">9</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">42</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2019-06-05T16:27:53Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-21T19:36:07Z</td>
+        <div class="relative top-40 mx-auto p-5 border w-2/5 shadow-lg rounded-md bg-white">
+          <div class="mt-3 text-center">
+
+            <div id="tool-content"></div>
+
+            <div class="items-center px-4 py-3">
+              <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tool-collection" hidden>
+        
+
+          <div id="782ecbb10f1ff8ac9685e0ed24e52e58-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">VSCode OpenAPI</h1>
+              <p class="mb-8">VisualStudio Code OpenAPI tools</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">42Crunch</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">264</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">9</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">42</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2019-06-05T16:27:53Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-07-21T19:36:07Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">TypeScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="3927b9da31ce0c8291351fc07cace0ae-info" hidden>
-          <h1 class="pb-8">KaiZen-OpenAPI-Editor</h1>
-
-          <p>Eclipse Editor for the Swagger-OpenAPI Description Language</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">RepreZen</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">110</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">16</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">12</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2015-09-30T21:30:07Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-05-18T07:24:08Z</td>
+          <div id="3927b9da31ce0c8291351fc07cace0ae-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">KaiZen-OpenAPI-Editor</h1>
+              <p class="mb-8">Eclipse Editor for the Swagger-OpenAPI Description Language</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">RepreZen</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">110</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">16</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">12</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2015-09-30T21:30:07Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-05-18T07:24:08Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Java</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="184d87fb65f889fa033f623a7b67df1a-info" hidden>
-          <h1 class="pb-8">Atom/linter-swagger</h1>
-
-          <p>This plugin for Atom Linter will lint OpenAPI, both JSON and YAML using swagger-parser node package.</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          <div id="184d87fb65f889fa033f623a7b67df1a-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">Atom/linter-swagger</h1>
+              <p class="mb-8">This plugin for Atom Linter will lint OpenAPI, both JSON and YAML using swagger-parser node package.</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">JavaScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="60dd32764dfe435b0eaaa2189ab1bc8c-info" hidden>
-          <h1 class="pb-8">Atom/linter-openapi</h1>
-
-          <p>This plugin for Atom Linter will lint OpenAPI YAML files using openapi-enforcer node package.</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          <div id="60dd32764dfe435b0eaaa2189ab1bc8c-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">Atom/linter-openapi</h1>
+              <p class="mb-8">This plugin for Atom Linter will lint OpenAPI YAML files using openapi-enforcer node package.</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">JavaScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="951cf61d12c812ef9b201ad76b5d278d-info" hidden>
-          <h1 class="pb-8">Swagger Editor</h1>
-
-          <p>Swagger Editor</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">swagger-api</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">8270</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">260</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2179</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2014-05-02T22:47:10Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-27T09:14:43Z</td>
+          <div id="951cf61d12c812ef9b201ad76b5d278d-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">Swagger Editor</h1>
+              <p class="mb-8">Swagger Editor</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">swagger-api</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">8270</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">260</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">2179</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2014-05-02T22:47:10Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-07-27T09:14:43Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">JavaScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="4b7adfae5ed14133b59e6f80811da841-info" hidden>
-          <h1 class="pb-8">SwaggerHub</h1>
-
-          <p>API design and documentation platform to improve collaboration, standardize development workflow and centralize their API discovery and consumption.</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          <div id="4b7adfae5ed14133b59e6f80811da841-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">SwaggerHub</h1>
+              <p class="mb-8">API design and documentation platform to improve collaboration, standardize development workflow and centralize their API discovery and consumption.</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">SaaS,On-Premise NodeJS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="0c1c17e79f2ccf9a2140cd587e84a115-info" hidden>
-          <h1 class="pb-8">Senya Editor</h1>
-
-          <p>JetBrains IDE plugin to show Swagger UI as a preview, for visual feedback as you edit.</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          <div id="0c1c17e79f2ccf9a2140cd587e84a115-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">Senya Editor</h1>
+              <p class="mb-8">JetBrains IDE plugin to show Swagger UI as a preview, for visual feedback as you edit.</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Java</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="ab48d5ce77b0c9f808ee6c600d40888c-info" hidden>
-          <h1 class="pb-8">VSCode/openapi-lint</h1>
-
-          <p>OpenAPI 2.0/3.0.x intellisense, validator, linter, converter and resolver extension for Visual Studio Code</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Mermade</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">50</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">5</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">9</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2018-06-29T16:05:52Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-04-15T03:11:21Z</td>
+          <div id="ab48d5ce77b0c9f808ee6c600d40888c-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">VSCode/openapi-lint</h1>
+              <p class="mb-8">OpenAPI 2.0/3.0.x intellisense, validator, linter, converter and resolver extension for Visual Studio Code</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">Mermade</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">50</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">5</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">9</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2018-06-29T16:05:52Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-04-15T03:11:21Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">JavaScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="491454b1f2a266a142515a7eee661b08-info" hidden>
-          <h1 class="pb-8">VSCode/Redocly OpenAPI</h1>
-
-          <p>Redocly VS Code extension</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Redocly</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">22</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">19</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">5</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2021-11-03T00:03:16Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-21T06:23:50Z</td>
+          <div id="491454b1f2a266a142515a7eee661b08-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">VSCode/Redocly OpenAPI</h1>
+              <p class="mb-8">Redocly VS Code extension</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">Redocly</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">22</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">19</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">5</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2021-11-03T00:03:16Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-07-21T06:23:50Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4"></td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="8348b06da005508392b6fa17c12d3ca4-info" hidden>
-          <h1 class="pb-8">Stoplight Studio</h1>
-
-          <p>Stoplight Studio is a GUI/text editor with linting and mocking built right in.  It can run on the desktop with local files, and in the browser powered by your  existing GitHub, GitLab, or BitBucket repos.
+          <div id="8348b06da005508392b6fa17c12d3ca4-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">Stoplight Studio</h1>
+              <p class="mb-8">Stoplight Studio is a GUI/text editor with linting and mocking built right in.  It can run on the desktop with local files, and in the browser powered by your  existing GitHub, GitLab, or BitBucket repos.
 </p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Desktop,SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="641631c1edd1eaf61a89b81a4ae7c8eb-info" hidden>
-          <h1 class="pb-8">VSCode OpenAPI Snippets</h1>
-
-          <p>OpenAPI snippets and external file validation extension for VSCode</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">proohit</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">8</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">1</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2020-04-17T08:46:16Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-26T12:02:04Z</td>
+          <div id="641631c1edd1eaf61a89b81a4ae7c8eb-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">VSCode OpenAPI Snippets</h1>
+              <p class="mb-8">OpenAPI snippets and external file validation extension for VSCode</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">proohit</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">8</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">2</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">1</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-04-17T08:46:16Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-07-26T12:02:04Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4"></td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="ce0dc163dc2b30744344ee24800647a0-info" hidden>
-          <h1 class="pb-8">draig-car</h1>
-
-          <p>This is a REPL OpenAPI3 description document text editor. It provides both a CLI and and a REPL you can use to test your APIs, but you can also test database queries, start and stop database (containers), generate fake data automatically, start your test microservice and much more. You don&#39;t have to exit from your REPL! Or you can use the CLI to do the same if you want, giving you the option to automatize your contract-first based dev cycles.</p>
-
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+          <div id="ce0dc163dc2b30744344ee24800647a0-info" hidden>
+            <div class="ml-24 mr-24">
+              <h1 class="pb-8">draig-car</h1>
+              <p class="mb-8">This is a REPL OpenAPI3 description document text editor. It provides both a CLI and and a REPL you can use to test your APIs, but you can also test database queries, start and stop database (containers), generate fake data automatically, start your test microservice and much more. You don&#39;t have to exit from your REPL! Or you can use the CLI to do the same if you want, giving you the option to automatize your contract-first based dev cycles.</p>
+            </div>
+            <table class="border-collapse table-auto w-full text-sm">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">TypeScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
@@ -761,12 +907,21 @@
         
       </div>
 
+      <script src="assets/index.js"></script>
       <script type="text/javascript">
-        const getCellValue = (tr, idx) => tr
-          .children[idx]
-          .innerText || tr
-          .children[idx]
-          .textContent;
+        const getCellValue = (tr, idx) => {
+          const value = tr
+            .children[idx]
+            .innerText || tr
+            .children[idx]
+            .textContent
+
+          if (value === 'N/A') {
+            return -1
+          }
+
+          return value
+        };
         const comparer = (idx, asc) => (a, b) => (
           (v1, v2) => v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)
           ? v1 - v2
@@ -796,6 +951,46 @@
 
         const modal = document.getElementById("modal");
         const toolCloseButton = document.getElementById("modal-close-button");
+        const getTableCellValue = function (row, index) {
+          const cell = row.getElementsByTagName("td")[index];
+
+          if (cell) {
+            return (
+              cell
+              ? cell.textContent || cell.innerText
+              : "").toLowerCase()
+          }
+
+          return null;
+        }
+        const isSearchMatch = function (words, name, description) {
+          return words
+            .filter((word) => name.indexOf(word) > -1 || description.indexOf(word) > -1)
+            .length === words.length
+        }
+
+        const searchNamesDescriptions = function () {
+          const input = document.getElementById("search-by-name-and-description");
+          const words = input
+            .value
+            .toLowerCase()
+            .split(" ")
+          const table = document.getElementById("tools-table");
+          const tr = table.getElementsByTagName("tr");
+
+          for (i = 0; i < tr.length; i++) {
+            const name = getTableCellValue(tr[i], 0)
+            const description = getTableCellValue(tr[i], 1)
+
+            if (name || description) {
+              if (isSearchMatch(words, name, description)) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
 
         const closeModal = function () {
           const collection = document.getElementById("tool-collection")
@@ -814,183 +1009,136 @@
 
         
 
-          let toolOpenButton 782ecbb10f1ff8ac9685e0ed24e52e58 = document.getElementById("782ecbb10f1ff8ac9685e0ed24e52e58-open-button");
+          
+            document
+              .getElementById("782ecbb10f1ff8ac9685e0ed24e52e58-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("782ecbb10f1ff8ac9685e0ed24e52e58-info")
 
-          toolOpenButton 782ecbb10f1ff8ac9685e0ed24e52e58.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("782ecbb10f1ff8ac9685e0ed24e52e58-info")
+                content.removeAttribute("hidden")
 
-            content.removeAttribute("hidden")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
+            document
+              .getElementById("3927b9da31ce0c8291351fc07cace0ae-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("3927b9da31ce0c8291351fc07cace0ae-info")
 
-          let toolOpenButton 3927b9da31ce0c8291351fc07cace0ae = document.getElementById("3927b9da31ce0c8291351fc07cace0ae-open-button");
+                content.removeAttribute("hidden")
 
-          toolOpenButton 3927b9da31ce0c8291351fc07cace0ae.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("3927b9da31ce0c8291351fc07cace0ae-info")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton 184d87fb65f889fa033f623a7b67df1a = document.getElementById("184d87fb65f889fa033f623a7b67df1a-open-button");
+          
 
-          toolOpenButton 184d87fb65f889fa033f623a7b67df1a.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("184d87fb65f889fa033f623a7b67df1a-info")
+          
 
-            content.removeAttribute("hidden")
+          
+            document
+              .getElementById("951cf61d12c812ef9b201ad76b5d278d-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("951cf61d12c812ef9b201ad76b5d278d-info")
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+                content.removeAttribute("hidden")
 
-        
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-          let toolOpenButton 60dd32764dfe435b0eaaa2189ab1bc8c = document.getElementById("60dd32764dfe435b0eaaa2189ab1bc8c-open-button");
+          
 
-          toolOpenButton 60dd32764dfe435b0eaaa2189ab1bc8c.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("60dd32764dfe435b0eaaa2189ab1bc8c-info")
+          
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton 951cf61d12c812ef9b201ad76b5d278d = document.getElementById("951cf61d12c812ef9b201ad76b5d278d-open-button");
+          
+            document
+              .getElementById("ab48d5ce77b0c9f808ee6c600d40888c-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("ab48d5ce77b0c9f808ee6c600d40888c-info")
 
-          toolOpenButton 951cf61d12c812ef9b201ad76b5d278d.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("951cf61d12c812ef9b201ad76b5d278d-info")
+                content.removeAttribute("hidden")
 
-            content.removeAttribute("hidden")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
+            document
+              .getElementById("491454b1f2a266a142515a7eee661b08-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("491454b1f2a266a142515a7eee661b08-info")
 
-          let toolOpenButton 4b7adfae5ed14133b59e6f80811da841 = document.getElementById("4b7adfae5ed14133b59e6f80811da841-open-button");
+                content.removeAttribute("hidden")
 
-          toolOpenButton 4b7adfae5ed14133b59e6f80811da841.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("4b7adfae5ed14133b59e6f80811da841-info")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton 0c1c17e79f2ccf9a2140cd587e84a115 = document.getElementById("0c1c17e79f2ccf9a2140cd587e84a115-open-button");
+          
+            document
+              .getElementById("641631c1edd1eaf61a89b81a4ae7c8eb-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("641631c1edd1eaf61a89b81a4ae7c8eb-info")
 
-          toolOpenButton 0c1c17e79f2ccf9a2140cd587e84a115.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("0c1c17e79f2ccf9a2140cd587e84a115-info")
+                content.removeAttribute("hidden")
 
-            content.removeAttribute("hidden")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton ab48d5ce77b0c9f808ee6c600d40888c = document.getElementById("ab48d5ce77b0c9f808ee6c600d40888c-open-button");
+          
 
-          toolOpenButton ab48d5ce77b0c9f808ee6c600d40888c.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("ab48d5ce77b0c9f808ee6c600d40888c-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 491454b1f2a266a142515a7eee661b08 = document.getElementById("491454b1f2a266a142515a7eee661b08-open-button");
-
-          toolOpenButton 491454b1f2a266a142515a7eee661b08.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("491454b1f2a266a142515a7eee661b08-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 8348b06da005508392b6fa17c12d3ca4 = document.getElementById("8348b06da005508392b6fa17c12d3ca4-open-button");
-
-          toolOpenButton 8348b06da005508392b6fa17c12d3ca4.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("8348b06da005508392b6fa17c12d3ca4-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 641631c1edd1eaf61a89b81a4ae7c8eb = document.getElementById("641631c1edd1eaf61a89b81a4ae7c8eb-open-button");
-
-          toolOpenButton 641631c1edd1eaf61a89b81a4ae7c8eb.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("641631c1edd1eaf61a89b81a4ae7c8eb-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton ce0dc163dc2b30744344ee24800647a0 = document.getElementById("ce0dc163dc2b30744344ee24800647a0-open-button");
-
-          toolOpenButton ce0dc163dc2b30744344ee24800647a0.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("ce0dc163dc2b30744344ee24800647a0-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-        document.addEventListener('keydown', (event) => {
-          if (event.key === 'Escape') {
-            closeModal();
-          }
-        })
+          document
+          .addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+              closeModal();
+            }
+          })
 
         window.onclick = function (event) {
           if (event.target == modal) {
-            modal.style.display = "none";
+            closeModal();
           }
         }
       </script>
