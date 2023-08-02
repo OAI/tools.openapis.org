@@ -28,852 +28,1087 @@
   </div>
 </div>
 
-      <div class="max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto">
-        <div class="px-2 mt-12 mb-24">
+      <div class="container mx-auto">
 
-          <div class="text-center">
-            <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mb-4">
-              GUI Editors</h1>
+        <div class="text-center">
+          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
+            GUI Editors</h1>
 
-            <h2
+          <h2
           class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
-          Click on a heading to sort
+          Click on a heading to sort.
           <br>
-          Click the name of a tool to find out more
+          Filter using one or more keywords
           <br>
+          Click the More Details button for more information on a tool
+          <br><br>
           Note: The homepage and repository links may lead to the same place!
         </h2>
-          </div>
-          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            
-            <tr class="text-s text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-              <th class="px-4 py-2">Name</th>
-              <th class="px-4 py-2">Description</th>
-              <th class="px-4 py-2">Homepage</th>
-              <th class="px-4 py-2">Repository</th>
-              <th class="px-4 py-2">3.1?</th>
-              <th class="px-4 py-2">3.0?</th>
-              <th class="px-4 py-2">2.0?</th>
-              <th class="px-4 py-2">Stars</th>
-            </tr>
-            
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="2fa64050f1dc133ee8b33c58c25298bf-open-button">Apitive Studio</button>
-                </td>
-                <td class="px-4 py-2">A platform for Digital Product Managers and API Consultants to design REST APIs with in-built mock and documentation.
+        </div>
+
+        <div class="sm:-mx-6 lg:-mx-8">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+            <div class="sticky top-12 z-40 py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
+              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
+                <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
+              </svg>
+              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
+            </div>
+            <div class="overflow-hidden">
+              <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
+                
+                <tr class="text-s text-center text-black border-b  border-neutral-500">
+                  <th class="sortable-heading px-4 py-2">Name</th>
+                  <th class="sortable-heading px-4 py-2">Description</th>
+                  <th class="sortable-heading px-4 py-2">Homepage</th>
+                  <th class="sortable-heading px-4 py-2">Repository</th>
+                  <th class="sortable-heading px-4 py-2">3.1?</th>
+                  <th class="sortable-heading px-4 py-2">3.0?</th>
+                  <th class="sortable-heading px-4 py-2">2.0?</th>
+                  <th class="sortable-heading px-4 py-2">Stars</th>
+                  <th class="px-4 py-2">Properties</th>
+                </tr>
+                
+                
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Apitive Studio</td>
+                    <td class="px-4 py-2">A platform for Digital Product Managers and API Consultants to design REST APIs with in-built mock and documentation.
 </td>
-                <td class="px-4 py-2">
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.apitive.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://www.apitive.com>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="7610df08711c820262bf0fa23fe0279f-open-button">JetBrains tools (IntelliJ IDEA, PyCharm etc.)</button>
-                </td>
-                <td class="px-4 py-2">JetBrains development tools like IntelliJ IDEA, PyCharm and others come with a bundled *OpenAPI Specifications* plugin.
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">JetBrains tools (IntelliJ IDEA, PyCharm etc.)</td>
+                    <td class="px-4 py-2">JetBrains development tools like IntelliJ IDEA, PyCharm and others come with a bundled *OpenAPI Specifications* plugin.
 The plugin allows you to write the OpenAPI specifications and supports you with validations, formatting, code-completion etc.
 It supports a *text view* as well as a rendered SwaggerUI-like *graphical interface*.
 </td>
-                <td class="px-4 py-2">
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://plugins.jetbrains.com/plugin/14394-openapi-specifications>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://plugins.jetbrains.com/plugin/14394-openapi-specifications>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="8348b06da005508392b6fa17c12d3ca4-open-button">Stoplight Studio</button>
-                </td>
-                <td class="px-4 py-2">Stoplight Studio is a GUI/text editor with linting and mocking built right in.  It can run on the desktop with local files, and in the browser powered by your  existing GitHub, GitLab, or BitBucket repos.
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Stoplight Studio</td>
+                    <td class="px-4 py-2">Stoplight Studio is a GUI/text editor with linting and mocking built right in.  It can run on the desktop with local files, and in the browser powered by your  existing GitHub, GitLab, or BitBucket repos.
 </td>
-                <td class="px-4 py-2">
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://stoplight.io/studio>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://stoplight.io/studio>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Hackolade</td>
+                    <td class="px-4 py-2">Hackolade plugin for OpenAPI 3 API documentation </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://hackolade.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/hackolade/openapi>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">13</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="0ca14e83c7b680313bbc57c0a56e6c05-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="0ca14e83c7b680313bbc57c0a56e6c05-open-button">Hackolade</button>
-                </td>
-                <td class="px-4 py-2">Hackolade plugin for OpenAPI 3 API documentation </td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Apicurio Studio</td>
+                    <td class="px-4 py-2">Open Source API Design</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/Apicurio/apicurio-studio>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/apicurio/apicurio-studio>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">866</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="efe9656e80c1bf6304903ca5a60fe5a6-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://hackolade.com>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OAIE Sketch</td>
+                    <td class="px-4 py-2">OpenAPI Visual Editor</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.github.com/OAIE/oaie-sketch>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/oaie/oaie-sketch>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">56</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="1559682e19f96b7e2025e28b33915bed-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OpenAPI Designer</td>
+                    <td class="px-4 py-2">OpenAPI Designer is an easy-to-use, free, web-based, codeless description document editor with JSON and YAML outputs.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://openapidesigner.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://github.com/hackolade/openapi>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">13</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="efe9656e80c1bf6304903ca5a60fe5a6-open-button">Apicurio Studio</button>
-                </td>
-                <td class="px-4 py-2">Open Source API Design</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/Apicurio/apicurio-studio>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/apicurio/apicurio-studio>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">865</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="1559682e19f96b7e2025e28b33915bed-open-button">OAIE Sketch</button>
-                </td>
-                <td class="px-4 py-2">OpenAPI Visual Editor</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://www.github.com/OAIE/oaie-sketch>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/oaie/oaie-sketch>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">56</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="113b3e287451017a1bfd30a88f5aa402-open-button">OpenAPI Designer</button>
-                </td>
-                <td class="px-4 py-2">OpenAPI Designer is an easy-to-use, free, web-based, codeless description document editor with JSON and YAML outputs.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://openapidesigner.com>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="2e1e071de0cefab924eba4860c14f63f-open-button">ApiBldr</button>
-                </td>
-                <td class="px-4 py-2">Web-Based API Designer for OpenAPI (swagger) and AsyncAPI specifications.
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">ApiBldr</td>
+                    <td class="px-4 py-2">Web-Based API Designer for OpenAPI (swagger) and AsyncAPI specifications.
 </td>
-                <td class="px-4 py-2">
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.apibldr.com/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://www.apibldr.com/>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="034f272138f88f0a55801dae0857323a-open-button">RestCase Designer</button>
-                </td>
-                <td class="px-4 py-2">A design-first API managment platform with WYSIWYG API Designer for OpenAPI and AsyncAPI specifications.
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">RestCase Designer</td>
+                    <td class="px-4 py-2">A design-first API managment platform with WYSIWYG API Designer for OpenAPI and AsyncAPI specifications.
 </td>
-                <td class="px-4 py-2">
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.restcase.com/platform/design>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://www.restcase.com/platform/design>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Flotiq - headless CMS with OpenAPI support</td>
+                    <td class="px-4 py-2">Visually define your Content Types, Flotiq automatically generates your own OpenAPI v3 compatible endpoints, SDKs and Postman collections.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://flotiq.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="478d41ac500dd9ce23e0f0213a656154-open-button">Flotiq - headless CMS with OpenAPI support</button>
-                </td>
-                <td class="px-4 py-2">Visually define your Content Types, Flotiq automatically generates your own OpenAPI v3 compatible endpoints, SDKs and Postman collections.</td>
-                <td class="px-4 py-2">
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Zuplo (OpenAPI-based gateway and documentation)</td>
+                    <td class="px-4 py-2">Zuplo is an API gateway designed for developers. Natively powered by OpenAPI (3.1 or 3.0), zuplo offers an OpenAPI design surface, API documentation and a serverless, programmable edge gateway that includes request validation, auth, rate-limiting and more.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.zuplo.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://flotiq.com>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">APIGit</td>
+                    <td class="px-4 py-2">the native Git based collaboration platform for API design, document, mock, testing and share.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://apigit.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/apigitlabs>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="94f410082dd5e91b5d75df09846e8687-open-button">Zuplo (OpenAPI-based gateway and documentation)</button>
-                </td>
-                <td class="px-4 py-2">Zuplo is an API gateway designed for developers. Natively powered by OpenAPI (3.1 or 3.0), zuplo offers an OpenAPI design surface, API documentation and a serverless, programmable edge gateway that includes request validation, auth, rate-limiting and more.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://www.zuplo.com>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="eff815e9a2d41cfd4464f36c69bc11ce-open-button">APIGit</button>
-                </td>
-                <td class="px-4 py-2">the native Git based collaboration platform for API design, document, mock, testing and share.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://apigit.com>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/apigitlabs>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="824559c965aaed65843131864b0adb5d-open-button">RepreZen API Studio</button>
-                </td>
-                <td class="px-4 py-2">RepreZen API Studio is an integrated workbench that brings API-first design into focus for your whole team, harmonizes your API designs, and
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">RepreZen API Studio</td>
+                    <td class="px-4 py-2">RepreZen API Studio is an integrated workbench that brings API-first design into focus for your whole team, harmonizes your API designs, and
 generates APIs that click into client apps.
 </td>
-                <td class="px-4 py-2">
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.reprezen.com/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                    <a target="_blank" href=https://www.reprezen.com/>Link</a>
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">JSON Designer</td>
+                    <td class="px-4 py-2">Visualize JSON models from imported OpenAPI YAML. Edit models and export OpenAPI YAML.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=http://jsondesigner.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
                   
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="9440025e6c756188ef68d4f144bd42bb-open-button">JSON Designer</button>
-                </td>
-                <td class="px-4 py-2">Visualize JSON models from imported OpenAPI YAML. Edit models and export OpenAPI YAML.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=http://jsondesigner.com>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <!-- Overlay for a given tool -->
-
-    <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
-
-      <!-- Modal for a given tool -->
-
-      <div class="relative top-40 mx-auto p-5 border w-2/5 shadow-lg rounded-md bg-white">
-        <div class="mt-3 text-center">
-
-          <div id="tool-content"></div>
-
-          <div class="items-center px-4 py-3">
-            <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="tool-collection" hidden>
-      
+      <!-- Overlay for a given tool -->
 
-        <div id="2fa64050f1dc133ee8b33c58c25298bf-info" hidden>
-          <h1 class="pb-8">Apitive Studio</h1>
+      <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50" id="modal">
 
-          <p>A platform for Digital Product Managers and API Consultants to design REST APIs with in-built mock and documentation.
-</p>
+        <!-- Modal for a given tool -->
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+        <div class="relative top-40 mx-auto p-5 border w-1/5 shadow-lg rounded-md bg-white">
+          <div class="mt-3 text-center">
+
+            <div id="tool-content"></div>
+
+            <div class="items-center px-4 py-3 mt-8">
+              <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tool-collection" hidden>
+        
+
+          <div id="2fa64050f1dc133ee8b33c58c25298bf-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Apitive Studio (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Angular 7.0,Java,Saas</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="7610df08711c820262bf0fa23fe0279f-info" hidden>
-          <h1 class="pb-8">JetBrains tools (IntelliJ IDEA, PyCharm etc.)</h1>
+          <div id="7610df08711c820262bf0fa23fe0279f-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">JetBrains tools (IntelliJ IDEA, PyCharm etc.) (link)</h1>
+              </a>
 
-          <p>JetBrains development tools like IntelliJ IDEA, PyCharm and others come with a bundled *OpenAPI Specifications* plugin.
-The plugin allows you to write the OpenAPI specifications and supports you with validations, formatting, code-completion etc.
-It supports a *text view* as well as a rendered SwaggerUI-like *graphical interface*.
-</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Java,Python</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="8348b06da005508392b6fa17c12d3ca4-info" hidden>
-          <h1 class="pb-8">Stoplight Studio</h1>
+          <div id="8348b06da005508392b6fa17c12d3ca4-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Stoplight Studio (link)</h1>
+              </a>
 
-          <p>Stoplight Studio is a GUI/text editor with linting and mocking built right in.  It can run on the desktop with local files, and in the browser powered by your  existing GitHub, GitLab, or BitBucket repos.
-</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Desktop,SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="0ca14e83c7b680313bbc57c0a56e6c05-info" hidden>
-          <h1 class="pb-8">Hackolade</h1>
+          <div id="0ca14e83c7b680313bbc57c0a56e6c05-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/hackolade/openapi>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Hackolade (link)</h1>
+              </a>
 
-          <p>Hackolade plugin for OpenAPI 3 API documentation </p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">hackolade</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">13</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">5</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">8</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2019-06-20T21:05:49Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-03-18T21:44:58Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">hackolade</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">13</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">5</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">8</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2019-06-20T21:05:49Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-03-18T21:44:58Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">JavaScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="efe9656e80c1bf6304903ca5a60fe5a6-info" hidden>
-          <h1 class="pb-8">Apicurio Studio</h1>
+          <div id="efe9656e80c1bf6304903ca5a60fe5a6-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/apicurio/apicurio-studio>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Apicurio Studio (link)</h1>
+              </a>
 
-          <p>Open Source API Design</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Apicurio</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">865</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">42</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">448</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2016-09-29T18:22:33Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-26T15:21:22Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">Apicurio</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">866</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">42</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">449</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2016-09-29T18:22:33Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-07-31T04:21:44Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">TypeScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="1559682e19f96b7e2025e28b33915bed-info" hidden>
-          <h1 class="pb-8">OAIE Sketch</h1>
+          <div id="1559682e19f96b7e2025e28b33915bed-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/oaie/oaie-sketch>
+                <h1 class="pl-8 pr-8 text-2xl text-left">OAIE Sketch (link)</h1>
+              </a>
 
-          <p>OpenAPI Visual Editor</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">OAIE</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">56</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">5</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">8</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2020-03-31T09:03:18Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-06-01T07:00:25Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">OAIE</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">56</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">5</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">8</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-03-31T09:03:18Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-06-01T07:00:25Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">HTML</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="113b3e287451017a1bfd30a88f5aa402-info" hidden>
-          <h1 class="pb-8">OpenAPI Designer</h1>
+          <div id="113b3e287451017a1bfd30a88f5aa402-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">OpenAPI Designer (link)</h1>
+              </a>
 
-          <p>OpenAPI Designer is an easy-to-use, free, web-based, codeless description document editor with JSON and YAML outputs.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="2e1e071de0cefab924eba4860c14f63f-info" hidden>
-          <h1 class="pb-8">ApiBldr</h1>
+          <div id="2e1e071de0cefab924eba4860c14f63f-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">ApiBldr (link)</h1>
+              </a>
 
-          <p>Web-Based API Designer for OpenAPI (swagger) and AsyncAPI specifications.
-</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Angular 9.0,Saas</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="034f272138f88f0a55801dae0857323a-info" hidden>
-          <h1 class="pb-8">RestCase Designer</h1>
+          <div id="034f272138f88f0a55801dae0857323a-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">RestCase Designer (link)</h1>
+              </a>
 
-          <p>A design-first API managment platform with WYSIWYG API Designer for OpenAPI and AsyncAPI specifications.
-</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Angular 9.0,Saas</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="478d41ac500dd9ce23e0f0213a656154-info" hidden>
-          <h1 class="pb-8">Flotiq - headless CMS with OpenAPI support</h1>
+          <div id="478d41ac500dd9ce23e0f0213a656154-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Flotiq - headless CMS with OpenAPI support (link)</h1>
+              </a>
 
-          <p>Visually define your Content Types, Flotiq automatically generates your own OpenAPI v3 compatible endpoints, SDKs and Postman collections.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4"></td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="94f410082dd5e91b5d75df09846e8687-info" hidden>
-          <h1 class="pb-8">Zuplo (OpenAPI-based gateway and documentation)</h1>
+          <div id="94f410082dd5e91b5d75df09846e8687-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Zuplo (OpenAPI-based gateway and documentation) (link)</h1>
+              </a>
 
-          <p>Zuplo is an API gateway designed for developers. Natively powered by OpenAPI (3.1 or 3.0), zuplo offers an OpenAPI design surface, API documentation and a serverless, programmable edge gateway that includes request validation, auth, rate-limiting and more.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Web,SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="eff815e9a2d41cfd4464f36c69bc11ce-info" hidden>
-          <h1 class="pb-8">APIGit</h1>
+          <div id="eff815e9a2d41cfd4464f36c69bc11ce-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/apigitlabs>
+                <h1 class="pl-8 pr-8 text-2xl text-left">APIGit (link)</h1>
+              </a>
 
-          <p>the native Git based collaboration platform for API design, document, mock, testing and share.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="824559c965aaed65843131864b0adb5d-info" hidden>
-          <h1 class="pb-8">RepreZen API Studio</h1>
+          <div id="824559c965aaed65843131864b0adb5d-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">RepreZen API Studio (link)</h1>
+              </a>
 
-          <p>RepreZen API Studio is an integrated workbench that brings API-first design into focus for your whole team, harmonizes your API designs, and
-generates APIs that click into client apps.
-</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Java</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="9440025e6c756188ef68d4f144bd42bb-info" hidden>
-          <h1 class="pb-8">JSON Designer</h1>
+          <div id="9440025e6c756188ef68d4f144bd42bb-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">JSON Designer (link)</h1>
+              </a>
 
-          <p>Visualize JSON models from imported OpenAPI YAML. Edit models and export OpenAPI YAML.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">iOS,Swift</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
@@ -881,12 +1116,21 @@ generates APIs that click into client apps.
         
       </div>
 
+      <script src="assets/index.js"></script>
       <script type="text/javascript">
-        const getCellValue = (tr, idx) => tr
-          .children[idx]
-          .innerText || tr
-          .children[idx]
-          .textContent;
+        const getCellValue = (tr, idx) => {
+          const value = tr
+            .children[idx]
+            .innerText || tr
+            .children[idx]
+            .textContent
+
+          if (value === 'N/A') {
+            return -1
+          }
+
+          return value
+        };
         const comparer = (idx, asc) => (a, b) => (
           (v1, v2) => v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)
           ? v1 - v2
@@ -916,6 +1160,46 @@ generates APIs that click into client apps.
 
         const modal = document.getElementById("modal");
         const toolCloseButton = document.getElementById("modal-close-button");
+        const getTableCellValue = function (row, index) {
+          const cell = row.getElementsByTagName("td")[index];
+
+          if (cell) {
+            return (
+              cell
+              ? cell.textContent || cell.innerText
+              : "").toLowerCase()
+          }
+
+          return null;
+        }
+        const isSearchMatch = function (words, name, description) {
+          return words
+            .filter((word) => name.indexOf(word) > -1 || description.indexOf(word) > -1)
+            .length === words.length
+        }
+
+        const searchNamesDescriptions = function () {
+          const input = document.getElementById("search-by-name-and-description");
+          const words = input
+            .value
+            .toLowerCase()
+            .split(" ")
+          const table = document.getElementById("tools-table");
+          const tr = table.getElementsByTagName("tr");
+
+          for (i = 0; i < tr.length; i++) {
+            const name = getTableCellValue(tr[i], 0)
+            const description = getTableCellValue(tr[i], 1)
+
+            if (name || description) {
+              if (isSearchMatch(words, name, description)) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
 
         const closeModal = function () {
           const collection = document.getElementById("tool-collection")
@@ -934,211 +1218,108 @@ generates APIs that click into client apps.
 
         
 
-          let toolOpenButton 2fa64050f1dc133ee8b33c58c25298bf = document.getElementById("2fa64050f1dc133ee8b33c58c25298bf-open-button");
+          
 
-          toolOpenButton 2fa64050f1dc133ee8b33c58c25298bf.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("2fa64050f1dc133ee8b33c58c25298bf-info")
+          
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton 7610df08711c820262bf0fa23fe0279f = document.getElementById("7610df08711c820262bf0fa23fe0279f-open-button");
+          
 
-          toolOpenButton 7610df08711c820262bf0fa23fe0279f.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("7610df08711c820262bf0fa23fe0279f-info")
+          
+            document
+              .getElementById("0ca14e83c7b680313bbc57c0a56e6c05-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("0ca14e83c7b680313bbc57c0a56e6c05-info")
 
-            content.removeAttribute("hidden")
+                content.removeAttribute("hidden")
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-        
+          
 
-          let toolOpenButton 8348b06da005508392b6fa17c12d3ca4 = document.getElementById("8348b06da005508392b6fa17c12d3ca4-open-button");
+          
+            document
+              .getElementById("efe9656e80c1bf6304903ca5a60fe5a6-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("efe9656e80c1bf6304903ca5a60fe5a6-info")
 
-          toolOpenButton 8348b06da005508392b6fa17c12d3ca4.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("8348b06da005508392b6fa17c12d3ca4-info")
+                content.removeAttribute("hidden")
 
-            content.removeAttribute("hidden")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
+            document
+              .getElementById("1559682e19f96b7e2025e28b33915bed-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("1559682e19f96b7e2025e28b33915bed-info")
 
-          let toolOpenButton 0ca14e83c7b680313bbc57c0a56e6c05 = document.getElementById("0ca14e83c7b680313bbc57c0a56e6c05-open-button");
+                content.removeAttribute("hidden")
 
-          toolOpenButton 0ca14e83c7b680313bbc57c0a56e6c05.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("0ca14e83c7b680313bbc57c0a56e6c05-info")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton efe9656e80c1bf6304903ca5a60fe5a6 = document.getElementById("efe9656e80c1bf6304903ca5a60fe5a6-open-button");
+          
 
-          toolOpenButton efe9656e80c1bf6304903ca5a60fe5a6.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("efe9656e80c1bf6304903ca5a60fe5a6-info")
+          
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton 1559682e19f96b7e2025e28b33915bed = document.getElementById("1559682e19f96b7e2025e28b33915bed-open-button");
+          
 
-          toolOpenButton 1559682e19f96b7e2025e28b33915bed.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("1559682e19f96b7e2025e28b33915bed-info")
+          
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
 
-          let toolOpenButton 113b3e287451017a1bfd30a88f5aa402 = document.getElementById("113b3e287451017a1bfd30a88f5aa402-open-button");
+          
 
-          toolOpenButton 113b3e287451017a1bfd30a88f5aa402.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("113b3e287451017a1bfd30a88f5aa402-info")
+          
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
-
-          let toolOpenButton 2e1e071de0cefab924eba4860c14f63f = document.getElementById("2e1e071de0cefab924eba4860c14f63f-open-button");
-
-          toolOpenButton 2e1e071de0cefab924eba4860c14f63f.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("2e1e071de0cefab924eba4860c14f63f-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 034f272138f88f0a55801dae0857323a = document.getElementById("034f272138f88f0a55801dae0857323a-open-button");
-
-          toolOpenButton 034f272138f88f0a55801dae0857323a.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("034f272138f88f0a55801dae0857323a-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 478d41ac500dd9ce23e0f0213a656154 = document.getElementById("478d41ac500dd9ce23e0f0213a656154-open-button");
-
-          toolOpenButton 478d41ac500dd9ce23e0f0213a656154.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("478d41ac500dd9ce23e0f0213a656154-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 94f410082dd5e91b5d75df09846e8687 = document.getElementById("94f410082dd5e91b5d75df09846e8687-open-button");
-
-          toolOpenButton 94f410082dd5e91b5d75df09846e8687.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("94f410082dd5e91b5d75df09846e8687-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton eff815e9a2d41cfd4464f36c69bc11ce = document.getElementById("eff815e9a2d41cfd4464f36c69bc11ce-open-button");
-
-          toolOpenButton eff815e9a2d41cfd4464f36c69bc11ce.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("eff815e9a2d41cfd4464f36c69bc11ce-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 824559c965aaed65843131864b0adb5d = document.getElementById("824559c965aaed65843131864b0adb5d-open-button");
-
-          toolOpenButton 824559c965aaed65843131864b0adb5d.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("824559c965aaed65843131864b0adb5d-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 9440025e6c756188ef68d4f144bd42bb = document.getElementById("9440025e6c756188ef68d4f144bd42bb-open-button");
-
-          toolOpenButton 9440025e6c756188ef68d4f144bd42bb.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("9440025e6c756188ef68d4f144bd42bb-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-        document.addEventListener('keydown', (event) => {
-          if (event.key === 'Escape') {
-            closeModal();
-          }
-        })
+          document
+          .addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+              closeModal();
+            }
+          })
 
         window.onclick = function (event) {
           if (event.target == modal) {
-            modal.style.display = "none";
+            closeModal();
           }
         }
       </script>

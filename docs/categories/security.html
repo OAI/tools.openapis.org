@@ -28,563 +28,733 @@
   </div>
 </div>
 
-      <div class="max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto">
-        <div class="px-2 mt-12 mb-24">
+      <div class="container mx-auto">
 
-          <div class="text-center">
-            <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mb-4">
-              Security</h1>
+        <div class="text-center">
+          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
+            Security</h1>
 
-            <h2
+          <h2
           class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
-          Click on a heading to sort
+          Click on a heading to sort.
           <br>
-          Click the name of a tool to find out more
+          Filter using one or more keywords
           <br>
+          Click the More Details button for more information on a tool
+          <br><br>
           Note: The homepage and repository links may lead to the same place!
         </h2>
+        </div>
+
+        <div class="sm:-mx-6 lg:-mx-8">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+            <div class="sticky top-12 z-40 py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
+              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
+                <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
+              </svg>
+              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
+            </div>
+            <div class="overflow-hidden">
+              <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
+                
+                <tr class="text-s text-center text-black border-b  border-neutral-500">
+                  <th class="sortable-heading px-4 py-2">Name</th>
+                  <th class="sortable-heading px-4 py-2">Description</th>
+                  <th class="sortable-heading px-4 py-2">Homepage</th>
+                  <th class="sortable-heading px-4 py-2">Repository</th>
+                  <th class="sortable-heading px-4 py-2">3.1?</th>
+                  <th class="sortable-heading px-4 py-2">3.0?</th>
+                  <th class="sortable-heading px-4 py-2">2.0?</th>
+                  <th class="sortable-heading px-4 py-2">Stars</th>
+                  <th class="px-4 py-2">Properties</th>
+                </tr>
+                
+                
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">StackHawk HawkScan</td>
+                    <td class="px-4 py-2">StackHawk is an application vulnerability scanner purpose built for developers to use in the DevOps pipeline. It leverages a provided OpenAPI v2 or v3 spec file for route discovery and enhanced scanning.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://stackhawk.com/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/stackhawk>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">42crunch</td>
+                    <td class="px-4 py-2">A unique set of integrated API security tools that allow discovery, remediation of OpenAPI vulnerabilities and runtime protection against API attacks.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://42crunch.com/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-fuzzer</td>
+                    <td class="px-4 py-2">Black-box fuzzer that fuzzes APIs based on OpenAPI specification. Find bugs for free!</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">450</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="9e0191ba47403298459b30242dbfe9ad-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">cats</td>
+                    <td class="px-4 py-2">CATS is a REST API Fuzzer and negative testing tool for OpenAPI endpoints. CATS automatically  generates, runs and reports tests with minimum configuration and no coding effort. Tests are self-healing and do not require maintenance.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/Endava/cats>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/endava/cats>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">964</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="a6ff4bc9abd488fc56bf9b04747b4051-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">API Insights</td>
+                    <td class="px-4 py-2">RestCase executes hundrends of security and quality checks against the API definition, the API insights report provides detailed security scoring for prioritization, and remediation advice to help developers define the best API definition possible.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://restcase.com/platform/security>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OWASP ZAP</td>
+                    <td class="px-4 py-2">The ZAP core project</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.zaproxy.org/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/zaproxy/zaproxy>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">11090</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="9eedc1be44837a65f912bcf562844f39-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OpenAPI3 Fuzzer</td>
+                    <td class="px-4 py-2">Simple fuzzer for OpenAPI 3 specification based APIs</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://pypi.org/project/openapi3-fuzzer/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/vwt-digital/openapi3-fuzzer/tree/master>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">15</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="f357b9cac35c5789bafaa767f4fc3b50-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Mayhem for API</td>
+                    <td class="px-4 py-2"> 🤖 Run a Mayhem for API scan in GitHub Actions</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://forallsecure.com/mayhem-for-api>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/forallsecure/mapi-action>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">21</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="ce2ef79e2c9f1a119ca823d0afd8258b-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">RESTler</td>
+                    <td class="px-4 py-2">RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.</td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/microsoft/restler-fuzzer>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">2218</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="90727a339634b533b35035d035eb4316-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                </table>
+              </div>
+            </div>
           </div>
-          <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            
-            <tr class="text-s text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-              <th class="px-4 py-2">Name</th>
-              <th class="px-4 py-2">Description</th>
-              <th class="px-4 py-2">Homepage</th>
-              <th class="px-4 py-2">Repository</th>
-              <th class="px-4 py-2">3.1?</th>
-              <th class="px-4 py-2">3.0?</th>
-              <th class="px-4 py-2">2.0?</th>
-              <th class="px-4 py-2">Stars</th>
-            </tr>
-            
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="d27194a62778c331d662fae462dc8045-open-button">StackHawk HawkScan</button>
-                </td>
-                <td class="px-4 py-2">StackHawk is an application vulnerability scanner purpose built for developers to use in the DevOps pipeline. It leverages a provided OpenAPI v2 or v3 spec file for route discovery and enhanced scanning.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://stackhawk.com/>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/stackhawk>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="1b7c824e66c86452d1843ccac1465b71-open-button">42crunch</button>
-                </td>
-                <td class="px-4 py-2">A unique set of integrated API security tools that allow discovery, remediation of OpenAPI vulnerabilities and runtime protection against API attacks.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://42crunch.com/>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="9e0191ba47403298459b30242dbfe9ad-open-button">openapi-fuzzer</button>
-                </td>
-                <td class="px-4 py-2">Black-box fuzzer that fuzzes APIs based on OpenAPI specification. Find bugs for free!</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">449</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="a6ff4bc9abd488fc56bf9b04747b4051-open-button">cats</button>
-                </td>
-                <td class="px-4 py-2">CATS is a REST API Fuzzer and negative testing tool for OpenAPI endpoints. CATS automatically  generates, runs and reports tests with minimum configuration and no coding effort. Tests are self-healing and do not require maintenance.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/Endava/cats>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/endava/cats>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">962</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="aab65db9be3090f79ce65c7fc9808dce-open-button">API Insights</button>
-                </td>
-                <td class="px-4 py-2">RestCase executes hundrends of security and quality checks against the API definition, the API insights report provides detailed security scoring for prioritization, and remediation advice to help developers define the best API definition possible.</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://restcase.com/platform/security>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">N/A</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="9eedc1be44837a65f912bcf562844f39-open-button">OWASP ZAP</button>
-                </td>
-                <td class="px-4 py-2">The OWASP ZAP core project</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://www.zaproxy.org/>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/zaproxy/zaproxy>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">11073</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="f357b9cac35c5789bafaa767f4fc3b50-open-button">OpenAPI3 Fuzzer</button>
-                </td>
-                <td class="px-4 py-2">Simple fuzzer for OpenAPI 3 specification based APIs</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://pypi.org/project/openapi3-fuzzer/>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/vwt-digital/openapi3-fuzzer/tree/master>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">15</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="ce2ef79e2c9f1a119ca823d0afd8258b-open-button">Mayhem for API</button>
-                </td>
-                <td class="px-4 py-2"> 🤖 Run a Mayhem for API scan in GitHub Actions</td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://forallsecure.com/mayhem-for-api>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/forallsecure/mapi-action>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">20</td>
-              </tr>
-            
-              <tr class="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-white odd:bg-gray-50 even:dark:bg-gray-800 odd:dark:bg-gray-700">
-                <td scope="row" class="px-4 py-2 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                  <button type="button" id="90727a339634b533b35035d035eb4316-open-button">RESTler</button>
-                </td>
-                <td class="px-4 py-2">RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.</td>
-                <td class="px-4 py-2">
-                  N/A
-                </td>
-                <td class="px-4 py-2">
-                  
-                    <a target="_blank" href=https://github.com/microsoft/restler-fuzzer>Link</a>
-                  
-                </td>
-                <td class="px-4 py-2">No</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">Yes</td>
-                <td class="px-4 py-2">2207</td>
-              </tr>
-            
-          </table>
         </div>
       </div>
-    </div>
 
-    <!-- Overlay for a given tool -->
+      <!-- Overlay for a given tool -->
 
-    <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
+      <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50" id="modal">
 
-      <!-- Modal for a given tool -->
+        <!-- Modal for a given tool -->
 
-      <div class="relative top-40 mx-auto p-5 border w-2/5 shadow-lg rounded-md bg-white">
-        <div class="mt-3 text-center">
+        <div class="relative top-40 mx-auto p-5 border w-1/5 shadow-lg rounded-md bg-white">
+          <div class="mt-3 text-center">
 
-          <div id="tool-content"></div>
+            <div id="tool-content"></div>
 
-          <div class="items-center px-4 py-3">
-            <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+            <div class="items-center px-4 py-3 mt-8">
+              <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="tool-collection" hidden>
-      
+      <div id="tool-collection" hidden>
+        
 
-        <div id="d27194a62778c331d662fae462dc8045-info" hidden>
-          <h1 class="pb-8">StackHawk HawkScan</h1>
+          <div id="d27194a62778c331d662fae462dc8045-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/stackhawk>
+                <h1 class="pl-8 pr-8 text-2xl text-left">StackHawk HawkScan (link)</h1>
+              </a>
 
-          <p>StackHawk is an application vulnerability scanner purpose built for developers to use in the DevOps pipeline. It leverages a provided OpenAPI v2 or v3 spec file for route discovery and enhanced scanning.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="1b7c824e66c86452d1843ccac1465b71-info" hidden>
-          <h1 class="pb-8">42crunch</h1>
+          <div id="1b7c824e66c86452d1843ccac1465b71-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">42crunch (link)</h1>
+              </a>
 
-          <p>A unique set of integrated API security tools that allow discovery, remediation of OpenAPI vulnerabilities and runtime protection against API attacks.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="9e0191ba47403298459b30242dbfe9ad-info" hidden>
-          <h1 class="pb-8">openapi-fuzzer</h1>
+          <div id="9e0191ba47403298459b30242dbfe9ad-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/matusf/openapi-fuzzer>
+                <h1 class="pl-8 pr-8 text-2xl text-left">openapi-fuzzer (link)</h1>
+              </a>
 
-          <p>Black-box fuzzer that fuzzes APIs based on OpenAPI specification. Find bugs for free!</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">matusf</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">449</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">7</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">15</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2020-12-23T22:33:38Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-17T23:31:44Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">matusf</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">450</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">7</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">15</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-12-23T22:33:38Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-08-01T14:24:09Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Rust</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="a6ff4bc9abd488fc56bf9b04747b4051-info" hidden>
-          <h1 class="pb-8">cats</h1>
+          <div id="a6ff4bc9abd488fc56bf9b04747b4051-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/endava/cats>
+                <h1 class="pl-8 pr-8 text-2xl text-left">cats (link)</h1>
+              </a>
 
-          <p>CATS is a REST API Fuzzer and negative testing tool for OpenAPI endpoints. CATS automatically  generates, runs and reports tests with minimum configuration and no coding effort. Tests are self-healing and do not require maintenance.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">Endava</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">962</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">9</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">64</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2020-04-02T13:14:39Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-27T12:29:33Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">Endava</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">964</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">10</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">63</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-04-02T13:14:39Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-07-29T12:18:19Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Java</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="aab65db9be3090f79ce65c7fc9808dce-info" hidden>
-          <h1 class="pb-8">API Insights</h1>
+          <div id="aab65db9be3090f79ce65c7fc9808dce-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">API Insights (link)</h1>
+              </a>
 
-          <p>RestCase executes hundrends of security and quality checks against the API definition, the API insights report provides detailed security scoring for prioritization, and remediation advice to help developers define the best API definition possible.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">N/A</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">SaaS</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="9eedc1be44837a65f912bcf562844f39-info" hidden>
-          <h1 class="pb-8">OWASP ZAP</h1>
+          <div id="9eedc1be44837a65f912bcf562844f39-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/zaproxy/zaproxy>
+                <h1 class="pl-8 pr-8 text-2xl text-left">OWASP ZAP (link)</h1>
+              </a>
 
-          <p>The OWASP ZAP core project</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">zaproxy</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">11073</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">397</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2104</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2015-06-03T16:55:01Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-27T05:20:49Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">zaproxy</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">11090</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">399</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">2105</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2015-06-03T16:55:01Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-08-02T02:37:46Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Java</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="f357b9cac35c5789bafaa767f4fc3b50-info" hidden>
-          <h1 class="pb-8">OpenAPI3 Fuzzer</h1>
+          <div id="f357b9cac35c5789bafaa767f4fc3b50-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/vwt-digital/openapi3-fuzzer/tree/master>
+                <h1 class="pl-8 pr-8 text-2xl text-left">OpenAPI3 Fuzzer (link)</h1>
+              </a>
 
-          <p>Simple fuzzer for OpenAPI 3 specification based APIs</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">vwt-digital</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">15</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">4</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">4</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2020-03-03T08:15:47Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-01-31T02:35:39Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">vwt-digital</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">15</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">4</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">4</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-03-03T08:15:47Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-01-31T02:35:39Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Python</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="ce2ef79e2c9f1a119ca823d0afd8258b-info" hidden>
-          <h1 class="pb-8">Mayhem for API</h1>
+          <div id="ce2ef79e2c9f1a119ca823d0afd8258b-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/forallsecure/mapi-action>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Mayhem for API (link)</h1>
+              </a>
 
-          <p> 🤖 Run a Mayhem for API scan in GitHub Actions</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">ForAllSecure</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">20</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">12</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">4</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2021-04-06T14:58:24Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-05-21T23:42:03Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">ForAllSecure</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">21</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">12</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">4</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2021-04-06T14:58:24Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-07-28T04:57:26Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">TypeScript</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
 
         
 
-        <div id="90727a339634b533b35035d035eb4316-info" hidden>
-          <h1 class="pb-8">RESTler</h1>
+          <div id="90727a339634b533b35035d035eb4316-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/microsoft/restler-fuzzer>
+                <h1 class="pl-8 pr-8 text-2xl text-left">RESTler (link)</h1>
+              </a>
 
-          <p>RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.</p>
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
 
-          <table class="border-collapse table-auto w-full text-sm">
-            <tbody>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Repository Owner</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">microsoft</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Stars</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2207</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Watchers</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">35</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Forks</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">253</td>
-              </tr>
-              <tr>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Created</td>
-                <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2020-07-24T21:40:11Z</td>
-                <tr class="">
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 pl-8 text-slate-500 dark:text-slate-400">Last Updated</td>
-                  <td class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400">2023-07-26T17:38:35Z</td>
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">microsoft</td>
                 </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">2218</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">35</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">253</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-07-24T21:40:11Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-08-01T16:48:49Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Python</td>
+                </tr>
+
               </tbody>
             </table>
           </div>
@@ -592,12 +762,21 @@
         
       </div>
 
+      <script src="assets/index.js"></script>
       <script type="text/javascript">
-        const getCellValue = (tr, idx) => tr
-          .children[idx]
-          .innerText || tr
-          .children[idx]
-          .textContent;
+        const getCellValue = (tr, idx) => {
+          const value = tr
+            .children[idx]
+            .innerText || tr
+            .children[idx]
+            .textContent
+
+          if (value === 'N/A') {
+            return -1
+          }
+
+          return value
+        };
         const comparer = (idx, asc) => (a, b) => (
           (v1, v2) => v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)
           ? v1 - v2
@@ -627,6 +806,46 @@
 
         const modal = document.getElementById("modal");
         const toolCloseButton = document.getElementById("modal-close-button");
+        const getTableCellValue = function (row, index) {
+          const cell = row.getElementsByTagName("td")[index];
+
+          if (cell) {
+            return (
+              cell
+              ? cell.textContent || cell.innerText
+              : "").toLowerCase()
+          }
+
+          return null;
+        }
+        const isSearchMatch = function (words, name, description) {
+          return words
+            .filter((word) => name.indexOf(word) > -1 || description.indexOf(word) > -1)
+            .length === words.length
+        }
+
+        const searchNamesDescriptions = function () {
+          const input = document.getElementById("search-by-name-and-description");
+          const words = input
+            .value
+            .toLowerCase()
+            .split(" ")
+          const table = document.getElementById("tools-table");
+          const tr = table.getElementsByTagName("tr");
+
+          for (i = 0; i < tr.length; i++) {
+            const name = getTableCellValue(tr[i], 0)
+            const description = getTableCellValue(tr[i], 1)
+
+            if (name || description) {
+              if (isSearchMatch(words, name, description)) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
 
         const closeModal = function () {
           const collection = document.getElementById("tool-collection")
@@ -645,141 +864,124 @@
 
         
 
-          let toolOpenButton d27194a62778c331d662fae462dc8045 = document.getElementById("d27194a62778c331d662fae462dc8045-open-button");
+          
 
-          toolOpenButton d27194a62778c331d662fae462dc8045.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("d27194a62778c331d662fae462dc8045-info")
+          
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
+            document
+              .getElementById("9e0191ba47403298459b30242dbfe9ad-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("9e0191ba47403298459b30242dbfe9ad-info")
 
-          let toolOpenButton 1b7c824e66c86452d1843ccac1465b71 = document.getElementById("1b7c824e66c86452d1843ccac1465b71-open-button");
+                content.removeAttribute("hidden")
 
-          toolOpenButton 1b7c824e66c86452d1843ccac1465b71.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("1b7c824e66c86452d1843ccac1465b71-info")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
+            document
+              .getElementById("a6ff4bc9abd488fc56bf9b04747b4051-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("a6ff4bc9abd488fc56bf9b04747b4051-info")
 
-        
+                content.removeAttribute("hidden")
 
-          let toolOpenButton 9e0191ba47403298459b30242dbfe9ad = document.getElementById("9e0191ba47403298459b30242dbfe9ad-open-button");
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-          toolOpenButton 9e0191ba47403298459b30242dbfe9ad.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("9e0191ba47403298459b30242dbfe9ad-info")
+          
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
 
-        
+          
+            document
+              .getElementById("9eedc1be44837a65f912bcf562844f39-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("9eedc1be44837a65f912bcf562844f39-info")
 
-          let toolOpenButton a6ff4bc9abd488fc56bf9b04747b4051 = document.getElementById("a6ff4bc9abd488fc56bf9b04747b4051-open-button");
+                content.removeAttribute("hidden")
 
-          toolOpenButton a6ff4bc9abd488fc56bf9b04747b4051.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("a6ff4bc9abd488fc56bf9b04747b4051-info")
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-            content.removeAttribute("hidden")
+          
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+          
+            document
+              .getElementById("f357b9cac35c5789bafaa767f4fc3b50-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("f357b9cac35c5789bafaa767f4fc3b50-info")
 
-        
+                content.removeAttribute("hidden")
 
-          let toolOpenButton aab65db9be3090f79ce65c7fc9808dce = document.getElementById("aab65db9be3090f79ce65c7fc9808dce-open-button");
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-          toolOpenButton aab65db9be3090f79ce65c7fc9808dce.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("aab65db9be3090f79ce65c7fc9808dce-info")
+          
 
-            content.removeAttribute("hidden")
+          
+            document
+              .getElementById("ce2ef79e2c9f1a119ca823d0afd8258b-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("ce2ef79e2c9f1a119ca823d0afd8258b-info")
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+                content.removeAttribute("hidden")
 
-        
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-          let toolOpenButton 9eedc1be44837a65f912bcf562844f39 = document.getElementById("9eedc1be44837a65f912bcf562844f39-open-button");
+          
 
-          toolOpenButton 9eedc1be44837a65f912bcf562844f39.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("9eedc1be44837a65f912bcf562844f39-info")
+          
+            document
+              .getElementById("90727a339634b533b35035d035eb4316-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("90727a339634b533b35035d035eb4316-info")
 
-            content.removeAttribute("hidden")
+                content.removeAttribute("hidden")
 
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
 
-        
+          
 
-          let toolOpenButton f357b9cac35c5789bafaa767f4fc3b50 = document.getElementById("f357b9cac35c5789bafaa767f4fc3b50-open-button");
-
-          toolOpenButton f357b9cac35c5789bafaa767f4fc3b50.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("f357b9cac35c5789bafaa767f4fc3b50-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton ce2ef79e2c9f1a119ca823d0afd8258b = document.getElementById("ce2ef79e2c9f1a119ca823d0afd8258b-open-button");
-
-          toolOpenButton ce2ef79e2c9f1a119ca823d0afd8258b.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("ce2ef79e2c9f1a119ca823d0afd8258b-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-          let toolOpenButton 90727a339634b533b35035d035eb4316 = document.getElementById("90727a339634b533b35035d035eb4316-open-button");
-
-          toolOpenButton 90727a339634b533b35035d035eb4316.onclick = function () {
-            const wrapper = document.getElementById("tool-content")
-            const content = document.getElementById("90727a339634b533b35035d035eb4316-info")
-
-            content.removeAttribute("hidden")
-
-            wrapper.appendChild(content)
-            modal.style.display = "block";
-          }
-
-        
-
-        document.addEventListener('keydown', (event) => {
-          if (event.key === 'Escape') {
-            closeModal();
-          }
-        })
+          document
+          .addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+              closeModal();
+            }
+          })
 
         window.onclick = function (event) {
           if (event.target == modal) {
-            modal.style.display = "none";
+            closeModal();
           }
         }
       </script>
