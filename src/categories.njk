@@ -37,11 +37,11 @@ permalink: categories/{{ category.category | slug }}.html
 
         <div class="sm:-mx-6 lg:-mx-8">
           <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-            <div class="py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8">
+            <div class="sticky top-12 z-40 py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
               <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
                 <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
               </svg>
-              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4" id="search-by-name-and-description" placeholder="Filter by keywords"/>
+              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
             </div>
             <div class="overflow-hidden">
               <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
@@ -91,7 +91,7 @@ permalink: categories/{{ category.category | slug }}.html
 
       <!-- Overlay for a given tool -->
 
-      <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="modal">
+      <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50" id="modal">
 
         <!-- Modal for a given tool -->
 
@@ -112,7 +112,9 @@ permalink: categories/{{ category.category | slug }}.html
 
           <div id="{{tool.id}}-info" class="text-lg" hidden>
             <div>
-              <h1 class="pl-8 pr-8 text-2xl text-left">{{tool.displayName}}</h1>
+              <a href={{tool.repository}}>
+                <h1 class="pl-8 pr-8 text-2xl text-left">{{tool.displayName}} (link)</h1>
+              </a>
 
               <div class="relative flex py-5 items-center">
                 <div class="flex-grow border-t border-gray-400"></div>
