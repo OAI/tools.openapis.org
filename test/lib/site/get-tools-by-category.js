@@ -11,7 +11,7 @@ describe(__filename, () => {
     const input = YAML.load(fs.readFileSync(`${__dirname}/../../data/site/tools.yaml`))
       .slice(0, 10);
 
-    fs.writeFileSync(`${__dirname}/../../data/site/tools-by-category.yaml`, YAML.dump(getToolsByCategory(input), { noRefs: true }));
+    // fs.writeFileSync(`${__dirname}/../../data/site/tools-by-category.yaml`, YAML.dump(getToolsByCategory(input), { noRefs: true }));
 
     const expected = YAML.load(fs.readFileSync(`${__dirname}/../../data/site/tools-by-category.yaml`));
 

@@ -7,3 +7,7 @@
 
 
 .github-fork-ribbon:before { background-color: #94c73d; }
+
+.sortable-heading {
+  cursor: pointer;
+}
