@@ -71,6 +71,29 @@
                 
                 
                   <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">wiretap</td>
+                    <td class="px-4 py-2">The world&#39;s coolest API Validation and compliance tool. Validate APIs against OpenAPI specifications and much more</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://pb33f.io/wiretap/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/pb33f/wiretap>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">11</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="2dbdc7a84f951a79e04f72967a3342be-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
                     <td scope="row" class="px-4 py-2 whitespace-nowrap">Schemathesis</td>
                     <td class="px-4 py-2">Guarantee flawless API functionality with thorough, high-quality test scenarios generated from your API specification.</td>
                     <td class="px-4 py-2">
@@ -142,6 +165,58 @@
       </div>
 
       <div id="tool-collection" hidden>
+        
+
+          <div id="2dbdc7a84f951a79e04f72967a3342be-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/pb33f/wiretap>
+                <h1 class="pl-8 pr-8 text-2xl text-left">wiretap (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">pb33f</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">11</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">1</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">2</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2023-05-01T17:19:15Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-08-09T11:03:47Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">TypeScript</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
         
 
           <div id="f4032fb371a703acffa691c0f1239d45-info" class="text-lg" hidden>
@@ -350,6 +425,22 @@
         toolCloseButton.onclick = closeModal;
 
         
+
+          
+            document
+              .getElementById("2dbdc7a84f951a79e04f72967a3342be-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("2dbdc7a84f951a79e04f72967a3342be-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
 
           
             document
