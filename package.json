@@ -22,7 +22,11 @@
   },
   "dependencies": {
     "ajv": "^8.10.0",
+    "axios": "^0.27.2",
+
+    "ajv": "^8.12.0",
     "axios": "^0.24.0",
+
     "bayes": "^1.0.0",
     "bluebird": "^3.7.2",
     "fancy-log": "^1.3.3",
@@ -32,7 +36,7 @@
     "gulp-cli": "^2.3.0",
     "js-yaml": "^4.1.0",
     "jsonpath": "^1.1.1",
-    "lzutf8": "^0.6.0",
+    "lzutf8": "^0.6.3",
     "talisman": "^1.1.4",
     "tw-elements": "^1.0.0-beta2",
     "yargs": "^17.2.1"
