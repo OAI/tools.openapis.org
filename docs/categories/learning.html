@@ -1,0 +1,1019 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../assets/main.css"/>
+  </head>
+  <body>
+    <a class="github-fork-ribbon" href="https://github.com/OAI/Tooling" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
+    <div class="flex flex-col">
+
+      <div class="sticky top-0 w-full bg-white border-b border-gray-300 z-30 ">
+  <div class="bg-white max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto z-50">
+    <div class="flex w-full justify-between items-center py-2 lg:justify-start lg:space-x-10">
+      <div class="lg:w-auto lg:flex-1">
+        <div class="flex">
+          <a href="/"><img class="object-contain h-16 w-44" alt="OpenAPI Initiative"
+              src="https://www.openapis.org/wp-content/uploads/sites/3/2018/02/OpenAPI_Logo_Pantone-1.png"></a>
+          <nav class="hidden lg:flex lg:items-center lg:justify-end space-x-6 xl:space-x-10 w-full">
+
+            <a target="_self" rel="noopener noreferrer"
+            class="text-secondary-500 font-bold font-body text-base leading-6 text-gray-700 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+            href="/">Home</a>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="container mx-auto">
+
+        <div class="text-center">
+          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
+            Learning</h1>
+
+          <h2
+          class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
+          Click on a heading to sort.
+          <br>
+          Filter using one or more keywords
+          <br>
+          Click the More Details button for more information on a tool
+          <br><br>
+          Note: The homepage and repository links may lead to the same place!
+        </h2>
+        </div>
+
+        <div class="sm:-mx-6 lg:-mx-8">
+          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+            <div class="sticky top-12 z-40 py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
+              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
+                <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
+              </svg>
+              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
+            </div>
+            <div class="overflow-hidden">
+              <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
+                
+                <tr class="text-s text-center text-black border-b  border-neutral-500">
+                  <th class="sortable-heading px-4 py-2">Name</th>
+                  <th class="sortable-heading px-4 py-2">Description</th>
+                  <th class="sortable-heading px-4 py-2">Homepage</th>
+                  <th class="sortable-heading px-4 py-2">Repository</th>
+                  <th class="sortable-heading px-4 py-2">3.1?</th>
+                  <th class="sortable-heading px-4 py-2">3.0?</th>
+                  <th class="sortable-heading px-4 py-2">2.0?</th>
+                  <th class="sortable-heading px-4 py-2">Stars</th>
+                  <th class="px-4 py-2">Properties</th>
+                </tr>
+                
+                
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">optic diff</td>
+                    <td class="px-4 py-2">OpenAPI linting, diffing and testing. Optic helps prevent breaking changes, publish accurate documentation and improve the design of your APIs.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://www.useoptic.com/docs/diff-openapi,https://useoptic.com>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/opticdev/optic>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">1201</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="8c3d08406ca659662808d51ddc10b4e4-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Swagger Inspector</td>
+                    <td class="px-4 py-2">Run mock requests in a webapp and Swagger Inspector infers your OpenAPI description.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://swagger.io/tools/swagger-inspector/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Response2Schema</td>
+                    <td class="px-4 py-2">A quick and easy tool for generating OpenAPI schemas.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/dsuurlant/response2schema>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/dsuurlant/response2schema>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">81</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="ee1da7e4ea9bb6a42233ac4702ceebf7-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">InducOapi</td>
+                    <td class="px-4 py-2">A simple python module to generate OpenAPI Description Documents by supplying request/response bodies.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://pypi.org/project/inducoapi>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/thewall89/inducoapi>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">12</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="2829ee121d0fb8321fc8c0dbe2c74103-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Fitting</td>
+                    <td class="px-4 py-2">Library add improve test log for RSpec and WebMock, validate its according to API Blueprint and Open API, show the documentation coverage with log.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/matchtechnologies/fitting>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/matchtechnologies/fitting>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">47</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="cc617beb32d7138f1537294767083922-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">docs</td>
+                    <td class="px-4 py-2">:memo: Documentation for the OpenCars API </td>
+                    <td class="px-4 py-2">
+                      No
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/opencars/docs>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">1</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="af4731daa82dd0f855d601ad5531103d-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Fitting</td>
+                    <td class="px-4 py-2">Library add improve test log for RSpec and WebMock, validate its according to API Blueprint and Open API, show the documentation coverage with log.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/funbox/fitting>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/funbox/fitting>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">N/A</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="9aafc5713bc07ef13ec4f56258385ca1-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">APIClarity</td>
+                    <td class="px-4 py-2">An API security tool to capture and analyze API traffic, test API endpoints, reconstruct Open API specification, and identify API security risks. </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://apiclarity.io/>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/openclarity/apiclarity>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">432</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="68b981acc13af75d4eb8c04143885e13-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Meeshkan</td>
+                    <td class="px-4 py-2">The Meeshkan frontend stack monorepo.</td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/meeshkan/meeshkan>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">
+                      
+                        <a target="_blank" href=https://github.com/meeshkan/meeshkan>Link</a>
+                      
+                    </td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">Yes</td>
+                    <td class="px-4 py-2">No</td>
+                    <td class="px-4 py-2">2</td>
+                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
+                      
+                        <button type="button" id="7e8e0d0c7a10ec695d4736865a7f573b-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
+                      
+                    </tr>
+                  
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Overlay for a given tool -->
+
+      <div class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50" id="modal">
+
+        <!-- Modal for a given tool -->
+
+        <div class="relative top-40 mx-auto p-5 border w-1/5 shadow-lg rounded-md bg-white">
+          <div class="mt-3 text-center">
+
+            <div id="tool-content"></div>
+
+            <div class="items-center px-4 py-3 mt-8">
+              <button id="modal-close-button" class="px-4 py-2 bg-lightgreen text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-lightgreen focus:outline-none focus:ring-2 focus:ring-lightgreen">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tool-collection" hidden>
+        
+
+          <div id="8c3d08406ca659662808d51ddc10b4e4-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/opticdev/optic>
+                <h1 class="pl-8 pr-8 text-2xl text-left">optic diff (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">opticdev</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">1201</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">11</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">65</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2018-03-02T17:02:50Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-10-13T20:03:49Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">TypeScript</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="4fe9bd57d14e8597029d05f3e477dc61-info" class="text-lg" hidden>
+            <div>
+              <a href=>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Swagger Inspector (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4"></td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">SaaS</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="ee1da7e4ea9bb6a42233ac4702ceebf7-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/dsuurlant/response2schema>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Response2Schema (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">dsuurlant</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">81</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">4</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">3</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-05-24T16:00:11Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-09-22T10:38:20Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">PHP</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="2829ee121d0fb8321fc8c0dbe2c74103-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/thewall89/inducoapi>
+                <h1 class="pl-8 pr-8 text-2xl text-left">InducOapi (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">TheWall89</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">12</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">3</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">3</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-01-09T17:43:54Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-09-15T14:25:18Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Python</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="cc617beb32d7138f1537294767083922-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/matchtechnologies/fitting>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Fitting (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">matchtechnologies</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">47</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">9</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">7</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2017-02-06T09:32:39Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-10-12T19:36:05Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Ruby</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="af4731daa82dd0f855d601ad5531103d-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/opencars/docs>
+                <h1 class="pl-8 pr-8 text-2xl text-left">docs (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">opencars</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">1</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">1</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">0</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-01-08T08:39:27Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2022-12-09T11:36:26Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">HTML</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="9aafc5713bc07ef13ec4f56258385ca1-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/funbox/fitting>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Fitting (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">funbox</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">N/A</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">0</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">0</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2023-10-06T16:56:37Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-10-06T16:56:37Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4"></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="68b981acc13af75d4eb8c04143885e13-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/openclarity/apiclarity>
+                <h1 class="pl-8 pr-8 text-2xl text-left">APIClarity (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">openclarity</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">432</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">22</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">61</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2021-09-02T13:41:19Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-10-17T18:18:20Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">No</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">Go</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+
+          <div id="7e8e0d0c7a10ec695d4736865a7f573b-info" class="text-lg" hidden>
+            <div>
+              <a href=https://github.com/meeshkan/meeshkan>
+                <h1 class="pl-8 pr-8 text-2xl text-left">Meeshkan (link)</h1>
+              </a>
+
+              <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-400"></div>
+              </div>
+
+            </div>
+            <table class="border-collapse table-auto w-full">
+              <tbody>
+                <tr>
+                  <td class="p-4 pl-8">Repository Owner</td>
+                  <td class="p-4">meeshkan</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Stars</td>
+                  <td class="p-4">2</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Watchers</td>
+                  <td class="p-4">3</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Forks</td>
+                  <td class="p-4">1</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Created</td>
+                  <td class="p-4">2020-11-12T02:01:32Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Last Updated</td>
+                  <td class="p-4">2023-01-27T19:33:58Z</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Archived</td>
+                  <td class="p-4">Yes</td>
+                </tr>
+                <tr>
+                  <td class="p-4 pl-8">Language</td>
+                  <td class="p-4">TypeScript</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+        
+      </div>
+
+      <script src="assets/index.js"></script>
+      <script type="text/javascript">
+        const getCellValue = (tr, idx) => {
+          const value = tr
+            .children[idx]
+            .innerText || tr
+            .children[idx]
+            .textContent
+
+          if (value === 'N/A') {
+            return -1
+          }
+
+          return value
+        };
+        const comparer = (idx, asc) => (a, b) => (
+          (v1, v2) => v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)
+          ? v1 - v2
+          : v1.toString().localeCompare(v2))(getCellValue(
+          asc
+          ? a
+          : b,
+        idx), getCellValue(
+          asc
+          ? b
+          : a,
+        idx));
+
+        document
+          .querySelectorAll('th')
+          .forEach(th => th.addEventListener('click', (() => {
+            const table = th.closest('table');
+
+            Array
+              .from(table.querySelectorAll('tr:nth-child(n+2)'))
+              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+              .forEach(tr => table.appendChild(tr));
+          })));
+      </script>
+
+      <script type="text/javascript">
+
+        const modal = document.getElementById("modal");
+        const toolCloseButton = document.getElementById("modal-close-button");
+        const getTableCellValue = function (row, index) {
+          const cell = row.getElementsByTagName("td")[index];
+
+          if (cell) {
+            return (
+              cell
+              ? cell.textContent || cell.innerText
+              : "").toLowerCase()
+          }
+
+          return null;
+        }
+        const isSearchMatch = function (words, name, description) {
+          return words
+            .filter((word) => name.indexOf(word) > -1 || description.indexOf(word) > -1)
+            .length === words.length
+        }
+
+        const searchNamesDescriptions = function () {
+          const input = document.getElementById("search-by-name-and-description");
+          const words = input
+            .value
+            .toLowerCase()
+            .split(" ")
+          const table = document.getElementById("tools-table");
+          const tr = table.getElementsByTagName("tr");
+
+          for (i = 0; i < tr.length; i++) {
+            const name = getTableCellValue(tr[i], 0)
+            const description = getTableCellValue(tr[i], 1)
+
+            if (name || description) {
+              if (isSearchMatch(words, name, description)) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
+
+        const closeModal = function () {
+          const collection = document.getElementById("tool-collection")
+          const wrapper = document.getElementById("tool-content")
+          const children = wrapper.children
+
+          for (let i = 0; i < children.length; i++) {
+            children[i].setAttribute("hidden", "")
+            collection.appendChild(children[i])
+          }
+
+          modal.style.display = "none";
+        }
+
+        toolCloseButton.onclick = closeModal;
+
+        
+
+          
+            document
+              .getElementById("8c3d08406ca659662808d51ddc10b4e4-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("8c3d08406ca659662808d51ddc10b4e4-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          
+
+          
+
+          
+            document
+              .getElementById("ee1da7e4ea9bb6a42233ac4702ceebf7-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("ee1da7e4ea9bb6a42233ac4702ceebf7-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          
+            document
+              .getElementById("2829ee121d0fb8321fc8c0dbe2c74103-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("2829ee121d0fb8321fc8c0dbe2c74103-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          
+            document
+              .getElementById("cc617beb32d7138f1537294767083922-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("cc617beb32d7138f1537294767083922-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          
+            document
+              .getElementById("af4731daa82dd0f855d601ad5531103d-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("af4731daa82dd0f855d601ad5531103d-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          
+            document
+              .getElementById("9aafc5713bc07ef13ec4f56258385ca1-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("9aafc5713bc07ef13ec4f56258385ca1-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          
+            document
+              .getElementById("68b981acc13af75d4eb8c04143885e13-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("68b981acc13af75d4eb8c04143885e13-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          
+            document
+              .getElementById("7e8e0d0c7a10ec695d4736865a7f573b-open-button")
+              .onclick = function () {
+                const wrapper = document.getElementById("tool-content")
+                const content = document.getElementById("7e8e0d0c7a10ec695d4736865a7f573b-info")
+
+                content.removeAttribute("hidden")
+
+                wrapper.appendChild(content)
+                modal.style.display = "block";
+              }
+            
+
+          
+
+          document
+          .addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+              closeModal();
+            }
+          })
+
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            closeModal();
+          }
+        }
+      </script>
+    </body>
+  </html>
