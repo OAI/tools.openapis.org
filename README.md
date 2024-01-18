@@ -18,7 +18,7 @@ The following projects are being leveraged to provide the majority of the source
 | Name                  | Source                                           | Description                                                                                                                                        |
 | --------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | OpenAPI Specification | https://github.com/OAI/OpenAPI-Specification     | IMPLEMENTATIONS.md file containing tooling list.                                                                                                   |
-| OpenAPI.Tools         | https://github.com/apisyouwonthate/openapi.tools | APIs Your Won't Hate efforts to create uber list of tooling.                                                                                       |
+| OpenAPI.Tools         | https://github.com/apisyouwonthate/openapi.tools | APIs You Won't Hate efforts to create uber list of tooling.                                                                                       |
 | APIs.guru             | https://github.com/apis-guru/awesome-openapi3    | Repository/site based on tagged repositories in Github.<br>This repository reuses the build approach rather than pulling the list from the source. |
 
 ## How Can You Help?
