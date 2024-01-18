@@ -163,7 +163,7 @@ You should also consider whether to test with a subset of master data from `src/
 
 ## Website
 
-The website is a static site built from the tooling data. It is exposed by GitHub Pages and can be found [here](https://oai.github.io/Tooling).
+The website is a static site built from the tooling data. It is exposed by GitHub Pages and can be found [here](https://tools.openapis.org/).
 
 The design of the site is intentionally "lean", and provides the tooling list by category (the categorisation being done as described [above](#full-build)).
 
