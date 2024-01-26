@@ -14,3 +14,20 @@
     updatedAt: '2023-03-30T09:50:49Z'
     url: 'https://github.com/OAI/Tooling/issues/0'
     status: 'open'
+- name: Apidog
+  source:
+  - Tooling repository issues
+  source_description: |
+    'Apidog is an integrated collaboration platform for API documentation, API debugging, API mocking, and API automated testing that combines Postman + Swagger + Mock + JMeter to tackle the data synchronization problem among different systems using a set of systems and a set of data. API debugging, API data mocking, and API automated testing can be directly used without redefining as long as the API documentation is well-defined.'
+  link: "https://www.apidog.com"
+  v3_1: true        
+  v3: true
+  v2: true
+  sourceIssueMetadata:
+    author: issueRaiser
+    createdAt: 2023-03-30T09:37:02Z
+    issueNumber: 3
+    status: open
+    updatedAt: 2023-03-30T09:50:49Z
+    url: https://github.com/OAI/Tooling/issues/3
+
