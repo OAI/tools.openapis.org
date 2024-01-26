@@ -1,0 +1,24 @@
+name: Rebuild site (adhoc)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rebuild-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 17
+      - run: sudo apt-get update && sudo apt-get install -y git
+      - run: yarn install --frozen-lockfile
+      - run: yarn run build:site
+        env:
+          HOSTED_AT: ${{secrets.HOSTED_AT}}
+      - run: git config --global user.name "Tooling Builder"
+      - run: git config --global user.email "tooling@openapis.org"
+      - run: |
+          git add docs/categories
+          git commit -a -m "chore: Rebuild site assets (adhoc)"
+          git push origin main
