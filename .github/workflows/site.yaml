@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  get-metadata:
+  rebuild-site:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
