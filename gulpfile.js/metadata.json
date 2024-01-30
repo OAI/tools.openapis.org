@@ -8,11 +8,6 @@
   ],
   "sources": [
     {
-      "title": "IMPLEMENTATIONS.md",
-      "url": "https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/IMPLEMENTATIONS.md",
-      "processor": "../processors/openapi-implementations-md-processor.js"
-    },
-    {
       "title": "https://openapi.tools/",
       "url": "https://raw.githubusercontent.com/apisyouwonthate/openapi.tools/master/_data/tools.yml",
       "processor": "../processors/openapi-tools-processor.js"
