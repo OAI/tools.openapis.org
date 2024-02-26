@@ -1,11 +1,11 @@
 # OpenAPI Tooling
 
-This project is provided by the OpenAPI Initiative as a means to centralize ecosystem information on OpenAPI-related tooling. It leverages open source projects that have gone before to provide a consolidated list of tooling.
+This project is provided by the OpenAPI Initiative as a means to centralize ecosystem information on OpenAPI-related tooling. It leverages open-source projects that have gone before to provide a consolidated list of tooling.
 
 The project is split into two features:
 
-- A list of tooling merged from sources across the interwebs that users can grab and slice-and-dice as they see fit.
-- A website that allows users to search and inspect the tooling data first hand.
+- A list of tooling merged from sources across the interwebs that users can grab and slice and dice as they see fit.
+- A website that allows users to search and inspect the tooling data first-hand.
 
 Each is expanded upon in the sections below.
 
@@ -15,11 +15,10 @@ The project Kanban board for Tooling can be found here: https://github.com/OAI/P
 
 The following projects are being leveraged to provide the majority of the source information.
 
-| Name                  | Source                                           | Description                                                                                                                                        |
-| --------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OpenAPI Specification | https://github.com/OAI/OpenAPI-Specification     | IMPLEMENTATIONS.md file containing tooling list.                                                                                                   |
-| OpenAPI.Tools         | https://github.com/apisyouwonthate/openapi.tools | APIs You Won't Hate efforts to create uber list of tooling.                                                                                       |
-| APIs.guru             | https://github.com/apis-guru/awesome-openapi3    | Repository/site based on tagged repositories in Github.<br>This repository reuses the build approach rather than pulling the list from the source. |
+| Name          | Source                                           | Description                                                                                                                                        |
+| ------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OpenAPI.Tools | https://github.com/apisyouwonthate/openapi.tools | APIs You Won't Hate efforts to create uber list of tooling.                                                                                        |
+| APIs.guru     | https://github.com/apis-guru/awesome-openapi3    | Repository/site based on tagged repositories in Github.<br>This repository reuses the build approach rather than pulling the list from the source. |
 
 ## How Can You Help?
 
@@ -39,7 +38,7 @@ If you aren't familiar with topics in GitHub please follow [this guide](https://
 
 The tooling list is built in largely the same format as the majority of projects that have blazed a trail in tooling before (which of course this project takes full advantage of).
 
-In order to bring this together in a sensible way a Gulp-based process has been implemented. Gulp was chosen given the relative ease with which functions can be implemented to massage the data stream and to ensure the build is not closely-coupled to a (commercial) CI tool. There's a couple of principles around the design worth stating:
+In order to bring this together in a sensible way a Gulp-based process has been implemented. Gulp was chosen given the relative ease with which functions can be implemented to massage the data stream and to ensure the build is not closely coupled to a (commercial) CI tool. There are a couple of principles around the design worth stating:
 
 - The transform functions that massage the data are abstracted away from Gulp to enable the build to "lift-and-shift" to a new build tool as required.
 - Pipes between functions are always formatted as YAML to allow for simple dumping of the data for humans appraisal.
