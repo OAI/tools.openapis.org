@@ -1,5 +1,6 @@
-<div class="sticky top-0 w-full bg-white border-b border-gray-300 z-30 ">
-  <div class="bg-white max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto z-50">
+<div class="sticky top-0 w-full bg-white border-b border-gray-300 z-30 grid grid-cols-10">
+  <div class="col-span-1"></div>
+  <div class="col-span-8">
     <div class="flex w-full justify-between items-center py-2 lg:justify-start lg:space-x-10">
       <div class="lg:w-auto lg:flex-1">
         <div class="flex">
@@ -12,8 +13,8 @@
             href="{% if hostedAt === true %}/{% else %}{{hostedAt}}{% endif %}">Home</a>
           </nav>
         </div>
-
       </div>
     </div>
   </div>
+  <div class="col-span-1"></div>
 </div>
