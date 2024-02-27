@@ -1,6 +1,11 @@
 
 <html>
   <head>
+    <title>
+      Security
+      
+    </title>
+    <link rel="shortcut icon" href="https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png">
     <link rel="stylesheet" type="text/css" href="../assets/main.css"/>
   </head>
   <body>
@@ -8,8 +13,9 @@
 
     <div class="flex flex-col">
 
-      <div class="sticky top-0 w-full bg-white border-b border-gray-300 z-30 ">
-  <div class="bg-white max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto z-50">
+      <div class="sticky top-0 w-full bg-white border-b border-gray-300 z-30 grid grid-cols-10">
+  <div class="col-span-1"></div>
+  <div class="col-span-8">
     <div class="flex w-full justify-between items-center py-2 lg:justify-start lg:space-x-10">
       <div class="lg:w-auto lg:flex-1">
         <div class="flex">
@@ -22,19 +28,17 @@
             href="/">Home</a>
           </nav>
         </div>
-
       </div>
     </div>
   </div>
+  <div class="col-span-1"></div>
 </div>
 
-      <div class="container mx-auto">
+      <div class="text-center">
+        <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
+          Security</h1>
 
-        <div class="text-center">
-          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
-            Security</h1>
-
-          <h2
+        <h2
           class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
           Click on a heading to sort.
           <br>
@@ -44,294 +48,295 @@
           <br><br>
           Note: The homepage and repository links may lead to the same place!
         </h2>
-        </div>
+      </div>
 
-        <div class="sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-            <div class="sticky top-12 z-40 py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
-              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
-                <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
-              </svg>
-              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
-            </div>
-            <div class="overflow-hidden">
-              <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
-                
-                <tr class="text-s text-center text-black border-b  border-neutral-500">
-                  <th class="sortable-heading px-4 py-2">Name</th>
-                  <th class="sortable-heading px-4 py-2">Description</th>
-                  <th class="sortable-heading px-4 py-2">Homepage</th>
-                  <th class="sortable-heading px-4 py-2">Repository</th>
-                  <th class="sortable-heading px-4 py-2">3.1?</th>
-                  <th class="sortable-heading px-4 py-2">3.0?</th>
-                  <th class="sortable-heading px-4 py-2">2.0?</th>
-                  <th class="sortable-heading px-4 py-2">Stars</th>
-                  <th class="px-4 py-2">Properties</th>
-                </tr>
-                
-                
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">ratemyopenapi</td>
-                    <td class="px-4 py-2">Free and open source OpenAPI automated review and validation tool.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://ratemyopenapi.com>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/zuplo/rate-my-openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">11</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="54fc718fad968b8a7eecd1e88f3fff99-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">StackHawk HawkScan</td>
-                    <td class="px-4 py-2">StackHawk is an application vulnerability scanner purpose built for developers to use in the DevOps pipeline. It leverages a provided OpenAPI v2 or v3 spec file for route discovery and enhanced scanning.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://stackhawk.com/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/stackhawk>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">FireTail</td>
-                    <td class="px-4 py-2">FireTail provides discovery, logging, posture management and in-line enforcement of APIs using OpenAPI. API governance is backed by cloud provider integrations and a suite of open-source application libraries.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.firetail.io/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/firetail-io>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">42crunch</td>
-                    <td class="px-4 py-2">A unique set of integrated API security tools that allow discovery, remediation of OpenAPI vulnerabilities and runtime protection against API attacks.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://42crunch.com/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-fuzzer</td>
-                    <td class="px-4 py-2">Black-box fuzzer that fuzzes APIs based on OpenAPI specification. Find bugs for free!</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">500</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="9e0191ba47403298459b30242dbfe9ad-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">cats</td>
-                    <td class="px-4 py-2">CATS is a REST API Fuzzer and negative testing tool for OpenAPI endpoints. CATS automatically  generates, runs and reports tests with minimum configuration and no coding effort. Tests are self-healing and do not require maintenance.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/Endava/cats>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/endava/cats>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">1051</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="a6ff4bc9abd488fc56bf9b04747b4051-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">API Insights</td>
-                    <td class="px-4 py-2">RestCase executes hundrends of security and quality checks against the API definition, the API insights report provides detailed security scoring for prioritization, and remediation advice to help developers define the best API definition possible.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://restcase.com/platform/security>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OWASP ZAP</td>
-                    <td class="px-4 py-2">The ZAP core project</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.zaproxy.org/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/zaproxy/zaproxy>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">11765</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="9eedc1be44837a65f912bcf562844f39-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OpenAPI3 Fuzzer</td>
-                    <td class="px-4 py-2">Simple fuzzer for OpenAPI 3 specification based APIs</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://pypi.org/project/openapi3-fuzzer/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/vwt-digital/openapi3-fuzzer/tree/master>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">17</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="f357b9cac35c5789bafaa767f4fc3b50-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Mayhem for API</td>
-                    <td class="px-4 py-2"> 🤖 Run a Mayhem for API scan in GitHub Actions</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://forallsecure.com/mayhem-for-api>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/forallsecure/mapi-action>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">23</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="ce2ef79e2c9f1a119ca823d0afd8258b-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Treblle</td>
-                    <td class="px-4 py-2">Treblle is a lightweight SDK that helps Engineering and Product teams build, ship, and maintain REST based APIs faster.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.treblle.com/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">RESTler</td>
-                    <td class="px-4 py-2">RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/microsoft/restler-fuzzer>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">2403</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="90727a339634b533b35035d035eb4316-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                </table>
-              </div>
-            </div>
+      <div class="grid grid-cols-10 w-full">
+        <div class="col-span-1"></div>
+        <div class="col-span-8">
+          <div class="sticky w-full top-12 z-40 py-1 px-4 flex rounded-lg border h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
+              <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
+            </svg>
+            <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
           </div>
+          <table id="tools-table" class="table-fixed w-full text-base text-left text-gray-500 dark:text-gray-400">
+            <thead>
+              <tr class="text-s text-center text-black border-b  border-neutral-500">
+                <th class="sortable-heading w-1/4">Name</th>
+                <th class="sortable-heading w-1/3">Description</th>
+                <th class="sortable-heading">Home</th>
+                <th class="sortable-heading">Repo</th>
+                <th class="sortable-heading">3.1?</th>
+                <th class="sortable-heading">3.0?</th>
+                <th class="sortable-heading">2.0?</th>
+                <th class="sortable-heading">Stars</th>
+                <th>Properties</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">ratemyopenapi</td>
+                  <td class="px-4 py-2 whitespace-normal">Free and open source OpenAPI automated review and validation tool.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://ratemyopenapi.com>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/zuplo/rate-my-openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">11</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="54fc718fad968b8a7eecd1e88f3fff99-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">StackHawk HawkScan</td>
+                  <td class="px-4 py-2 whitespace-normal">StackHawk is an application vulnerability scanner purpose built for developers to use in the DevOps pipeline. It leverages a provided OpenAPI v2 or v3 spec file for route discovery and enhanced scanning.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://stackhawk.com/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/stackhawk>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">FireTail</td>
+                  <td class="px-4 py-2 whitespace-normal">FireTail provides discovery, logging, posture management and in-line enforcement of APIs using OpenAPI. API governance is backed by cloud provider integrations and a suite of open-source application libraries.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.firetail.io/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/firetail-io>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">42crunch</td>
+                  <td class="px-4 py-2 whitespace-normal">A unique set of integrated API security tools that allow discovery, remediation of OpenAPI vulnerabilities and runtime protection against API attacks.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://42crunch.com/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi-fuzzer</td>
+                  <td class="px-4 py-2 whitespace-normal">Black-box fuzzer that fuzzes APIs based on OpenAPI specification. Find bugs for free!</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/matusf/openapi-fuzzer>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">500</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="9e0191ba47403298459b30242dbfe9ad-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">cats</td>
+                  <td class="px-4 py-2 whitespace-normal">CATS is a REST API Fuzzer and negative testing tool for OpenAPI endpoints. CATS automatically  generates, runs and reports tests with minimum configuration and no coding effort. Tests are self-healing and do not require maintenance.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/Endava/cats>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/endava/cats>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">1051</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="a6ff4bc9abd488fc56bf9b04747b4051-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">API Insights</td>
+                  <td class="px-4 py-2 whitespace-normal">RestCase executes hundrends of security and quality checks against the API definition, the API insights report provides detailed security scoring for prioritization, and remediation advice to help developers define the best API definition possible.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://restcase.com/platform/security>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OWASP ZAP</td>
+                  <td class="px-4 py-2 whitespace-normal">The ZAP core project</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.zaproxy.org/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/zaproxy/zaproxy>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">11765</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="9eedc1be44837a65f912bcf562844f39-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OpenAPI3 Fuzzer</td>
+                  <td class="px-4 py-2 whitespace-normal">Simple fuzzer for OpenAPI 3 specification based APIs</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://pypi.org/project/openapi3-fuzzer/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/vwt-digital/openapi3-fuzzer/tree/master>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">17</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="f357b9cac35c5789bafaa767f4fc3b50-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">Mayhem for API</td>
+                  <td class="px-4 py-2 whitespace-normal"> 🤖 Run a Mayhem for API scan in GitHub Actions</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://forallsecure.com/mayhem-for-api>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/forallsecure/mapi-action>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">23</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="ce2ef79e2c9f1a119ca823d0afd8258b-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">Treblle</td>
+                  <td class="px-4 py-2 whitespace-normal">Treblle is a lightweight SDK that helps Engineering and Product teams build, ship, and maintain REST based APIs faster.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.treblle.com/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">RESTler</td>
+                  <td class="px-4 py-2 whitespace-normal">RESTler is the first stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/microsoft/restler-fuzzer>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">2403</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="90727a339634b533b35035d035eb4316-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+              </tbody>
+            </table>
+          </div>
+          <div class="col-span-1"></div>
         </div>
       </div>
 
@@ -368,7 +373,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">zuplo</td>
@@ -401,8 +406,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -420,7 +424,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4"></td>
@@ -453,8 +457,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">SaaS</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -472,7 +475,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4"></td>
@@ -505,8 +508,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">SaaS</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -524,7 +526,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4"></td>
@@ -557,8 +559,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">SaaS</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -576,7 +577,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">matusf</td>
@@ -609,8 +610,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Rust</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -628,7 +628,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">Endava</td>
@@ -661,8 +661,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Java</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -680,7 +679,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4"></td>
@@ -713,8 +712,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">SaaS</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -732,7 +730,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">zaproxy</td>
@@ -765,8 +763,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Java</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -784,7 +781,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">vwt-digital</td>
@@ -817,8 +814,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -836,7 +832,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">ForAllSecure</td>
@@ -869,8 +865,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -888,7 +883,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4"></td>
@@ -921,8 +916,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4"></td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -940,7 +934,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">microsoft</td>
@@ -973,8 +967,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1013,11 +1006,13 @@
           .querySelectorAll('th')
           .forEach(th => th.addEventListener('click', (() => {
             const table = th.closest('table');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            let asc = th.asc = !th.asc; // Toggle the sort direction
 
-            Array
-              .from(table.querySelectorAll('tr:nth-child(n+2)'))
-              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-              .forEach(tr => table.appendChild(tr));
+            rows
+              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), asc))
+              .forEach(tr => tbody.appendChild(tr)); // Re-append rows in sorted order
           })));
       </script>
 

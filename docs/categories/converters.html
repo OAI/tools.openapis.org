@@ -1,6 +1,11 @@
 
 <html>
   <head>
+    <title>
+      Converters
+      
+    </title>
+    <link rel="shortcut icon" href="https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png">
     <link rel="stylesheet" type="text/css" href="../assets/main.css"/>
   </head>
   <body>
@@ -8,8 +13,9 @@
 
     <div class="flex flex-col">
 
-      <div class="sticky top-0 w-full bg-white border-b border-gray-300 z-30 ">
-  <div class="bg-white max-w-screen-xl block px-4 sm:px-6 lg:px-8 mx-auto z-50">
+      <div class="sticky top-0 w-full bg-white border-b border-gray-300 z-30 grid grid-cols-10">
+  <div class="col-span-1"></div>
+  <div class="col-span-8">
     <div class="flex w-full justify-between items-center py-2 lg:justify-start lg:space-x-10">
       <div class="lg:w-auto lg:flex-1">
         <div class="flex">
@@ -22,19 +28,17 @@
             href="/">Home</a>
           </nav>
         </div>
-
       </div>
     </div>
   </div>
+  <div class="col-span-1"></div>
 </div>
 
-      <div class="container mx-auto">
+      <div class="text-center">
+        <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
+          Converters</h1>
 
-        <div class="text-center">
-          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
-            Converters</h1>
-
-          <h2
+        <h2
           class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
           Click on a heading to sort.
           <br>
@@ -44,1053 +48,1054 @@
           <br><br>
           Note: The homepage and repository links may lead to the same place!
         </h2>
-        </div>
+      </div>
 
-        <div class="sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-            <div class="sticky top-12 z-40 py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
-              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
-                <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
-              </svg>
-              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
-            </div>
-            <div class="overflow-hidden">
-              <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
-                
-                <tr class="text-s text-center text-black border-b  border-neutral-500">
-                  <th class="sortable-heading px-4 py-2">Name</th>
-                  <th class="sortable-heading px-4 py-2">Description</th>
-                  <th class="sortable-heading px-4 py-2">Homepage</th>
-                  <th class="sortable-heading px-4 py-2">Repository</th>
-                  <th class="sortable-heading px-4 py-2">3.1?</th>
-                  <th class="sortable-heading px-4 py-2">3.0?</th>
-                  <th class="sortable-heading px-4 py-2">2.0?</th>
-                  <th class="sortable-heading px-4 py-2">Stars</th>
-                  <th class="px-4 py-2">Properties</th>
-                </tr>
-                
-                
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">APIMatic Transformer</td>
-                    <td class="px-4 py-2">Transform API Descriptions to and from RAML, API Blueprint, OAI v2/v3, WSDL, etc.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.apimatic.io/transformer>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">avantation</td>
-                    <td class="px-4 py-2">Build OpenAPI3.0 specification from HAR.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.avantation.in/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/anbuksv/avantation>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">77</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="2b13d07e4984e87f5b5e3506ea242963-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">LucyBot api-spec-converter</td>
-                    <td class="px-4 py-2">Convert API descriptions between popular formats such as OpenAPI(fka Swagger), RAML, API Blueprint, WADL, etc.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.npmjs.com/package/api-spec-converter>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/lucybot-inc/api-spec-converter>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">1069</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="dccbe92257187d6d136bb4b5f304d6fe-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OAS RAML Converter</td>
-                    <td class="px-4 py-2">(DEPRECATED) Converts between OAS and RAML API specifications</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://mulesoft.github.io/oas-raml-converter/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/mulesoft/oas-raml-converter>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">71</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="24686ca74b0284507f5f437578166800-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OData OpenAPI</td>
-                    <td class="px-4 py-2">OASIS OData TC: Tools for producing API descriptions for OData services that adhere to the OpenAPI Specification</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/oasis-tcs/odata-openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/oasis-tcs/odata-openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">178</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="9039f84e8e8b63849cbf15578564033e-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OpenAPI Filter</td>
-                    <td class="px-4 py-2">Filter internal paths, operations, parameters, schemas etc from OpenAPI/Swagger/AsyncAPI definitions</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/mermade/openapi-filter>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">147</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="c00a8a003ace3ce47f5740bb641667fb-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OData.OpenAPI</td>
-                    <td class="px-4 py-2">OData to Open API</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/xuzhg/odata.openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">7</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="d147d76d31836810da33ac308ffb7615-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">portman</td>
-                    <td class="px-4 py-2">Port OpenAPI Specs to Postman Collections, inject test suite and run via Newman 👨🏽‍🚀</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://getportman.com/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/apideck-libraries/portman>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">600</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="a03cdb329f630a946a946dfe26802c43-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Step CI</td>
-                    <td class="px-4 py-2">Automated API Testing and Quality Assurance</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://stepci.com>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/stepci/stepci>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">1440</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="50dd208178d094d51cbcd8e57f209c23-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">go-swagger</td>
-                    <td class="px-4 py-2">Swagger 2.0 implementation for go</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://goswagger.io/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/go-swagger/go-swagger>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">9173</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="ef136df9ffb40bb33ccbd76665d8f5b4-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">docs</td>
-                    <td class="px-4 py-2">Automatically generate RESTful API documentation for GO projects - aligned with Open API Specification standard</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/go-oas/docs>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/go-oas/docs>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">34</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="421481e00ec1f8e0df0d1e7806edbe2d-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">api</td>
-                    <td class="px-4 py-2">🚀 Automatic SDK generation from an OpenAPI definition</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://api.readme.dev>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/readmeio/api>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">476</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="fe3a10e114b8e1a8d9f03e70c963b89e-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">oas-normalize</td>
-                    <td class="px-4 py-2">Tooling for converting, validating, and parsing OpenAPI, Swagger, and Postman API definitions.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/readmeio/oas-normalize>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">37</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="463179f425347a95bac9bee6af02cc94-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">laravel-openapi</td>
-                    <td class="px-4 py-2">Generate OpenAPI specification for Laravel Applications</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/vyuldashev/laravel-openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">377</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="ee05a2f19f3fd6fc886e5e4711ef400f-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OpenAPI Schema to JSON Schema</td>
-                    <td class="px-4 py-2">Due to the OpenAPI v3.0 and JSON Schema discrepancy, you can use this JS library to convert OpenAPI Schema objects to proper JSON Schema.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.npmjs.com/package/@openapi-contrib/openapi-schema-to-json-schema>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/openapi-contrib/openapi-schema-to-json-schema>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">223</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="f6608d418f20d73a1e15b74206edd45a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">JSON Schema to OpenAPI Schema</td>
-                    <td class="px-4 py-2">Due to the OpenAPI v3.0 and JSON Schema discrepancy, you can use this JS library to convert JSON Schema objects to OpenAPI Schema.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.npmjs.com/package/@openapi-contrib/json-schema-to-openapi-schema>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/openapi-contrib/json-schema-to-openapi-schema>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">103</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="c443b19d564b9a8e21fe8b6192f75f8f-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-to-postman</td>
-                    <td class="px-4 py-2">Plugin for converting OpenAPI 3.0 specs to the Postman Collection (v2) format</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/postmanlabs/openapi-to-postman>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">840</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="31b717a2084e3d92f6cda2c33484c789-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-format</td>
-                    <td class="px-4 py-2">Format an OpenAPI document by ordering, formatting and filtering fields.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://www.npmjs.com/package/openapi-format>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/thim81/openapi-format>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">72</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="788dd625de099d0d3403fe30067f3743-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-python-client</td>
-                    <td class="px-4 py-2">Generate modern Python clients from OpenAPI</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/openapi-generators/openapi-python-client>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/openapi-generators/openapi-python-client>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">990</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="784ec4adac4e47e4211ea74ef36dd5a5-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">OpenAPI TypeScript</td>
-                    <td class="px-4 py-2">Generate TypeScript types from OpenAPI 3 specs</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/drwpow/openapi-typescript>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/drwpow/openapi-typescript>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">4240</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="5f4c35292268ab46f1fbc884d6f4dacf-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">allof-merge</td>
-                    <td class="px-4 py-2">Simplify your JsonSchema by combining allOf safely.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/udamir/allof-merge>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">9</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="a2e0064b2092b9d31f862f193256ada8-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">api-ref-bundler</td>
-                    <td class="px-4 py-2">Bundle all external $ref in Json based API document into single document</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/udamir/api-ref-bundler>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">13</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="2ad0c45112ccac96da3d99c14521db3b-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">typeconv</td>
-                    <td class="px-4 py-2">Convert between JSON Schema, TypeScript, GraphQL, Open API and SureType</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/grantila/typeconv/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/grantila/typeconv/>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">387</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="5a1209f6c9dd70a9f9d904b0db5924f4-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-merge</td>
-                    <td class="px-4 py-2">Merge multiple OpenAPI 3.0 (Swagger) files together via a library or CLI tool.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/robertmassaioli/openapi-merge>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/robertmassaioli/openapi-merge>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">110</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="d02b4c51ae616ca5f33e3d4d36dab531-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">gnostic</td>
-                    <td class="px-4 py-2">A compiler for APIs described by the OpenAPI Specification with plugins for code generation and other API support tasks.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/google/gnostic>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">1943</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="46e070512676eb0fd196ee199e6a0b34-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">oas-kit</td>
-                    <td class="px-4 py-2">Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/mermade/oas-kit>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">679</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="6f45c86bb645fe0967b0b35672cb2a57-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-codegen</td>
-                    <td class="px-4 py-2">OpenAPI 3.0 CodeGen plus Node.js minus the Java and emojis</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/mermade/openapi-codegen>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">292</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="a5af66e79d95d6e1b9baa57668630864-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi</td>
-                    <td class="px-4 py-2">OpenAPI (fka Swagger) spec renderer for Sphinx.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/sphinx-contrib/openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">106</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="5d08f10c77ed85b8c8c49382bb5bef3a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">awesome-jsonschema</td>
-                    <td class="px-4 py-2">A curated list of awesome JSON Schema resources, tutorials, tools, and more.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/sourcemeta/awesome-jsonschema>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">91</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="40df0f4f4e0e95da0b9f4aeb27567a36-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">drf-spectacular-sidecar</td>
-                    <td class="px-4 py-2">Serve self-contained distribution builds of Swagger UI and Redoc with Django.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/tfranzel/drf-spectacular-sidecar>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">24</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="efb63b84a6a36939fb408835301f3b03-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi</td>
-                    <td class="px-4 py-2">OpenAPI specification for the Outline API</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/outline/openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">17</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="859f9bdad31e9a5c13169e55d6f37e73-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi-webconverter</td>
-                    <td class="px-4 py-2">Mermade Swagger 2.0 to OpenAPI 3.0.0 converter front-end</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/mermade/openapi-webconverter>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">14</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="54a547cbd73c5b26b11a1f473a6d1e15-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">py-openapi-schema-to-json-schema</td>
-                    <td class="px-4 py-2">Python port of https://github.com/mikunn/openapi-schema-to-json-schema</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/pglass/py-openapi-schema-to-json-schema>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">12</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="c66a109574c000814bbca0c6afab6254-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">protoc-gen-openapi</td>
-                    <td class="px-4 py-2">protoc-gen-openapi is a plugin for the Google protocol buffer compiler to generate openAPI V3 spec for any given input protobuf.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/zchee/protoc-gen-openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">6</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="3c9503e39e26f0a16d4a9d0dd134824a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">ouraring</td>
-                    <td class="px-4 py-2">Go client + OpenAPI v3 spec for Oura-Ring</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/jordan-chalupka/ouraring>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">5</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="c0a9a71da09e3f7ae91e9f6c7ee05c41-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">oasis</td>
-                    <td class="px-4 py-2">🔀🆗☑️ Automated API testing from Swagger/Open API specifications.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/x1n13y84issmd42/oasis>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">2</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="c874538e827425f5331ba6bf670d35b1-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">petstore-api</td>
-                    <td class="px-4 py-2">This sample implements a Linx REST API based on the Swagger &#39;Petstore&#39; OpenAPI definition and is hosted on a Linx Cloud Server</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/linx-software/petstore-api>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">2</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="4a157f3784bb3a4a47976a95a50701d0-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">simple-flask-project</td>
-                    <td class="px-4 py-2">Generate OpenAPI spec from Flask routes</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/riddhi89/simple-flask-project>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">2</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="58d7aa9434d9542d0f77d17e7c7e1394-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">postman-coverage</td>
-                    <td class="px-4 py-2">derive postman collection coverage against openapi schema</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/abhinaba-ghosh/postman-coverage>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">1</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="99d139aa4e0795bc5213ad50c672253a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">listener-from-oas3-js</td>
-                    <td class="px-4 py-2">Javascript library which generates a native http server listener from a v3 open api spec</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/chrisdostert/listener-from-oas3-js>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">1</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="cdd1ea9a0dde706b0c4b86a1650f2e43-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">fastapi-starter</td>
-                    <td class="px-4 py-2">FastAPI Starter for init project with FastAPI, Postgresql, Redis. Base on https://github.com/tiangolo/full-stack-fastapi-postgresql</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/tranvannhat/fastapi-starter>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">1</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="ecf41122d4f260bbb4e59408750e1878-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">task-management</td>
-                    <td class="px-4 py-2">Task Management API </td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/shaswatsaxena/task-management>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="01c6c5eceb2b5bf710c27e0da567911f-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">openapi3-request-finder</td>
-                    <td class="px-4 py-2">Not available</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/marcbru107/openapi3-request-finder>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="9f431e17c0f626c479ef790bc88ca437-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Apimatic Transformer</td>
-                    <td class="px-4 py-2">Transform API Descriptions to and from RAML, API Blueprint, OAI v2/v3, WSDL, etc.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://apimatic.io/transformer>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">N/A</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">Karate-IDE</td>
-                    <td class="px-4 py-2">The Best OpenSource IDE for KarateDSL.</td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=KarateIDE.karate-ide>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/zenwave360/karate-ide>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">9</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="3f0c3a748d56c96cc857afa94b46a9e7-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">pyswagger</td>
-                    <td class="px-4 py-2">An OpenAPI (fka Swagger) client &amp; converter in python, which is type-safe, dynamic, spec-compliant.</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/pyopenapi/pyswagger>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">373</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="83585666ce7c5a42bc3e5463ac9b3c47-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">odata2openapi</td>
-                    <td class="px-4 py-2">OData to OpenAPI Converter</td>
-                    <td class="px-4 py-2">
-                      No
-                    </td>
-                    <td class="px-4 py-2">
-                      
-                        <a target="_blank" href=https://github.com/elasticio/odata2openapi>Link</a>
-                      
-                    </td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">No</td>
-                    <td class="px-4 py-2">Yes</td>
-                    <td class="px-4 py-2">31</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      
-                        <button type="button" id="deb9defcd95175a7029de6b81cf1ca78-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      
-                    </tr>
-                  
-                </table>
-              </div>
-            </div>
+      <div class="grid grid-cols-10 w-full">
+        <div class="col-span-1"></div>
+        <div class="col-span-8">
+          <div class="sticky w-full top-12 z-40 py-1 px-4 flex rounded-lg border h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
+              <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
+            </svg>
+            <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
           </div>
+          <table id="tools-table" class="table-fixed w-full text-base text-left text-gray-500 dark:text-gray-400">
+            <thead>
+              <tr class="text-s text-center text-black border-b  border-neutral-500">
+                <th class="sortable-heading w-1/4">Name</th>
+                <th class="sortable-heading w-1/3">Description</th>
+                <th class="sortable-heading">Home</th>
+                <th class="sortable-heading">Repo</th>
+                <th class="sortable-heading">3.1?</th>
+                <th class="sortable-heading">3.0?</th>
+                <th class="sortable-heading">2.0?</th>
+                <th class="sortable-heading">Stars</th>
+                <th>Properties</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">APIMatic Transformer</td>
+                  <td class="px-4 py-2 whitespace-normal">Transform API Descriptions to and from RAML, API Blueprint, OAI v2/v3, WSDL, etc.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.apimatic.io/transformer>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">avantation</td>
+                  <td class="px-4 py-2 whitespace-normal">Build OpenAPI3.0 specification from HAR.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.avantation.in/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/anbuksv/avantation>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">77</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="2b13d07e4984e87f5b5e3506ea242963-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">LucyBot api-spec-converter</td>
+                  <td class="px-4 py-2 whitespace-normal">Convert API descriptions between popular formats such as OpenAPI(fka Swagger), RAML, API Blueprint, WADL, etc.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.npmjs.com/package/api-spec-converter>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/lucybot-inc/api-spec-converter>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">1069</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="dccbe92257187d6d136bb4b5f304d6fe-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OAS RAML Converter</td>
+                  <td class="px-4 py-2 whitespace-normal">(DEPRECATED) Converts between OAS and RAML API specifications</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://mulesoft.github.io/oas-raml-converter/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/mulesoft/oas-raml-converter>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">71</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="24686ca74b0284507f5f437578166800-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OData OpenAPI</td>
+                  <td class="px-4 py-2 whitespace-normal">OASIS OData TC: Tools for producing API descriptions for OData services that adhere to the OpenAPI Specification</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/oasis-tcs/odata-openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/oasis-tcs/odata-openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">178</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="9039f84e8e8b63849cbf15578564033e-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OpenAPI Filter</td>
+                  <td class="px-4 py-2 whitespace-normal">Filter internal paths, operations, parameters, schemas etc from OpenAPI/Swagger/AsyncAPI definitions</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/mermade/openapi-filter>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">147</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="c00a8a003ace3ce47f5740bb641667fb-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OData.OpenAPI</td>
+                  <td class="px-4 py-2 whitespace-normal">OData to Open API</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/xuzhg/odata.openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">7</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="d147d76d31836810da33ac308ffb7615-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">portman</td>
+                  <td class="px-4 py-2 whitespace-normal">Port OpenAPI Specs to Postman Collections, inject test suite and run via Newman 👨🏽‍🚀</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://getportman.com/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/apideck-libraries/portman>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">600</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="a03cdb329f630a946a946dfe26802c43-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">Step CI</td>
+                  <td class="px-4 py-2 whitespace-normal">Automated API Testing and Quality Assurance</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://stepci.com>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/stepci/stepci>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">1440</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="50dd208178d094d51cbcd8e57f209c23-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">go-swagger</td>
+                  <td class="px-4 py-2 whitespace-normal">Swagger 2.0 implementation for go</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://goswagger.io/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/go-swagger/go-swagger>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">9173</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="ef136df9ffb40bb33ccbd76665d8f5b4-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">docs</td>
+                  <td class="px-4 py-2 whitespace-normal">Automatically generate RESTful API documentation for GO projects - aligned with Open API Specification standard</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/go-oas/docs>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/go-oas/docs>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">34</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="421481e00ec1f8e0df0d1e7806edbe2d-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">api</td>
+                  <td class="px-4 py-2 whitespace-normal">🚀 Automatic SDK generation from an OpenAPI definition</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://api.readme.dev>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/readmeio/api>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">476</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="fe3a10e114b8e1a8d9f03e70c963b89e-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">oas-normalize</td>
+                  <td class="px-4 py-2 whitespace-normal">Tooling for converting, validating, and parsing OpenAPI, Swagger, and Postman API definitions.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/readmeio/oas-normalize>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">37</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="463179f425347a95bac9bee6af02cc94-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">laravel-openapi</td>
+                  <td class="px-4 py-2 whitespace-normal">Generate OpenAPI specification for Laravel Applications</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/vyuldashev/laravel-openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">377</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="ee05a2f19f3fd6fc886e5e4711ef400f-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OpenAPI Schema to JSON Schema</td>
+                  <td class="px-4 py-2 whitespace-normal">Due to the OpenAPI v3.0 and JSON Schema discrepancy, you can use this JS library to convert OpenAPI Schema objects to proper JSON Schema.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.npmjs.com/package/@openapi-contrib/openapi-schema-to-json-schema>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/openapi-contrib/openapi-schema-to-json-schema>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">223</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="f6608d418f20d73a1e15b74206edd45a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">JSON Schema to OpenAPI Schema</td>
+                  <td class="px-4 py-2 whitespace-normal">Due to the OpenAPI v3.0 and JSON Schema discrepancy, you can use this JS library to convert JSON Schema objects to OpenAPI Schema.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.npmjs.com/package/@openapi-contrib/json-schema-to-openapi-schema>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/openapi-contrib/json-schema-to-openapi-schema>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">103</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="c443b19d564b9a8e21fe8b6192f75f8f-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi-to-postman</td>
+                  <td class="px-4 py-2 whitespace-normal">Plugin for converting OpenAPI 3.0 specs to the Postman Collection (v2) format</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/postmanlabs/openapi-to-postman>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">840</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="31b717a2084e3d92f6cda2c33484c789-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi-format</td>
+                  <td class="px-4 py-2 whitespace-normal">Format an OpenAPI document by ordering, formatting and filtering fields.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://www.npmjs.com/package/openapi-format>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/thim81/openapi-format>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">72</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="788dd625de099d0d3403fe30067f3743-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi-python-client</td>
+                  <td class="px-4 py-2 whitespace-normal">Generate modern Python clients from OpenAPI</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/openapi-generators/openapi-python-client>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/openapi-generators/openapi-python-client>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">990</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="784ec4adac4e47e4211ea74ef36dd5a5-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">OpenAPI TypeScript</td>
+                  <td class="px-4 py-2 whitespace-normal">Generate TypeScript types from OpenAPI 3 specs</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/drwpow/openapi-typescript>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/drwpow/openapi-typescript>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">4240</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="5f4c35292268ab46f1fbc884d6f4dacf-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">allof-merge</td>
+                  <td class="px-4 py-2 whitespace-normal">Simplify your JsonSchema by combining allOf safely.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/udamir/allof-merge>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">9</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="a2e0064b2092b9d31f862f193256ada8-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">api-ref-bundler</td>
+                  <td class="px-4 py-2 whitespace-normal">Bundle all external $ref in Json based API document into single document</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/udamir/api-ref-bundler>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">13</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="2ad0c45112ccac96da3d99c14521db3b-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">typeconv</td>
+                  <td class="px-4 py-2 whitespace-normal">Convert between JSON Schema, TypeScript, GraphQL, Open API and SureType</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/grantila/typeconv/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/grantila/typeconv/>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">387</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="5a1209f6c9dd70a9f9d904b0db5924f4-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi-merge</td>
+                  <td class="px-4 py-2 whitespace-normal">Merge multiple OpenAPI 3.0 (Swagger) files together via a library or CLI tool.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/robertmassaioli/openapi-merge>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/robertmassaioli/openapi-merge>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">110</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="d02b4c51ae616ca5f33e3d4d36dab531-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">gnostic</td>
+                  <td class="px-4 py-2 whitespace-normal">A compiler for APIs described by the OpenAPI Specification with plugins for code generation and other API support tasks.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/google/gnostic>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">1943</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="46e070512676eb0fd196ee199e6a0b34-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">oas-kit</td>
+                  <td class="px-4 py-2 whitespace-normal">Convert Swagger 2.0 definitions to OpenAPI 3.0 and resolve/validate/lint</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/mermade/oas-kit>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">679</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="6f45c86bb645fe0967b0b35672cb2a57-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi-codegen</td>
+                  <td class="px-4 py-2 whitespace-normal">OpenAPI 3.0 CodeGen plus Node.js minus the Java and emojis</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/mermade/openapi-codegen>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">292</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="a5af66e79d95d6e1b9baa57668630864-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi</td>
+                  <td class="px-4 py-2 whitespace-normal">OpenAPI (fka Swagger) spec renderer for Sphinx.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/sphinx-contrib/openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">106</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="5d08f10c77ed85b8c8c49382bb5bef3a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">awesome-jsonschema</td>
+                  <td class="px-4 py-2 whitespace-normal">A curated list of awesome JSON Schema resources, tutorials, tools, and more.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/sourcemeta/awesome-jsonschema>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">91</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="40df0f4f4e0e95da0b9f4aeb27567a36-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">drf-spectacular-sidecar</td>
+                  <td class="px-4 py-2 whitespace-normal">Serve self-contained distribution builds of Swagger UI and Redoc with Django.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/tfranzel/drf-spectacular-sidecar>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">24</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="efb63b84a6a36939fb408835301f3b03-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi</td>
+                  <td class="px-4 py-2 whitespace-normal">OpenAPI specification for the Outline API</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/outline/openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">17</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="859f9bdad31e9a5c13169e55d6f37e73-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi-webconverter</td>
+                  <td class="px-4 py-2 whitespace-normal">Mermade Swagger 2.0 to OpenAPI 3.0.0 converter front-end</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/mermade/openapi-webconverter>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">14</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="54a547cbd73c5b26b11a1f473a6d1e15-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">py-openapi-schema-to-json-schema</td>
+                  <td class="px-4 py-2 whitespace-normal">Python port of https://github.com/mikunn/openapi-schema-to-json-schema</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/pglass/py-openapi-schema-to-json-schema>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">12</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="c66a109574c000814bbca0c6afab6254-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">protoc-gen-openapi</td>
+                  <td class="px-4 py-2 whitespace-normal">protoc-gen-openapi is a plugin for the Google protocol buffer compiler to generate openAPI V3 spec for any given input protobuf.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/zchee/protoc-gen-openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">6</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="3c9503e39e26f0a16d4a9d0dd134824a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">ouraring</td>
+                  <td class="px-4 py-2 whitespace-normal">Go client + OpenAPI v3 spec for Oura-Ring</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/jordan-chalupka/ouraring>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">5</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="c0a9a71da09e3f7ae91e9f6c7ee05c41-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">oasis</td>
+                  <td class="px-4 py-2 whitespace-normal">🔀🆗☑️ Automated API testing from Swagger/Open API specifications.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/x1n13y84issmd42/oasis>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">2</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="c874538e827425f5331ba6bf670d35b1-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">petstore-api</td>
+                  <td class="px-4 py-2 whitespace-normal">This sample implements a Linx REST API based on the Swagger &#39;Petstore&#39; OpenAPI definition and is hosted on a Linx Cloud Server</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/linx-software/petstore-api>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">2</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="4a157f3784bb3a4a47976a95a50701d0-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">simple-flask-project</td>
+                  <td class="px-4 py-2 whitespace-normal">Generate OpenAPI spec from Flask routes</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/riddhi89/simple-flask-project>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">2</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="58d7aa9434d9542d0f77d17e7c7e1394-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">postman-coverage</td>
+                  <td class="px-4 py-2 whitespace-normal">derive postman collection coverage against openapi schema</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/abhinaba-ghosh/postman-coverage>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">1</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="99d139aa4e0795bc5213ad50c672253a-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">listener-from-oas3-js</td>
+                  <td class="px-4 py-2 whitespace-normal">Javascript library which generates a native http server listener from a v3 open api spec</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/chrisdostert/listener-from-oas3-js>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">1</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="cdd1ea9a0dde706b0c4b86a1650f2e43-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">fastapi-starter</td>
+                  <td class="px-4 py-2 whitespace-normal">FastAPI Starter for init project with FastAPI, Postgresql, Redis. Base on https://github.com/tiangolo/full-stack-fastapi-postgresql</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/tranvannhat/fastapi-starter>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">1</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="ecf41122d4f260bbb4e59408750e1878-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">task-management</td>
+                  <td class="px-4 py-2 whitespace-normal">Task Management API </td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/shaswatsaxena/task-management>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="01c6c5eceb2b5bf710c27e0da567911f-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">openapi3-request-finder</td>
+                  <td class="px-4 py-2 whitespace-normal">Not available</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/marcbru107/openapi3-request-finder>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="9f431e17c0f626c479ef790bc88ca437-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">Apimatic Transformer</td>
+                  <td class="px-4 py-2 whitespace-normal">Transform API Descriptions to and from RAML, API Blueprint, OAI v2/v3, WSDL, etc.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://apimatic.io/transformer>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">N/A</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">Karate-IDE</td>
+                  <td class="px-4 py-2 whitespace-normal">The Best OpenSource IDE for KarateDSL.</td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://marketplace.visualstudio.com/items?itemName=KarateIDE.karate-ide>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/zenwave360/karate-ide>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">9</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="3f0c3a748d56c96cc857afa94b46a9e7-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">pyswagger</td>
+                  <td class="px-4 py-2 whitespace-normal">An OpenAPI (fka Swagger) client &amp; converter in python, which is type-safe, dynamic, spec-compliant.</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/pyopenapi/pyswagger>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">373</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="83585666ce7c5a42bc3e5463ac9b3c47-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">odata2openapi</td>
+                  <td class="px-4 py-2 whitespace-normal">OData to OpenAPI Converter</td>
+                  <td class="px-4 py-2 text-center">
+                    No
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    
+                      <a target="_blank" href=https://github.com/elasticio/odata2openapi>Link</a>
+                    
+                  </td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">No</td>
+                  <td class="px-4 py-2 text-center">Yes</td>
+                  <td class="px-4 py-2 text-center">31</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    
+                      <button type="button" id="deb9defcd95175a7029de6b81cf1ca78-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    
+                  </tr>
+                
+              </tbody>
+            </table>
+          </div>
+          <div class="col-span-1"></div>
         </div>
       </div>
 
@@ -1127,7 +1132,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4"></td>
@@ -1160,8 +1165,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">SaaS</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1179,7 +1183,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">anbuksv</td>
@@ -1212,8 +1216,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1231,7 +1234,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">LucyBot-Inc</td>
@@ -1264,8 +1267,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1283,7 +1285,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">mulesoft</td>
@@ -1316,8 +1318,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1335,7 +1336,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">oasis-tcs</td>
@@ -1368,8 +1369,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">XSLT</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1387,7 +1387,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">Mermade</td>
@@ -1420,8 +1420,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1439,7 +1438,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">xuzhg</td>
@@ -1472,8 +1471,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">C#</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1491,7 +1489,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">apideck-libraries</td>
@@ -1524,8 +1522,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1543,7 +1540,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">stepci</td>
@@ -1576,8 +1573,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1595,7 +1591,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">go-swagger</td>
@@ -1628,8 +1624,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Go</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1647,7 +1642,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">go-oas</td>
@@ -1680,8 +1675,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Go</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1699,7 +1693,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">readmeio</td>
@@ -1732,8 +1726,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1751,7 +1744,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">readmeio</td>
@@ -1784,8 +1777,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1803,7 +1795,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">vyuldashev</td>
@@ -1836,8 +1828,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">PHP</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1855,7 +1846,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">openapi-contrib</td>
@@ -1888,8 +1879,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1907,7 +1897,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">openapi-contrib</td>
@@ -1940,8 +1930,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -1959,7 +1948,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">postmanlabs</td>
@@ -1992,8 +1981,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2011,7 +1999,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">thim81</td>
@@ -2044,8 +2032,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2063,7 +2050,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">openapi-generators</td>
@@ -2096,8 +2083,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2115,7 +2101,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">drwpow</td>
@@ -2148,8 +2134,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2167,7 +2152,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">udamir</td>
@@ -2200,8 +2185,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2219,7 +2203,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">udamir</td>
@@ -2252,8 +2236,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2271,7 +2254,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">grantila</td>
@@ -2304,8 +2287,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2323,7 +2305,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">robertmassaioli</td>
@@ -2356,8 +2338,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2375,7 +2356,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">google</td>
@@ -2408,8 +2389,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Go</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2427,7 +2407,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">Mermade</td>
@@ -2460,8 +2440,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2479,7 +2458,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">Mermade</td>
@@ -2512,8 +2491,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2531,7 +2509,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">sphinx-contrib</td>
@@ -2564,8 +2542,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2583,7 +2560,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">sourcemeta</td>
@@ -2616,8 +2593,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Handlebars</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2635,7 +2611,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">tfranzel</td>
@@ -2668,8 +2644,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2687,7 +2662,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">outline</td>
@@ -2720,8 +2695,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4"></td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2739,7 +2713,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">Mermade</td>
@@ -2772,8 +2746,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2791,7 +2764,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">pglass</td>
@@ -2824,8 +2797,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2843,7 +2815,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">zchee</td>
@@ -2876,8 +2848,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Go</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2895,7 +2866,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">jordan-chalupka</td>
@@ -2928,8 +2899,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Go</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2947,7 +2917,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">x1n13y84issmd42</td>
@@ -2980,8 +2950,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Go</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -2999,7 +2968,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">linx-software</td>
@@ -3032,8 +3001,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4"></td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3051,7 +3019,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">riddhi89</td>
@@ -3084,8 +3052,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3103,7 +3070,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">abhinaba-ghosh</td>
@@ -3136,8 +3103,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3155,7 +3121,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">chrisdostert</td>
@@ -3188,8 +3154,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">JavaScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3207,7 +3172,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">tranvannhat</td>
@@ -3240,8 +3205,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3259,7 +3223,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">shaswatsaxena</td>
@@ -3292,8 +3256,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3311,7 +3274,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">MarcBru107</td>
@@ -3344,8 +3307,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Java</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3363,7 +3325,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4"></td>
@@ -3396,8 +3358,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">SaaS</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3415,7 +3376,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">ZenWave360</td>
@@ -3448,8 +3409,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3467,7 +3427,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">pyopenapi</td>
@@ -3500,8 +3460,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">Python</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3519,7 +3478,7 @@
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">elasticio</td>
@@ -3552,8 +3511,7 @@
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">TypeScript</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -3592,11 +3550,13 @@
           .querySelectorAll('th')
           .forEach(th => th.addEventListener('click', (() => {
             const table = th.closest('table');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            let asc = th.asc = !th.asc; // Toggle the sort direction
 
-            Array
-              .from(table.querySelectorAll('tr:nth-child(n+2)'))
-              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-              .forEach(tr => table.appendChild(tr));
+            rows
+              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), asc))
+              .forEach(tr => tbody.appendChild(tr)); // Re-append rows in sorted order
           })));
       </script>
 

@@ -8,6 +8,11 @@ permalink: categories/{{ category.category | slug }}.html
 
 <html>
   <head>
+    <title>
+      {% block title %}{{category.category}}
+      {% endblock %}
+    </title>
+    <link rel="shortcut icon" href="https://www.openapis.org/wp-content/uploads/sites/3/2016/11/favicon.png">
     <link rel="stylesheet" type="text/css" href="../assets/main.css"/>
   </head>
   <body>
@@ -17,13 +22,11 @@ permalink: categories/{{ category.category | slug }}.html
 
       {% include "nav-bar.njk" %}
 
-      <div class="container mx-auto">
+      <div class="text-center">
+        <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
+          {{category.category}}</h1>
 
-        <div class="text-center">
-          <h1 class="text-primary-800 font-heading text-2xl font-bold tracking-heading md:text-6xl leading-snug mt-4 mb-4">
-            {{category.category}}</h1>
-
-          <h2
+        <h2
           class="text-gray-700 font-heading text-lg leading-relaxed tracking-body font-regular mb-10 max-w-4xl mx-auto">
           Click on a heading to sort.
           <br>
@@ -33,59 +36,60 @@ permalink: categories/{{ category.category | slug }}.html
           <br><br>
           Note: The homepage and repository links may lead to the same place!
         </h2>
-        </div>
+      </div>
 
-        <div class="sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-            <div class="sticky top-12 z-40 py-1 px-4 flex rounded-lg border w-[100%] h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
-              <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
-                <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
-              </svg>
-              <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
-            </div>
-            <div class="overflow-hidden">
-              <table id="tools-table" class="min-w-full text-base text-left text-gray-500 dark:text-gray-400">
-                {# <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"> #}
-                <tr class="text-s text-center text-black border-b  border-neutral-500">
-                  <th class="sortable-heading px-4 py-2">Name</th>
-                  <th class="sortable-heading px-4 py-2">Description</th>
-                  <th class="sortable-heading px-4 py-2">Homepage</th>
-                  <th class="sortable-heading px-4 py-2">Repository</th>
-                  <th class="sortable-heading px-4 py-2">3.1?</th>
-                  <th class="sortable-heading px-4 py-2">3.0?</th>
-                  <th class="sortable-heading px-4 py-2">2.0?</th>
-                  <th class="sortable-heading px-4 py-2">Stars</th>
-                  <th class="px-4 py-2">Properties</th>
-                </tr>
-                {# <thead> #}
-                {% for tool in category.tools %}
-                  <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">{{tool.displayName}}</td>
-                    <td class="px-4 py-2">{{tool.displayDescription}}</td>
-                    <td class="px-4 py-2">
-                      {% if tool.homepage %}
-                        <a target="_blank" href={{tool.homepage}}>Link</a>
-                      {% else %}No{% endif %}
-                    </td>
-                    <td class="px-4 py-2">
-                      {% if tool.repository %}
-                        <a target="_blank" href={{tool.repository}}>Link</a>
-                      {% else %}No{% endif %}
-                    </td>
-                    <td class="px-4 py-2">{{tool.version31}}</td>
-                    <td class="px-4 py-2">{{tool.version30}}</td>
-                    <td class="px-4 py-2">{{tool.swagger}}</td>
-                    <td class="px-4 py-2">{{tool.stars}}</td>
-                    <td scope="row" class="px-4 py-2 whitespace-nowrap">
-                      {% if tool.moreDetails %}
-                        <button type="button" id="{{tool.id}}-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">More Details</button>
-                      {% endif %}
-                    </tr>
-                  {% endfor %}
-                </table>
-              </div>
-            </div>
+      <div class="grid grid-cols-10 w-full">
+        <div class="col-span-1"></div>
+        <div class="col-span-8">
+          <div class="sticky w-full top-12 z-40 py-1 px-4 flex rounded-lg border h-14 border-gray-300 hover:border-gray-600 focus:border-gray-600 text-gray-700 shadow text-sm mt-6 mb-8 bg-white">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="my-auto opacity-70">
+              <path d="M14.875 14.8751L11.6974 11.6918L14.875 14.8751ZM13.4583 7.43758C13.4583 9.03441 12.824 10.5658 11.6949 11.695C10.5657 12.8241 9.03432 13.4584 7.4375 13.4584C5.84067 13.4584 4.30925 12.8241 3.18013 11.695C2.051 10.5658 1.41666 9.03441 1.41666 7.43758C1.41666 5.84076 2.051 4.30933 3.18013 3.18021C4.30925 2.05108 5.84067 1.41675 7.4375 1.41675C9.03432 1.41675 10.5657 2.05108 11.6949 3.18021C12.824 4.30933 13.4583 5.84076 13.4583 7.43758V7.43758Z" stroke="#000" stroke-width="2" stroke-linecap="round" class=""></path>
+            </svg>
+            <input type="text" onkeyup="searchNamesDescriptions()" class="border-none outline-none flex-1 focus:ring-0 ml-4 bg-white" id="search-by-name-and-description" placeholder="Filter by keywords"/>
           </div>
+          <table id="tools-table" class="table-fixed w-full text-base text-left text-gray-500 dark:text-gray-400">
+            <thead>
+              <tr class="text-s text-center text-black border-b  border-neutral-500">
+                <th class="sortable-heading w-1/4">Name</th>
+                <th class="sortable-heading w-1/3">Description</th>
+                <th class="sortable-heading">Home</th>
+                <th class="sortable-heading">Repo</th>
+                <th class="sortable-heading">3.1?</th>
+                <th class="sortable-heading">3.0?</th>
+                <th class="sortable-heading">2.0?</th>
+                <th class="sortable-heading">Stars</th>
+                <th>Properties</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for tool in category.tools %}
+                <tr class="border-b transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-200 text-black">
+                  <td scope="row" class="px-4 py-2 whitespace-normal">{{tool.displayName}}</td>
+                  <td class="px-4 py-2 whitespace-normal">{{tool.displayDescription}}</td>
+                  <td class="px-4 py-2 text-center">
+                    {% if tool.homepage %}
+                      <a target="_blank" href={{tool.homepage}}>Link</a>
+                    {% else %}No{% endif %}
+                  </td>
+                  <td class="px-4 py-2 text-center">
+                    {% if tool.repository %}
+                      <a target="_blank" href={{tool.repository}}>Link</a>
+                    {% else %}No{% endif %}
+                  </td>
+                  <td class="px-4 py-2 text-center">{{tool.version31}}</td>
+                  <td class="px-4 py-2 text-center">{{tool.version30}}</td>
+                  <td class="px-4 py-2 text-center">{{tool.swagger}}</td>
+                  <td class="px-4 py-2 text-center">{{tool.stars}}</td>
+                  <td scope="row" class="flex justify-center items-center px-4 py-2 whitespace-nowrap">
+                    {% if tool.moreDetails %}
+                      <button type="button" id="{{tool.id}}-open-button" class="inline-block rounded bg-lightgreen px-6 pb-2 pt-2.5 text-xs text-#4c5b31 font-medium uppercase leading-normal shadow-[0_4px_9px_-4px_#4c5b31] transition duration-150 ease-in-out hover:bg-primary-600 focus:bg-primary-600">Details</button>
+                    {% endif %}
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div class="col-span-1"></div>
         </div>
       </div>
 
@@ -122,7 +126,7 @@ permalink: categories/{{ category.category | slug }}.html
 
             </div>
             <table class="border-collapse table-auto w-full">
-              <tbody>
+              <div class="table-row-group">
                 <tr>
                   <td class="p-4 pl-8">Repository Owner</td>
                   <td class="p-4">{{tool.owner}}</td>
@@ -155,8 +159,7 @@ permalink: categories/{{ category.category | slug }}.html
                   <td class="p-4 pl-8">Language</td>
                   <td class="p-4">{{tool.language}}</td>
                 </tr>
-
-              </tbody>
+              </div>
             </table>
           </div>
 
@@ -195,11 +198,13 @@ permalink: categories/{{ category.category | slug }}.html
           .querySelectorAll('th')
           .forEach(th => th.addEventListener('click', (() => {
             const table = th.closest('table');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            let asc = th.asc = !th.asc; // Toggle the sort direction
 
-            Array
-              .from(table.querySelectorAll('tr:nth-child(n+2)'))
-              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-              .forEach(tr => table.appendChild(tr));
+            rows
+              .sort(comparer(Array.from(th.parentNode.children).indexOf(th), asc))
+              .forEach(tr => tbody.appendChild(tr)); // Re-append rows in sorted order
           })));
       </script>
 
