@@ -9,8 +9,6 @@ The project is split into two features:
 
 Each is expanded upon in the sections below.
 
-The project Kanban board for Tooling can be found here: https://github.com/OAI/Projects/projects/4
-
 ## Roll Call
 
 The following projects are being leveraged to provide the majority of the source information.
