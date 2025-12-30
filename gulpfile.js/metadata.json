@@ -25,6 +25,12 @@
       "version": "v3_1"
     },
     {
+      "title": "openapi32 tags",
+      "processor": "../processors/tagged-repository-processor.js",
+      "topic": "openapi32",
+      "version": "v3_2"
+    },
+    {
       "title": "Tooling repository issues",
       "processor": "../processors/open-tooling-repository-issues.js",
       "masterDataFileName": "src/_data/tools.yaml"
