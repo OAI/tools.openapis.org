@@ -27,6 +27,7 @@ If you want your project included in the tooling list tag your project with one-
 - `swagger` or `openapi2` (For Swagger/OpenAPI 2.0 support).
 - `openapi3` (For OpenAPI 3.0 support).
 - `openapi31` (For OpenAPI 3.1 support).
+- `openapi32` (For OpenAPI 3.2 support).
 
 If you aren't familiar with topics in GitHub please follow [this guide](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics) to add them to your repository.
 
