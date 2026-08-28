@@ -192,6 +192,52 @@ describe(__filename, () => {
       }))
         .to.eventually.deep.equal(expectedTools);
     });
+    it('Parses current issue templates that use LF line endings', async () => {
+      dotenv.config({ path: envFile });
+      graphQlClientStub.resolves({
+        repository: {
+          issues: {
+            nodes: [{
+              body: '## Tool Properties\n\n'
+                + '- Display name: Current Tool\n'
+                + '- Description: A current tool description.\n'
+                + '- Repository: Not open source.\n'
+                + '- Homepage: https://example.com/tool\n\n'
+                + '## OpenAPI Versions\n\n'
+                + '- 3.1: true\n'
+                + '- 3.0: true\n'
+                + '- 2.0: false',
+              number: 99,
+              author: { login: 'issueRaiser' },
+              createdAt: '2026-08-28T00:00:00Z',
+              updatedAt: '2026-08-28T00:00:00Z',
+              url: 'https://github.com/OAI/tools.openapis.org/issues/99',
+            }],
+          },
+        },
+      });
+
+      await expect(fn({
+        title: 'Tooling repository issues',
+        masterDataFileName: `${__dirname}/../../../../data/lib/data/processors/tools-no-existing-issues.yaml`,
+      })).to.eventually.deep.equal([{
+        name: 'Current Tool',
+        source: ['Tooling repository issues'],
+        source_description: 'A current tool description.',
+        link: 'https://example.com/tool',
+        v3_1: true,
+        v3: true,
+        v2: false,
+        sourceIssueMetadata: {
+          issueNumber: 99,
+          author: 'issueRaiser',
+          createdAt: '2026-08-28T00:00:00Z',
+          updatedAt: '2026-08-28T00:00:00Z',
+          url: 'https://github.com/OAI/tools.openapis.org/issues/99',
+          status: 'open',
+        },
+      }]);
+    });
     it('Returns only new tooling issues when an issue already exists in the dataset (i.e. closing the issue failed)', async () => {
       dotenv.config({ path: envFile });
       graphQlClientStub.returns(Promise.resolve(expectedGraphQlResponseBody));
