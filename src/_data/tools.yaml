@@ -21153,6 +21153,25 @@
   foundInMaster: true
   category: Parsers
   id: fc6d82a523fbcf983a51caa78aa81344
+- source: manual
+  name: Membrane API Gateway
+  category:
+    - Gateway
+    - Data Validators
+    - Server Implementations
+  link: https://www.membrane-api.io
+  repository: https://github.com/membrane/api-gateway
+  language: Java
+  source_description: >-
+    Open source API gateway with built-in OpenAPI support, including OpenAPI 3.2.
+    Turn OpenAPI descriptions into APIs and enforce request and response
+    validation.
+  v2: true
+  v3: true
+  v3_1: true
+  v3_2: true
+  id: bd3ae960879d2117d38b451c6687676d
+  foundInMaster: true
 - source: openapi3 tags
   repository: https://github.com/membrane-php/membrane-core
   v3: true
