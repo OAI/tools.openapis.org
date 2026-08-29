@@ -1156,18 +1156,22 @@
   category:
     - Code Generators
     - SDK
-  link: https://github.com/cjbooms/fabrikt
+  link: https://fabrikt.io
   language: Kotlin
   repository: https://github.com/fabrikt-io/fabrikt
   source_description: >-
-    A sophisticated Kotlin code generation library capable of generating
-    Jackson-annotated data classes, Spring Controller interfaces, and
-    fault-tolerant OkHttp clients. Written in Kotlin, this library
-    programatically generates code and is capable of handling advanced OpenApi3
-    specification features such as polymorphism.
+    An idiomatic Kotlin code generator designed for permanent integration into 
+    the build lifecycle. FabriKt enables a "Contract-as-Code" workflow by 
+    treating the OpenAPI specification as the source of truth, translating 
+    its full modeling power into type-safe Kotlin. It generates Jackson or 
+    Kotlinx-serialized data classes (using sealed interfaces for oneOf 
+    polymorphism), and server controllers for Spring MVC, Micronaut, and Ktor. 
+    It supports a wide range of clients including OkHttp, OpenFeign, and Ktor, 
+    and integrates seamlessly into any JVM workflow via CLI, Docker, or 
+    build plugins.
   v2: false
   v3: true
-  v3_1: false
+  v3_1: true
   id: 590c094dc10757222dccc4b807bf562d
   repositoryMetadata:
     base64Readme: >-
