@@ -41457,3 +41457,17 @@
     repoLastModified: Tue, 10 Jun 2025 08:39:30 GMT
   foundInMaster: true
   id: deb9defcd95175a7029de6b81cf1ca78
+- source: https://github.com/studio-design/gesso
+  name: Gesso
+  category: Testing
+  language: PHP
+  source_description: >-
+    Gesso — OpenAPI 3.0/3.1/3.2 contract testing for PHP. Framework-independent
+    core with Laravel, Symfony, Pest, and PSR-7 adapters. PHPUnit
+    endpoint-coverage tracking, request/response validation, schema-driven
+    fuzzing, and drift detection.
+  v2: false
+  v3: true
+  v3_1: true
+  link: https://studio-design.github.io/gesso/
+  repository: https://github.com/studio-design/gesso
