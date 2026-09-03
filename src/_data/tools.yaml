@@ -41457,3 +41457,19 @@
     repoLastModified: Tue, 10 Jun 2025 08:39:30 GMT
   foundInMaster: true
   id: deb9defcd95175a7029de6b81cf1ca78
+- source: manual
+  name: OpenDoc UI
+  category: Documentation
+  categoryByRequestIndicator: true
+  link: https://omidgfx.github.io/opendoc-ui/
+  repository: https://github.com/omidgfx/opendoc-ui
+  language: TypeScript
+  source_description: >-
+    Static-first OpenAPI & Swagger documentation browser with an API runner,
+    code and type generators, local-file support, theming, deep links, and an
+    optional grounded AI assistant - all running in the browser.
+  v2: true
+  v3: true
+  v3_1: true
+  id: 212c79c4be2cfecbca99ceccda9db251
+  foundInMaster: true
