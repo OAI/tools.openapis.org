@@ -142,17 +142,17 @@
       Connexion is a modern Python web framework that makes spec-first and
       api-first development easy.
     created: '2015-05-19T13:05:58Z'
-    updated: '2026-09-07T12:35:03Z'
+    updated: '2026-09-10T06:49:56Z'
     language: Python
     archived: false
-    stars: 4611
+    stars: 4610
     watchers: 75
     forks: 783
     owner: spec-first
     logo: https://avatars.githubusercontent.com/u/58754196?v=4
     license: Apache-2.0
-    repoEtag: '"5e7b0755cdbf08e12b8797d3af2e8a84b2775d91d9d8ad36adc870c56e35b5f3"'
-    repoLastModified: Mon, 07 Sep 2026 12:35:03 GMT
+    repoEtag: '"f858bfd60968796f49ff88bcba7775eb092b86cb1efcceea587ef0a4f4ea0836"'
+    repoLastModified: Thu, 10 Sep 2026 06:49:56 GMT
   foundInMaster: true
   homepage: https://github.com/zalando/connexion
   id: 2d575abdf2671028868058b2442d9131
@@ -295,7 +295,7 @@
       References　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　✨ 1st-Class
       OpenAPI/Swagger Support
     created: '2023-08-16T13:42:32Z'
-    updated: '2026-09-09T08:03:46Z'
+    updated: '2026-09-10T06:45:17Z'
     language: TypeScript
     archived: false
     stars: 16086
@@ -304,8 +304,8 @@
     owner: scalar
     logo: https://avatars.githubusercontent.com/u/301879?v=4
     license: MIT
-    repoEtag: '"c17cd537d2953d6c7aa33b7e6d3d424be305838b023be4b5b0b506629c7f9e5a"'
-    repoLastModified: Wed, 09 Sep 2026 08:03:46 GMT
+    repoEtag: '"fb8257bbd5a43db59ecb6c4f650105666999eb49e4afc4e15460ed422056c264"'
+    repoLastModified: Thu, 10 Sep 2026 06:45:17 GMT
   foundInMaster: true
 - source: https://openapi.tools/
   name: Scramble
@@ -333,17 +333,17 @@
       Modern Laravel OpenAPI (Swagger) documentation generator. No PHPDoc
       annotations required. 
     created: '2022-08-05T17:16:20Z'
-    updated: '2026-09-08T18:28:56Z'
+    updated: '2026-09-09T17:35:02Z'
     language: PHP
     archived: false
-    stars: 2200
+    stars: 2201
     watchers: 10
     forks: 206
     owner: dedoc
     logo: https://avatars.githubusercontent.com/u/93313138?v=4
     license: MIT
-    repoEtag: '"14972d91340bff33d225d4a036215b1d5b60aac669bec932c04b18901a997900"'
-    repoLastModified: Tue, 08 Sep 2026 18:28:56 GMT
+    repoEtag: '"9125c73f7187e0d2bce30eee3e043e0bac9ecbb2b847a4e494033fa0c3a31560"'
+    repoLastModified: Wed, 09 Sep 2026 17:35:02 GMT
   foundInMaster: true
 - source: https://openapi.tools/
   name: Scribe
@@ -421,17 +421,17 @@
     repositoryId: 45250726
     description: 📘  OpenAPI/Swagger-generated API Reference Documentation
     created: '2015-10-30T12:53:02Z'
-    updated: '2026-09-09T07:26:33Z'
+    updated: '2026-09-10T03:53:02Z'
     language: TypeScript
     archived: false
-    stars: 25906
+    stars: 25904
     watchers: 297
     forks: 2397
     owner: Redocly
     logo: https://avatars.githubusercontent.com/u/32099856?v=4
     license: MIT
-    repoEtag: '"244fca0585f4aec9ca4a07b8e0573a079d996e03d5a49d77489fadd2f63b3603"'
-    repoLastModified: Wed, 09 Sep 2026 07:26:33 GMT
+    repoEtag: '"d5063cf8ccf04d0212f59942051602e4a8740ab4c4ee65b1c57f06adb6670571"'
+    repoLastModified: Thu, 10 Sep 2026 03:53:02 GMT
   foundInMaster: true
 - source: https://openapi.tools/
   name: RestCase Docs
@@ -493,17 +493,17 @@
       also simplified postman tool.   基于 OpenAPI/Swagger
       规范的接口文档，快速模拟请求参数并调用接口，也是简化版 postman 工具，欢迎提功能请求、bug
     created: '2023-12-20T14:51:12Z'
-    updated: '2026-09-08T11:13:33Z'
+    updated: '2026-09-10T00:48:13Z'
     language: TypeScript
     archived: false
-    stars: 648
+    stars: 647
     watchers: 4
     forks: 58
     owner: rookie-luochao
     logo: https://avatars.githubusercontent.com/u/22948077?v=4
     license: MIT
-    repoEtag: '"1a2f46aab10cd08640bae2ef2906a4762e7e92bb71709b62a3dfb3adcda88b63"'
-    repoLastModified: Tue, 08 Sep 2026 11:13:33 GMT
+    repoEtag: '"63a167cc26343d570f63e7305e98c1569a2bd795cdb4feff1633e9445dc5aa6b"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:13 GMT
   category:
     - Documentation
     - Server Implementations
@@ -530,17 +530,17 @@
     repositoryId: 337689065
     description: OpenAPI Diff and Breaking Changes
     created: '2021-02-10T10:28:36Z'
-    updated: '2026-09-08T07:56:55Z'
+    updated: '2026-09-09T15:29:46Z'
     language: Go
     archived: false
-    stars: 1355
+    stars: 1356
     watchers: 7
     forks: 106
     owner: oasdiff
     logo: https://avatars.githubusercontent.com/u/128153573?v=4
     license: Apache-2.0
-    repoEtag: '"3a477290a160a8886a88ae488fcc12520685e50fa49c258138a7b18133541a39"'
-    repoLastModified: Tue, 08 Sep 2026 07:56:55 GMT
+    repoEtag: '"d68c5444fffe3b9d573aa8624ac9bccdb50478a8f328757ff3bcbd5ecfa6e615"'
+    repoLastModified: Wed, 09 Sep 2026 15:29:46 GMT
   foundInMaster: true
   name: oasdiff
   language: Go
@@ -687,17 +687,17 @@
       OASIS OData TC: Tools for producing API descriptions for OData services
       that adhere to the OpenAPI Specification
     created: '2016-11-17T21:11:22Z'
-    updated: '2026-09-07T16:39:24Z'
+    updated: '2026-09-09T17:38:11Z'
     language: XSLT
     archived: false
-    stars: 223
+    stars: 222
     watchers: 18
-    forks: 92
+    forks: 91
     owner: oasis-tcs
     logo: https://avatars.githubusercontent.com/u/20116735?v=4
     license: NOASSERTION
-    repoEtag: '"689fcc40034b680c2b8256456ca9b91b25d7de17638cb718f625eabf970fb4b7"'
-    repoLastModified: Mon, 07 Sep 2026 16:39:24 GMT
+    repoEtag: '"044cd51161b2a50265c5146fbe2a5e7b0740b417a1de880fe0e9e3ccd8574a94"'
+    repoLastModified: Wed, 09 Sep 2026 17:38:11 GMT
   foundInMaster: true
   v3_1: true
   id: 9039f84e8e8b63849cbf15578564033e
@@ -977,7 +977,7 @@
     repositoryId: 152569547
     description: Spot is a concise, developer-friendly way to describe your API contract.
     created: '2018-10-11T09:55:46Z'
-    updated: '2026-08-26T02:11:49Z'
+    updated: '2026-09-10T06:55:32Z'
     language: TypeScript
     archived: false
     stars: 568
@@ -986,8 +986,8 @@
     owner: airtasker
     logo: https://avatars.githubusercontent.com/u/1745680?v=4
     license: NOASSERTION
-    repoEtag: '"4fd61c245a9497434985d68cd637b0d827cd862c5e2e6f655874057d0dd06865"'
-    repoLastModified: Wed, 26 Aug 2026 02:11:49 GMT
+    repoEtag: '"12b8eb18643c2614f6c9be775a465ab26541690ec2e2c6605b221a7c9b03e1ae"'
+    repoLastModified: Thu, 10 Sep 2026 06:55:32 GMT
   foundInMaster: true
   id: 7c28c31ae17b20b046f57bb6765c3939
 - source: https://openapi.tools/
@@ -1055,17 +1055,17 @@
       generation), server stubs, documentation and configuration automatically
       given an OpenAPI Spec (v2, v3)
     created: '2018-05-12T09:57:56Z'
-    updated: '2026-09-09T07:48:22Z'
+    updated: '2026-09-10T02:42:13Z'
     language: Java
     archived: false
-    stars: 26734
+    stars: 26735
     watchers: 221
     forks: 7670
     owner: OpenAPITools
     logo: https://avatars.githubusercontent.com/u/37325267?v=4
     license: Apache-2.0
-    repoEtag: '"def8aeb69db264ec20ffa6310026a1f0330c5926942ce4f7fbead6469408a233"'
-    repoLastModified: Wed, 09 Sep 2026 07:48:22 GMT
+    repoEtag: '"24692e8498db6ff14f09cb406c62dcf60787e0d83d145914d719dda4704e5488"'
+    repoLastModified: Thu, 10 Sep 2026 02:42:13 GMT
   foundInMaster: true
   id: 0418f8afcd0196c648d1a46c0c5c20d1
   v3_1_link: https://github.com/OpenAPITools/openapi-generator/issues/9083
@@ -1139,7 +1139,7 @@
     repositoryId: 323665366
     description: OpenAPI based HTTP Client code generator
     created: '2020-12-22T15:35:49Z'
-    updated: '2026-09-09T06:54:58Z'
+    updated: '2026-09-09T14:53:32Z'
     language: C#
     archived: false
     stars: 3819
@@ -1148,8 +1148,8 @@
     owner: microsoft
     logo: https://avatars.githubusercontent.com/u/6154722?v=4
     license: MIT
-    repoEtag: '"fc30dee105417517d054a1f705b03a1ba8dcdb1302c6bafbea26f0ca36a97df2"'
-    repoLastModified: Wed, 09 Sep 2026 06:54:58 GMT
+    repoEtag: '"eb928ba8ff6dce1c6a9ae2a8f457735a5609078d296872e2a31c815907c4d7ce"'
+    repoLastModified: Wed, 09 Sep 2026 14:53:32 GMT
   foundInMaster: true
 - source: https://openapi.tools/
   name: FabriKt
@@ -1381,16 +1381,16 @@
     repositoryId: 19390712
     description: Swagger Editor
     created: '2014-05-02T22:47:10Z'
-    updated: '2026-09-08T12:42:33Z'
+    updated: '2026-09-09T13:52:03Z'
     language: JavaScript
     archived: false
-    stars: 9462
+    stars: 9461
     watchers: 252
-    forks: 2359
+    forks: 2360
     owner: swagger-api
     logo: https://avatars.githubusercontent.com/u/7658037?v=4
-    repoEtag: '"d27e0806dc1a0a8f276ba5284e7cf64d3d7c0c368097ac1bb492d2d75522e9aa"'
-    repoLastModified: Tue, 08 Sep 2026 12:42:33 GMT
+    repoEtag: '"f87949007e0b0b5aee02fb19bb887b6e1efef8b96de20b147804adfffbf82af7"'
+    repoLastModified: Wed, 09 Sep 2026 13:52:03 GMT
   foundInMaster: true
   id: 951cf61d12c812ef9b201ad76b5d278d
   v3_1: true
@@ -1506,7 +1506,7 @@
     owner: hackolade
     logo: https://avatars.githubusercontent.com/u/20265734?v=4
     license: NOASSERTION
-    repoEtag: '"2437d6aa51a3ee2c27b6911d1e14c7143d17dc6e07bb0d203c66e6b28c71fe12"'
+    repoEtag: '"393c55297f5fe4d1b50c69b90cd3df67868436e79fc2451cdfa229223c694629"'
     repoLastModified: Wed, 09 Sep 2026 07:59:37 GMT
   foundInMaster: true
   id: 0ca14e83c7b680313bbc57c0a56e6c05
@@ -1752,7 +1752,7 @@
       Turn any OpenAPI2/3 and Postman Collection file into an API server with
       mocking, transformations and validations.
     created: '2016-03-18T03:52:09Z'
-    updated: '2026-09-08T20:47:15Z'
+    updated: '2026-09-10T06:24:12Z'
     language: TypeScript
     archived: false
     stars: 5028
@@ -1761,8 +1761,8 @@
     owner: stoplightio
     logo: https://avatars.githubusercontent.com/u/10767217?v=4
     license: Apache-2.0
-    repoEtag: '"81062c4ddcdf767d3fa604a973750d57fcf4af3a63330dce35e4197c98381b5e"'
-    repoLastModified: Tue, 08 Sep 2026 20:47:15 GMT
+    repoEtag: '"3b2a01a0f27e48da0d1758515dc0eaee9e2a45fa3580df31b336c841aa482dd3"'
+    repoLastModified: Thu, 10 Sep 2026 06:24:12 GMT
   foundInMaster: true
   useMasterProperties: true
   id: 15aad8cd322242e03733b07f2a37890a
@@ -1795,17 +1795,17 @@
       The open source, cloud native tool for API Mocking and Testing. Microcks
       is a Cloud Native Computing Foundation incubating project 🚀
     created: '2015-02-23T15:46:09Z'
-    updated: '2026-09-09T07:43:41Z'
+    updated: '2026-09-09T11:50:05Z'
     language: Java
     archived: false
-    stars: 2036
+    stars: 2037
     watchers: 18
     forks: 363
     owner: microcks
     logo: https://avatars.githubusercontent.com/u/11051048?v=4
     license: Apache-2.0
-    repoEtag: '"8c928df1c95a0c4104ca4f177a2b5b24daa8dab8780146ea0e5bc5cedb2634ce"'
-    repoLastModified: Wed, 09 Sep 2026 07:43:41 GMT
+    repoEtag: '"a5d9f88da9b158f89b1dd52e74dce5f60ee45787cbe8c261b048823042858aa3"'
+    repoLastModified: Wed, 09 Sep 2026 11:50:05 GMT
   foundInMaster: true
   id: 1c0e918b5a733b0f1726199e3ea101d6
 - source: https://openapi.tools/
@@ -1974,17 +1974,17 @@
     repositoryId: 61366800
     description: Build OpenAPI-compliant REST APIs using TypeScript and Node
     created: '2016-06-17T10:42:50Z'
-    updated: '2026-09-09T02:40:09Z'
+    updated: '2026-09-10T02:30:05Z'
     language: TypeScript
     archived: false
-    stars: 3973
+    stars: 3974
     watchers: 27
     forks: 535
     owner: lukeautry
     logo: https://avatars.githubusercontent.com/u/8770560?v=4
     license: MIT
-    repoEtag: '"395eab751e942d7662f651ee3d3cfbf4e030c2f2da65f2c39e2768f00438b8c2"'
-    repoLastModified: Wed, 09 Sep 2026 02:40:09 GMT
+    repoEtag: '"4e3289c3bdbb3c134bed7f64ecef78169e410bab4f72990dd8155380978d2364"'
+    repoLastModified: Thu, 10 Sep 2026 02:30:05 GMT
   foundInMaster: true
   id: 2529db76d3d9f042b0c624f65b13fc41
 - source:
@@ -2005,17 +2005,17 @@
       mocks, and more. 20+ plugins. Millions of weekly npm downloads. Used by
       Vercel, OpenCode, PayPal, AWS, Autodesk, and many more.
     created: '2024-01-10T15:19:25Z'
-    updated: '2026-09-09T01:49:15Z'
+    updated: '2026-09-10T05:37:08Z'
     language: TypeScript
     archived: false
-    stars: 5383
+    stars: 5388
     watchers: 11
     forks: 433
     owner: hey-api
     logo: https://avatars.githubusercontent.com/u/164436240?v=4
     license: MIT
-    repoEtag: '"8e118e604bcad7a169a282670dffaf0139a11f82e7a44364bc825a3a6a7cf03e"'
-    repoLastModified: Wed, 09 Sep 2026 01:49:15 GMT
+    repoEtag: '"620b5b5072658c0c6d42471a02c6c72f2eb5fcf771c9be18cace8ce2c3fe0116"'
+    repoLastModified: Thu, 10 Sep 2026 05:37:08 GMT
   category:
     - Converters
     - SDK
@@ -2062,7 +2062,7 @@
     owner: vert-x3
     logo: https://avatars.githubusercontent.com/u/8124623?v=4
     license: Apache-2.0
-    repoEtag: '"b0c3dfdb1c5a7d95647360a6c6030cec42d053163c838b12e4f089d0c77a90bf"'
+    repoEtag: '"c99d5ebe2012d2c8d06e2fe2734bfd1bbe62653bf6c0773b43fc3dfccabf4c60"'
     repoLastModified: Mon, 07 Sep 2026 14:13:11 GMT
   foundInMaster: true
   v3_link: https://github.com/vert-x3/vertx-web/issues/1872
@@ -2199,11 +2199,11 @@
     archived: false
     stars: 9183
     watchers: 206
-    forks: 973
+    forks: 974
     owner: api-platform
     logo: https://avatars.githubusercontent.com/u/13420081?v=4
     license: MIT
-    repoEtag: '"5f2725471e076c7873888ce60f6368de265f0a15b61da809575ed9f5befd1506"'
+    repoEtag: '"40ffb63797c0f8e768c44317dcabb7d8bcbe01bafb7b758c07ff96750550dc77"'
     repoLastModified: Mon, 07 Sep 2026 03:54:02 GMT
   foundInMaster: true
   id: d14f5904300aabf1ceef4660a6b3d57e
@@ -2376,7 +2376,7 @@
     repositoryId: 105440153
     description: 'OpenAPI (Swagger) module for Nest framework (node.js) :earth_americas:'
     created: '2017-10-01T12:20:24Z'
-    updated: '2026-09-08T01:56:05Z'
+    updated: '2026-09-10T06:37:42Z'
     language: TypeScript
     archived: false
     stars: 1892
@@ -2385,8 +2385,8 @@
     owner: nestjs
     logo: https://avatars.githubusercontent.com/u/28507035?v=4
     license: MIT
-    repoEtag: '"9d6377c1c7bac5a78158ea2bd04ed600505d6d5747884e278f00369f114321a7"'
-    repoLastModified: Tue, 08 Sep 2026 01:56:05 GMT
+    repoEtag: '"a8cb0f1b4032d45e46f198325b44652067f6fde312cd12878dc13912e41f6706"'
+    repoLastModified: Thu, 10 Sep 2026 06:37:42 GMT
   foundInMaster: true
   id: 7071babd9853fc901c5decfa9b465b67
 - source:
@@ -2518,17 +2518,17 @@
       🦋 Auto-validates api requests, responses, and securities using ExpressJS
       and an OpenAPI 3.1.x or 3.0.x specification
     created: '2019-03-19T19:08:05Z'
-    updated: '2026-09-07T17:34:23Z'
+    updated: '2026-09-09T09:00:12Z'
     language: TypeScript
     archived: false
-    stars: 1006
+    stars: 1005
     watchers: 18
     forks: 238
     owner: cdimascio
     logo: https://avatars.githubusercontent.com/u/4706618?v=4
     license: MIT
-    repoEtag: '"71f0a18519d7f41d0a3b7cf7893b73d331ced4a144005ffeb7927c2feef9b6bb"'
-    repoLastModified: Mon, 07 Sep 2026 17:34:23 GMT
+    repoEtag: '"19d2cab60a850d2b4d0b5ba51e2c04126c57c4a6d6fcd8723e532e592164cc59"'
+    repoLastModified: Wed, 09 Sep 2026 09:00:12 GMT
   foundInMaster: true
   id: 3a27bc1a71642e0c1c020c41dc66e206
 - source: https://openapi.tools/
@@ -2600,7 +2600,7 @@
     owner: apideck-libraries
     logo: https://avatars.githubusercontent.com/u/73573473?v=4
     license: Apache-2.0
-    repoEtag: '"2493e21e37312968efed022fdf20c595cef7b88d063e27c80716ae3724f1e015"'
+    repoEtag: '"22a7af55915c9f0f2a9a9a324087a0657a8db51bc1513997d34ed8b430b5c290"'
     repoLastModified: Fri, 04 Sep 2026 19:01:14 GMT
   foundInMaster: true
   id: a03cdb329f630a946a946dfe26802c43
@@ -2634,11 +2634,11 @@
     archived: false
     stars: 1870
     watchers: 12
-    forks: 97
+    forks: 98
     owner: stepci
     logo: https://avatars.githubusercontent.com/u/61350067?v=4
     license: MPL-2.0
-    repoEtag: '"76741abb59c034657cbab729f2aa566bd08e06fdbdca73efb63b00166ba39c54"'
+    repoEtag: '"714a62695d35a3ebdb3bdbca6b8aa4121e0997dad8af8dec98ef51af74c6d9a4"'
     repoLastModified: Sun, 06 Sep 2026 23:13:25 GMT
   foundInMaster: true
 - source:
@@ -2710,7 +2710,7 @@
       baked in support for OpenAPI (v3.1, v3.0, and v2.0), Arazzo v1.0, as well
       as AsyncAPI v2.x.
     created: '2018-08-15T18:43:18Z'
-    updated: '2026-09-09T03:10:45Z'
+    updated: '2026-09-09T13:56:49Z'
     language: TypeScript
     archived: false
     stars: 3205
@@ -2719,8 +2719,8 @@
     owner: stoplightio
     logo: https://avatars.githubusercontent.com/u/10767217?v=4
     license: Apache-2.0
-    repoEtag: '"ebbb69efd26eb69510ca1430a7440f34ec5a00c8eae72f2c2f2a9dd8de2328c7"'
-    repoLastModified: Wed, 09 Sep 2026 03:10:45 GMT
+    repoEtag: '"f4c0621b71b43200635b4814402e8094785441fdc0eb0ed569f28104b8810256"'
+    repoLastModified: Wed, 09 Sep 2026 13:56:49 GMT
   foundInMaster: true
   id: fab3cc58898cd8953a30e43cc622e0fe
 - source: https://openapi.tools/
@@ -2745,17 +2745,17 @@
       A customizable style validator to make sure your OpenAPI spec follows your
       organization's standards.
     created: '2017-08-22T16:53:13Z'
-    updated: '2026-08-27T14:10:01Z'
+    updated: '2026-09-10T00:48:25Z'
     language: Java
     archived: false
-    stars: 237
+    stars: 236
     watchers: 7
     forks: 45
     owner: OpenAPITools
     logo: https://avatars.githubusercontent.com/u/37325267?v=4
     license: Apache-2.0
-    repoEtag: '"ab9f1264a0639d11ffce27215a4ef2f4aea9e09e13cd5f6f2668927f62cc4384"'
-    repoLastModified: Thu, 27 Aug 2026 14:10:01 GMT
+    repoEtag: '"85f0ae6d11779bc3851a12b454ee8fca545a0b609e00b954a616124be34afcb0"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:25 GMT
   foundInMaster: true
   id: 30d322c922366df3f6f8fb9c681b2139
 - source: https://openapi.tools/
@@ -2774,17 +2774,17 @@
     repositoryId: 153173690
     description: Configurable and extensible validator/linter for OpenAPI documents
     created: '2018-10-15T19:59:22Z'
-    updated: '2026-09-07T17:49:40Z'
+    updated: '2026-09-10T07:44:28Z'
     language: JavaScript
     archived: false
-    stars: 635
+    stars: 634
     watchers: 19
     forks: 98
     owner: IBM
     logo: https://avatars.githubusercontent.com/u/1459110?v=4
     license: Apache-2.0
-    repoEtag: '"0b0aa561aeada31e71244b0ecfa1b7999b9dc9a694d72712c70b6b43a11ee708"'
-    repoLastModified: Mon, 07 Sep 2026 17:49:40 GMT
+    repoEtag: '"5610fa7c9f93587128b6edcbf95490d2b8fec1cc51a2fbea031f717ea1bef70e"'
+    repoLastModified: Thu, 10 Sep 2026 07:44:28 GMT
   foundInMaster: true
   id: 0bf7dd29a9d07232135bb00764928296
   v3_1: true
@@ -2806,17 +2806,17 @@
       ⚒️ Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate
       beautiful docs, and more.
     created: '2019-09-10T14:56:25Z'
-    updated: '2026-09-08T14:32:51Z'
+    updated: '2026-09-10T05:54:54Z'
     language: TypeScript
     archived: false
-    stars: 1508
+    stars: 1510
     watchers: 21
     forks: 227
     owner: Redocly
     logo: https://avatars.githubusercontent.com/u/32099856?v=4
     license: MIT
-    repoEtag: '"98b7dc15af81ef88d88a764765fb3e1b3deeb69d943fbcc33d1a70a517899ac8"'
-    repoLastModified: Tue, 08 Sep 2026 14:32:51 GMT
+    repoEtag: '"366b329ce841fb6c59af40a477fa767cfa4aaacc0fa02ca65eacebb928d61699"'
+    repoLastModified: Thu, 10 Sep 2026 05:54:54 GMT
   category:
     - Description Validators
     - Documentation
@@ -3010,7 +3010,7 @@
     owner: swagger-api
     logo: https://avatars.githubusercontent.com/u/7658037?v=4
     license: Apache-2.0
-    repoEtag: '"2ce6726d1aecdc1b98abb75fcd8cdf8daaaa2da0a90432348f7926de88d578fa"'
+    repoEtag: '"669149ae4853964b65ddec630ffd94f8f90800475fa538dea86750c4e03b02c0"'
     repoLastModified: Mon, 31 Aug 2026 09:14:33 GMT
   foundInMaster: true
   id: 45f46a8f7ac698cfe3926303bf3dff9d
@@ -3030,17 +3030,17 @@
     repositoryId: 25453221
     description: Swagger 2.0 and OpenAPI 3.0 parser/validator
     created: '2014-10-20T06:14:51Z'
-    updated: '2026-09-04T03:16:29Z'
+    updated: '2026-09-09T14:32:16Z'
     language: JavaScript
     archived: false
-    stars: 1206
+    stars: 1207
     watchers: 19
     forks: 171
     owner: APIDevTools
     logo: https://avatars.githubusercontent.com/u/43750074?v=4
     license: MIT
-    repoEtag: '"0df4649dd715dbc9c67fcfd5f8c7aa3107a48b1e72a7cb5a2bd008206ac7247a"'
-    repoLastModified: Fri, 04 Sep 2026 03:16:29 GMT
+    repoEtag: '"6ccf164d161fd6e84001264aebf8a1402281490bdf5eefcf44c33b49736ce237"'
+    repoLastModified: Wed, 09 Sep 2026 14:32:16 GMT
   category: Parsers
   foundInMaster: true
   name: APIDevTools/swagger-parser
@@ -3161,17 +3161,17 @@
     repositoryId: 84108450
     description: TS Model & utils for creating and exposing OpenAPI 3.x contracts.
     created: '2017-03-06T18:47:56Z'
-    updated: '2026-08-26T12:02:38Z'
+    updated: '2026-09-10T00:50:50Z'
     language: TypeScript
     archived: false
-    stars: 541
+    stars: 540
     watchers: 6
     forks: 64
     owner: metadevpro
     logo: https://avatars.githubusercontent.com/u/24300914?v=4
     license: MIT
-    repoEtag: '"40b930591389434c79056d174ff3be75c08129749e319f8d8a9cd474fda4cdec"'
-    repoLastModified: Wed, 26 Aug 2026 12:02:38 GMT
+    repoEtag: '"d9ac2bf8747947e155de8ff8716010e6d38c221091d099d868cb3add80b4de3e"'
+    repoLastModified: Thu, 10 Sep 2026 00:50:50 GMT
   foundInMaster: true
   id: 390339b2a28f2e5660519a2422c29196
 - source:
@@ -3198,17 +3198,17 @@
       OpenAPI 3.0 and 3.1 and 3.2 (and Swagger v2) implementation for Go
       (parsing, converting, validation, and more)
     created: '2017-06-11T20:12:06Z'
-    updated: '2026-09-07T14:02:18Z'
+    updated: '2026-09-09T13:01:58Z'
     language: Go
     archived: false
-    stars: 3294
+    stars: 3293
     watchers: 18
-    forks: 509
+    forks: 510
     owner: getkin
     logo: https://avatars.githubusercontent.com/u/40365715?v=4
     license: MIT
-    repoEtag: '"3d29ccdf00e6e4c5e3038666b130ea8a2c81f9e1794d6b6e6fcf4b86a36697fe"'
-    repoLastModified: Mon, 07 Sep 2026 14:02:18 GMT
+    repoEtag: '"9e0fd972d6e65aa795f1ed7b26ba78141201b198663acf8bd2a396d69079141d"'
+    repoLastModified: Wed, 09 Sep 2026 13:01:58 GMT
   foundInMaster: true
   v2: true
   id: f6838ce08e87fa4c3dc813c97193ece3
@@ -3614,17 +3614,17 @@
     repositoryId: 26726495
     description: Swagger 2.0 implementation for go
     created: '2014-11-16T20:13:15Z'
-    updated: '2026-09-09T03:43:53Z'
+    updated: '2026-09-10T07:05:05Z'
     language: Go
     archived: false
-    stars: 10008
+    stars: 10007
     watchers: 112
     forks: 1306
     owner: go-swagger
     logo: https://avatars.githubusercontent.com/u/10362650?v=4
     license: Apache-2.0
-    repoEtag: '"20a2e34ff8a53c4627ce9415c4ea202a9d0955bcececf40327a4b3fbb02e4980"'
-    repoLastModified: Wed, 09 Sep 2026 03:43:53 GMT
+    repoEtag: '"d1b687e8966403783597db98cfddc4ff96270dde9e981508d2b0cad71797a696"'
+    repoLastModified: Thu, 10 Sep 2026 07:05:05 GMT
   foundInMaster: true
   id: ef136df9ffb40bb33ccbd76665d8f5b4
 - source: https://openapi.tools/
@@ -3717,17 +3717,17 @@
     repositoryId: 41822320
     description: 'The Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript. '
     created: '2015-09-02T19:11:57Z'
-    updated: '2026-09-08T13:59:37Z'
+    updated: '2026-09-09T20:35:01Z'
     language: C#
     archived: false
-    stars: 7363
+    stars: 7366
     watchers: 158
     forks: 1359
     owner: RicoSuter
     logo: https://avatars.githubusercontent.com/u/2603405?v=4
     license: MIT
-    repoEtag: '"96bf3620f0cf639daa286520d2b575ccf1b6806b3c7184cdb842cc1e20694920"'
-    repoLastModified: Tue, 08 Sep 2026 13:59:37 GMT
+    repoEtag: '"f69cc5180125d051056259adecb54369ac0da2e28bfaa9612c461d885a4b5eae"'
+    repoLastModified: Wed, 09 Sep 2026 20:35:01 GMT
   foundInMaster: true
   id: 93636e95435e95198d7d15c9d507f0d3
 - source: https://openapi.tools/
@@ -3900,7 +3900,7 @@
     owner: readmeio
     logo: https://avatars.githubusercontent.com/u/6878153?v=4
     license: MIT
-    repoEtag: '"43da2b3a8840dbf86a9c41ba1a4be29fd58cc21cd80ccd81a747d4d6250aaadd"'
+    repoEtag: '"8ac54f0af4c3ae6ae299a3b0ab8805841b0ee12e9cd62395ee08d106d4b6b5b3"'
     repoLastModified: Fri, 04 Sep 2026 16:18:35 GMT
   foundInMaster: true
   id: 362a4b56c90877840a8032f920389bf6
@@ -3942,7 +3942,7 @@
     owner: readmeio
     logo: https://avatars.githubusercontent.com/u/6878153?v=4
     license: MIT
-    repoEtag: '"7e31aa5bd78649798306c95232beaf0e527f78d4f812e9dd28581079622edf33"'
+    repoEtag: '"14fd968784249db0d32f642530820f8f610db61fd0680e49f00cbabec1fb95b0"'
     repoLastModified: Thu, 03 Sep 2026 18:19:56 GMT
   foundInMaster: true
 - source:
@@ -4259,7 +4259,7 @@
       configuration and no coding effort. Tests are self-healing and do not
       require maintenance.
     created: '2020-04-02T13:14:39Z'
-    updated: '2026-09-08T07:37:24Z'
+    updated: '2026-09-09T18:06:44Z'
     language: Java
     archived: false
     stars: 1367
@@ -4268,8 +4268,8 @@
     owner: Endava
     logo: https://avatars.githubusercontent.com/u/19396140?v=4
     license: Apache-2.0
-    repoEtag: '"d19f6c6579052c7e62cbdbeda92aa3a39dd09e1571f33662a646ea6e026e50b0"'
-    repoLastModified: Tue, 08 Sep 2026 07:37:24 GMT
+    repoEtag: '"2f34b95b6734653e3ccc6e2f480f7f59cf9e647111fec7b6cf8477394bbdf29a"'
+    repoLastModified: Wed, 09 Sep 2026 18:06:44 GMT
   foundInMaster: true
 - source: https://openapi.tools/
   name: API Insights
@@ -4502,16 +4502,16 @@
     repositoryId: 491304964
     description: Automagically reverse-engineer REST APIs via capturing traffic
     created: '2022-05-11T23:48:49Z'
-    updated: '2026-09-09T01:47:43Z'
+    updated: '2026-09-09T18:20:02Z'
     language: HTML
     archived: false
-    stars: 9601
+    stars: 9602
     watchers: 30
     forks: 374
     owner: alufers
     logo: https://avatars.githubusercontent.com/u/5400940?v=4
-    repoEtag: '"8121bec54f8e38de88e41aa984c97c87886356e7b28a8c53e5852b15163bc13e"'
-    repoLastModified: Wed, 09 Sep 2026 01:47:43 GMT
+    repoEtag: '"c5d9f85696c013da834f860bef6f3369add4c51e7d771bf0ff99e9c7ffd16e92"'
+    repoLastModified: Wed, 09 Sep 2026 18:20:02 GMT
   foundInMaster: true
 - source: https://openapi.tools/
   name: har2openapi
@@ -4534,16 +4534,16 @@
     repositoryId: 262170349
     description: Generate openapi spec api documentation from captured har files
     created: '2020-05-07T22:19:19Z'
-    updated: '2026-06-11T18:25:56Z'
+    updated: '2026-09-10T00:49:40Z'
     language: JavaScript
     archived: false
-    stars: 162
+    stars: 161
     watchers: 6
     forks: 25
     owner: dcarr178
     logo: https://avatars.githubusercontent.com/u/2379611?v=4
-    repoEtag: '"50598fb57063392804a5688d3bab12a35e27277eb656453b071710ca392cc62c"'
-    repoLastModified: Thu, 11 Jun 2026 18:25:56 GMT
+    repoEtag: '"9a3906c16a42db1bfd38c1d7a0b53f286e094e17f6d192af2e4e2c6110585509"'
+    repoLastModified: Thu, 10 Sep 2026 00:49:40 GMT
   foundInMaster: true
   id: 4df801fc431a2975d8981b7c4879ff7a
 - source: https://openapi.tools/
@@ -4567,17 +4567,17 @@
     repositoryId: 519317344
     description: HAR to OpenAPI spec generator
     created: '2022-07-29T18:43:20Z'
-    updated: '2026-09-07T20:26:46Z'
+    updated: '2026-09-10T00:49:42Z'
     language: TypeScript
     archived: false
-    stars: 135
+    stars: 134
     watchers: 2
     forks: 16
     owner: jonluca
     logo: https://avatars.githubusercontent.com/u/13029040?v=4
     license: MIT
-    repoEtag: '"b9af37969c9552523a3cde9ec8fe6938916cc32f5741f7be4085945f6fc2cc5d"'
-    repoLastModified: Mon, 07 Sep 2026 20:26:46 GMT
+    repoEtag: '"f7b071dac0c48e0fef04f67f3ed5a63ebe7e90dfd430d4a13dc8dba9943fb342"'
+    repoLastModified: Thu, 10 Sep 2026 00:49:42 GMT
   foundInMaster: true
   oldLocations:
     - https://github.com/jonluca/har_to_openapi
@@ -4609,16 +4609,16 @@
     repositoryId: 760891853
     description: Proxy server that generates API specs for any app or website on localhost.
     created: '2024-02-20T21:16:04Z'
-    updated: '2026-08-14T13:14:57Z'
+    updated: '2026-09-10T00:49:02Z'
     language: JavaScript
     archived: false
-    stars: 660
+    stars: 659
     watchers: 2
     forks: 15
     owner: Adawg4
     logo: https://avatars.githubusercontent.com/u/27599708?v=4
-    repoEtag: '"b7db72e6c61716cfd0af121f48ca0a7cc2ae1e65d6fd8056ec706a2422894b82"'
-    repoLastModified: Fri, 14 Aug 2026 13:14:57 GMT
+    repoEtag: '"4c11f206c1fbc19547ef72ede54bbf1a5f3f0bbdf05b27a2cfbc44a2f1784dd4"'
+    repoLastModified: Thu, 10 Sep 2026 00:49:02 GMT
   category:
     - Auto Generators
     - Documentation
@@ -4684,17 +4684,17 @@
     repositoryId: 381857226
     description: null
     created: '2021-06-30T23:29:49Z'
-    updated: '2026-09-09T06:27:45Z'
+    updated: '2026-09-10T06:27:08Z'
     language: Java
     archived: false
-    stars: 5847
+    stars: 5849
     watchers: 44
-    forks: 390
+    forks: 391
     owner: microsoft
     logo: https://avatars.githubusercontent.com/u/6154722?v=4
     license: MIT
-    repoEtag: '"8a255c6aa892c4a0347aff580097012898eefd8f919432fab6476cfc75949833"'
-    repoLastModified: Wed, 09 Sep 2026 06:27:45 GMT
+    repoEtag: '"acd1cf11e4c3c0646a783535e1e2e53f8e910360a001b8dedd26a53cd54a4eed"'
+    repoLastModified: Thu, 10 Sep 2026 06:27:08 GMT
   category:
     - Auto Generators
     - Server Implementations
@@ -4926,7 +4926,7 @@
     owner: github
     logo: https://avatars.githubusercontent.com/u/9919?v=4
     license: MIT
-    repoEtag: '"8da72283d2ace691bc81c6f25bd0dc99f6c83bc1fc0d9bab9cadf160d6988f2e"'
+    repoEtag: '"44e34cb8e44fada188af65dccb3e358b35d4cb92d8d69fd6ddff0e146d9808dc"'
     repoLastModified: Sun, 30 Aug 2026 12:41:34 GMT
   foundInMaster: true
   id: ec6a7a1e4a69a9beeb95bdebb88cb36d
@@ -5020,17 +5020,17 @@
     repositoryId: 36817565
     description: The ZAP by Checkmarx Core project
     created: '2015-06-03T16:55:01Z'
-    updated: '2026-09-09T02:04:01Z'
+    updated: '2026-09-10T07:44:20Z'
     language: Java
     archived: false
-    stars: 15748
+    stars: 15754
     watchers: 393
-    forks: 2631
+    forks: 2632
     owner: zaproxy
     logo: https://avatars.githubusercontent.com/u/6716868?v=4
     license: Apache-2.0
-    repoEtag: '"ad4554c2e014b4a6f5fbcc7724fda63efe13bd0c80e0cfe00e142ec515152e9b"'
-    repoLastModified: Wed, 09 Sep 2026 02:04:01 GMT
+    repoEtag: '"ffae1215c498f6e48ede5e96b1f745c925b973c0ed67a2eb756021f321c8dcb9"'
+    repoLastModified: Thu, 10 Sep 2026 07:44:20 GMT
   foundInMaster: true
   id: 9eedc1be44837a65f912bcf562844f39
 - source:
@@ -5364,17 +5364,17 @@
     repositoryId: 1431547
     description: Web APIs for Django. 🎸
     created: '2011-03-02T17:13:56Z'
-    updated: '2026-09-09T06:49:05Z'
+    updated: '2026-09-09T18:41:42Z'
     language: Python
     archived: false
-    stars: 30169
+    stars: 30172
     watchers: 605
     forks: 7081
     owner: encode
     logo: https://avatars.githubusercontent.com/u/19159390?v=4
     license: NOASSERTION
-    repoEtag: '"b943ad880b5214b245b15721b3bb0df3ef7ac4f53ee5c13ab40f7bcced65a3f1"'
-    repoLastModified: Wed, 09 Sep 2026 06:49:05 GMT
+    repoEtag: '"1c0f2a89314ded4eaf37d7979bd75c477f09efa29fed066d57978d99b0d8c0cc"'
+    repoLastModified: Wed, 09 Sep 2026 18:41:42 GMT
   foundInMaster: true
   id: fb8994c078a380cc3510b024f6ed1202
   category: Server Implementations
@@ -5559,17 +5559,17 @@
     repositoryId: 240776275
     description: Generate modern Python clients from OpenAPI
     created: '2020-02-15T19:33:46Z'
-    updated: '2026-09-07T09:47:36Z'
+    updated: '2026-09-09T10:01:35Z'
     language: Python
     archived: false
-    stars: 1986
+    stars: 1987
     watchers: 20
     forks: 290
     owner: openapi-generators
     logo: https://avatars.githubusercontent.com/u/84925606?v=4
     license: MIT
-    repoEtag: '"aab9b7c2df3f7565a2fc71c6d749acf1f90b7fd739c0c1dd3a8cf60fd0fbe9f1"'
-    repoLastModified: Mon, 07 Sep 2026 09:47:36 GMT
+    repoEtag: '"ea42042e89a8695a36f06013bd67c4dce1342d6b754e8bd87f16f2fb5678da06"'
+    repoLastModified: Wed, 09 Sep 2026 10:01:35 GMT
   foundInMaster: true
   id: 784ec4adac4e47e4211ea74ef36dd5a5
   v3_1: true
@@ -5599,7 +5599,7 @@
       Build beautiful, interactive API Docs with embeddable React or Web
       Components, powered by OpenAPI and Markdown.
     created: '2019-05-03T01:05:01Z'
-    updated: '2026-09-07T14:01:24Z'
+    updated: '2026-09-10T00:48:28Z'
     language: TypeScript
     archived: false
     stars: 2457
@@ -5608,8 +5608,8 @@
     owner: stoplightio
     logo: https://avatars.githubusercontent.com/u/10767217?v=4
     license: Apache-2.0
-    repoEtag: '"83109b6bbec9aa987ba9dff558e8bd807678780d23d6feb5930225e701110b17"'
-    repoLastModified: Mon, 07 Sep 2026 14:01:24 GMT
+    repoEtag: '"fdedee33aa9289454513647af2cf2a60e019c6df52e2fc75b80ec8918127a76f"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:28 GMT
   foundInMaster: true
   id: 2f94cc1fc980953b17a9979d4ff2e7ec
 - source:
@@ -5634,7 +5634,7 @@
     owner: nfroidure
     logo: https://avatars.githubusercontent.com/u/229633?v=4
     license: MIT
-    repoEtag: '"fac326d3283e97f5fae1a37c0c5192b915acbd9c4afc224a95b094a37b77ae60"'
+    repoEtag: '"59bfbe2a664d7514a9fa7687cefdeafc9ef9d7e98537c409313a858e379f9ccd"'
     repoLastModified: Mon, 07 Sep 2026 08:43:01 GMT
   foundInMaster: true
   name: Whook
@@ -5918,7 +5918,7 @@
     repositoryId: 581018208
     description: The starter kit for your mintlify project
     created: '2022-12-22T03:50:30Z'
-    updated: '2026-09-08T21:57:47Z'
+    updated: '2026-09-10T00:48:44Z'
     language: MDX
     archived: false
     stars: 1913
@@ -5927,8 +5927,8 @@
     owner: mintlify
     logo: https://avatars.githubusercontent.com/u/93011474?v=4
     license: MIT
-    repoEtag: '"f6990350ab67460fbf005c5425937048d9642bd87c494fc2d488f7e07f6e58a6"'
-    repoLastModified: Tue, 08 Sep 2026 21:57:47 GMT
+    repoEtag: '"3b0f898a54e47ca85b3ef8d752167c57a06b633dfb40d82aaeadaff4afe30fdb"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:44 GMT
   foundInMaster: true
 - source:
     - https://openapi.tools/
@@ -6049,20 +6049,21 @@
     readmeLastModified: Mon, 24 Aug 2026 21:36:03 GMT
     repositoryId: 479515560
     description: >-
-      Not just a mock server. Turn an OpenAPI spec into TypeScript-based
-      simulation, with state management, hot reload, and a REPL.
+      Turn an OpenAPI spec into a local API in one command. Build and test your
+      frontend with custom responses, shared state, and simulated failures,
+      without waiting for the backend.
     created: '2022-04-08T19:32:15Z'
-    updated: '2026-09-07T20:32:07Z'
+    updated: '2026-09-10T03:45:26Z'
     language: TypeScript
     archived: false
-    stars: 169
+    stars: 170
     watchers: 4
     forks: 20
     owner: counterfact
     logo: https://avatars.githubusercontent.com/u/274265992?v=4
     license: MIT
-    repoEtag: '"160772bb1d09833947c9c741c1da4070e5727636ec39f96a302f2c63f1cc0b7b"'
-    repoLastModified: Mon, 07 Sep 2026 20:32:07 GMT
+    repoEtag: '"f5e6b2dad8bf909e9d32cc37e7523ebe158a0a1a6c5ab1d79e1b8bd1a89a9208"'
+    repoLastModified: Thu, 10 Sep 2026 03:45:26 GMT
   category:
     - Mock
     - SDK
@@ -6519,17 +6520,17 @@
       specifications into executable contracts instantly—no coding required, no
       integration surprises.
     created: '2020-03-16T13:33:07Z'
-    updated: '2026-09-08T15:23:52Z'
+    updated: '2026-09-10T00:48:54Z'
     language: Kotlin
     archived: false
-    stars: 396
+    stars: 395
     watchers: 10
-    forks: 64
+    forks: 63
     owner: specmatic
     logo: https://avatars.githubusercontent.com/u/80689899?v=4
     license: MIT
-    repoEtag: '"3aac422c9a21a334d5894325ad9cd9588b330fdeb2dec358cb351d62b5cef25a"'
-    repoLastModified: Tue, 08 Sep 2026 15:23:52 GMT
+    repoEtag: '"9e9b2f2996958143aba9435500dc81b0130161171096be260c4a7a843af5c82f"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:54 GMT
   foundInMaster: true
   oldLocations:
     - https://github.com/znsio/specmatic
@@ -6878,11 +6879,11 @@
     archived: false
     stars: 2201
     watchers: 28
-    forks: 455
+    forks: 454
     owner: rswag
     logo: https://avatars.githubusercontent.com/u/55741034?v=4
     license: MIT
-    repoEtag: '"ea19abb69d9ae62d01acf4867b6b6e9b6619fb93c4e462cf2a1d2a4d67025780"'
+    repoEtag: '"3122dc70cf2a762961810fb09f969a3049030f7564a633d0e0cc13e994f26dca"'
     repoLastModified: Fri, 04 Sep 2026 03:32:36 GMT
   foundInMaster: true
   v3_1_link: https://github.com/rswag/rswag/pull/714
@@ -6927,17 +6928,17 @@
     repositoryId: 476820102
     description: Input OpenAPI. Output SDKs and Docs.
     created: '2022-04-01T17:56:54Z'
-    updated: '2026-09-08T22:48:14Z'
+    updated: '2026-09-09T23:58:05Z'
     language: TypeScript
     archived: false
-    stars: 3774
+    stars: 3775
     watchers: 17
-    forks: 341
+    forks: 342
     owner: fern-api
     logo: https://avatars.githubusercontent.com/u/102944815?v=4
     license: Apache-2.0
-    repoEtag: '"d36ed356ca9e864e841300ded32254c765c5614b285fc1a12b0936c5f20c1fa5"'
-    repoLastModified: Tue, 08 Sep 2026 22:48:14 GMT
+    repoEtag: '"54c01210bf0040fc0c26a4a6ee723c2080b25488bb6acb005708ae55284424bb"'
+    repoLastModified: Wed, 09 Sep 2026 23:58:05 GMT
   foundInMaster: true
   sponsored: true
   testimonial: >
@@ -7041,17 +7042,17 @@
     repositoryId: 630566794
     description: Generate Swift client and server code from an OpenAPI document.
     created: '2023-04-20T16:50:53Z'
-    updated: '2026-09-09T06:57:03Z'
+    updated: '2026-09-09T21:18:02Z'
     language: Swift
     archived: false
-    stars: 1968
+    stars: 1970
     watchers: 117
     forks: 182
     owner: apple
     logo: https://avatars.githubusercontent.com/u/10639145?v=4
     license: Apache-2.0
-    repoEtag: '"652a1bf068e236c5b8e51cfe517cfb3b89a6edaa5670b86894bcb54704fc129f"'
-    repoLastModified: Wed, 09 Sep 2026 06:57:03 GMT
+    repoEtag: '"4a269b3fd4c0df4ac512182a12992d5db3767a586fe34a4df4a34ebb6b1bdec8"'
+    repoLastModified: Wed, 09 Sep 2026 21:18:02 GMT
   foundInMaster: true
 - source:
     - https://openapi.tools/
@@ -7069,17 +7070,17 @@
       The world's coolest API Validation and compliance tool. Validate APIs
       against OpenAPI specifications and much more
     created: '2023-05-01T17:19:15Z'
-    updated: '2026-08-05T12:11:14Z'
+    updated: '2026-09-10T01:29:25Z'
     language: Go
     archived: false
-    stars: 236
+    stars: 237
     watchers: 3
     forks: 27
     owner: pb33f
     logo: https://avatars.githubusercontent.com/u/104016643?v=4
     license: NOASSERTION
-    repoEtag: '"91451771a7d586c04e8fe03361aaaca1f389989893aa63011732613312fec5db"'
-    repoLastModified: Wed, 05 Aug 2026 12:11:14 GMT
+    repoEtag: '"55c34544ca5ec2ca8a54d4e3f052a664048a1fd4b910ecbdd74368eb2fa0bdef"'
+    repoLastModified: Thu, 10 Sep 2026 01:29:25 GMT
   category:
     - Testing Tools
     - Testing
@@ -7243,17 +7244,17 @@
       Golang Fuego - Web framework generating OpenAPI 3 spec from source code -
       Pluggable to existing Gin & Echo APIs
     created: '2023-10-17T15:36:43Z'
-    updated: '2026-09-08T14:45:23Z'
+    updated: '2026-09-09T13:02:35Z'
     language: Go
     archived: false
-    stars: 1778
+    stars: 1777
     watchers: 9
     forks: 129
     owner: go-fuego
     logo: https://avatars.githubusercontent.com/u/148255240?v=4
     license: MIT
-    repoEtag: '"caa89f3682ff91f4126cf1dea0b636bba8bd17128ebb14b460ec3f2d5efb1dcb"'
-    repoLastModified: Tue, 08 Sep 2026 14:45:23 GMT
+    repoEtag: '"6b86d25d9a8354a2b267d7acc471d58c787c443539f3248bbdfa87cf6bef84ef"'
+    repoLastModified: Wed, 09 Sep 2026 13:02:35 GMT
   foundInMaster: true
 - source:
     - https://openapi.tools/
@@ -7269,17 +7270,17 @@
     repositoryId: 245763170
     description: Huma REST/HTTP API Framework for Golang with OpenAPI 3.1
     created: '2020-03-08T06:19:51Z'
-    updated: '2026-09-09T04:32:50Z'
+    updated: '2026-09-10T02:07:09Z'
     language: Go
     archived: false
-    stars: 4385
+    stars: 4388
     watchers: 27
     forks: 284
     owner: danielgtaylor
     logo: https://avatars.githubusercontent.com/u/106826?v=4
     license: MIT
-    repoEtag: '"ee976f7da1334161547df048115c6f4b6222121f377952b7bdfba60fd5ba7328"'
-    repoLastModified: Wed, 09 Sep 2026 04:32:50 GMT
+    repoEtag: '"2362ead51e685d7ee593e83c843b3291d99b8a84115805649dbac965a98f95e5"'
+    repoLastModified: Thu, 10 Sep 2026 02:07:09 GMT
   foundInMaster: true
   category:
     - Auto Generators
@@ -7458,11 +7459,11 @@
     archived: false
     stars: 1582
     watchers: 16
-    forks: 318
+    forks: 317
     owner: Mermade
     logo: https://avatars.githubusercontent.com/u/15950345?v=4
     license: MIT
-    repoEtag: '"521ae1d21cb27393a3bd2dbb42995e493ae76c16e98c7d6ac3847f841b3baff2"'
+    repoEtag: '"4c8358746913f2c644da51a63d9031f47842724ed5c32582c544a19d844a84b9"'
     repoLastModified: Tue, 08 Sep 2026 08:15:00 GMT
   foundInMaster: true
   homepage: https://github.com/Mermade/widdershins
@@ -7488,17 +7489,17 @@
     repositoryId: 843437350
     description: Framework for building high quality, interactive API documentation.
     created: '2024-08-16T14:09:50Z'
-    updated: '2026-09-07T06:20:30Z'
+    updated: '2026-09-10T00:47:52Z'
     language: TypeScript
     archived: false
-    stars: 591
+    stars: 590
     watchers: 5
     forks: 89
     owner: zuplo
     logo: https://avatars.githubusercontent.com/u/85497839?v=4
     license: MIT
-    repoEtag: '"3d9ea269071f5ca7ea06e529f54a81ef5f9bdd302daec825a1009d4cbb67857e"'
-    repoLastModified: Mon, 07 Sep 2026 06:20:30 GMT
+    repoEtag: '"295ec53a4e6f7be38762f67ab6ddef82c4e85a51d48b52c37edb53ad1e0f8ba9"'
+    repoLastModified: Thu, 10 Sep 2026 00:47:52 GMT
   foundInMaster: true
 - source: openapi3 tags
   name: FastAPI
@@ -7520,17 +7521,17 @@
       FastAPI framework, high performance, easy to learn, fast to code, ready
       for production
     created: '2018-12-08T08:21:47Z'
-    updated: '2026-09-09T06:44:49Z'
+    updated: '2026-09-10T07:57:27Z'
     language: Python
     archived: false
-    stars: 102209
-    watchers: 769
-    forks: 9866
+    stars: 102222
+    watchers: 770
+    forks: 9871
     owner: fastapi
     logo: https://avatars.githubusercontent.com/u/156354296?v=4
     license: MIT
-    repoEtag: '"20c580638c09b4b016e1f33ec49ffb3458a95d99bb630524b8a580121ebe99ff"'
-    repoLastModified: Wed, 09 Sep 2026 06:44:49 GMT
+    repoEtag: '"1e7616efda2102c4ea7f4d8787979819b91ec7ff14527bbe0a44cbcf90a44edf"'
+    repoLastModified: Thu, 10 Sep 2026 07:57:27 GMT
   foundInMaster: true
   id: 01f8d446752c39de698f67e8d2352229
   oldLocations:
@@ -7550,17 +7551,17 @@
       Swagger UI is a collection of HTML, JavaScript, and CSS assets that
       dynamically generate beautiful documentation from a Swagger-compliant API.
     created: '2011-07-15T22:56:39Z'
-    updated: '2026-09-09T07:19:09Z'
+    updated: '2026-09-09T18:39:19Z'
     language: JavaScript
     archived: false
-    stars: 29002
+    stars: 29004
     watchers: 623
-    forks: 9257
+    forks: 9258
     owner: swagger-api
     logo: https://avatars.githubusercontent.com/u/7658037?v=4
     license: Apache-2.0
-    repoEtag: '"4de2279527bcc139a734e5443432869050e5d2339bdd980d8a7e88c996ab448c"'
-    repoLastModified: Wed, 09 Sep 2026 07:19:09 GMT
+    repoEtag: '"35fc5f2e22b708b0b78ae893d44a4b7cf80ee3c0fa98c86360efd6ef0f967aaf"'
+    repoLastModified: Wed, 09 Sep 2026 18:39:19 GMT
   foundInMaster: true
   name: swagger-ui
   homepage: https://github.com/swagger-api/swagger-UI
@@ -7593,17 +7594,17 @@
     repositoryId: 45250726
     description: 📘  OpenAPI/Swagger-generated API Reference Documentation
     created: '2015-10-30T12:53:02Z'
-    updated: '2026-09-09T07:26:33Z'
+    updated: '2026-09-10T03:53:02Z'
     language: TypeScript
     archived: false
-    stars: 25906
+    stars: 25904
     watchers: 297
     forks: 2397
     owner: Redocly
     logo: https://avatars.githubusercontent.com/u/32099856?v=4
     license: MIT
-    repoEtag: '"244fca0585f4aec9ca4a07b8e0573a079d996e03d5a49d77489fadd2f63b3603"'
-    repoLastModified: Wed, 09 Sep 2026 07:26:33 GMT
+    repoEtag: '"d5063cf8ccf04d0212f59942051602e4a8740ab4c4ee65b1c57f06adb6670571"'
+    repoLastModified: Thu, 10 Sep 2026 03:53:02 GMT
   foundInMaster: true
   v3_1: true
   id: 2725d6db6977c1dd12ceaf9701787e07
@@ -7631,7 +7632,7 @@
     owner: swagger-api
     logo: https://avatars.githubusercontent.com/u/7658037?v=4
     license: Apache-2.0
-    repoEtag: '"920f11fcb7cbbc5276e306376f19c125cb70d0a8b3ca39727b8abb75e0c71260"'
+    repoEtag: '"5bb7b0b48ec1a25035eb4b67e2f2ef70b22ec7c2a34f6e1a8c950de3e29110b5"'
     repoLastModified: Wed, 09 Sep 2026 05:08:05 GMT
   foundInMaster: true
   category: Code Generators
@@ -7641,25 +7642,25 @@
   v3: true
   repositoryMetadata:
     base64Readme: >-
-      PGRpdiBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL21vY2tvb24uY29tIiBhbHQ9Im1vY2tvb24gbG9nbyI+CiAgICA8aW1nIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBzcmM9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL2xvZ28tc3F1YXJlLWFwcC5wbmciPgogIDwvYT4KICA8YnI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9tb2Nrb29uLmNvbS8iPjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1dlYnNpdGUtR28tZ3JlZW4uc3ZnP3N0eWxlPWZsYXQtc3F1YXJlJmNvbG9yQj0xOTk3YzYiLz48L2E+CiAgPGEgaHJlZj0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9uZXdzbGV0dGVyLyI+PGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTmV3c2xldHRlci1TdWJzY3JpYmUtZ3JlZW4uc3ZnP3N0eWxlPWZsYXQtc3F1YXJlIi8+PC9hPgogIDxicj4KICA8YnI+CiAgPGgxPk1vY2tvb246IGF3ZXNvbWUgQVBJIG1vY2tpbmc8L2gxPgo8L2Rpdj4KCk1vY2tvb24gaXMgdGhlIGVhc2llc3QgYW5kIHF1aWNrZXN0IHdheSB0byBkZXNpZ24gYW5kIHJ1biBtb2NrIEFQSXMuIE5vIHJlbW90ZSBkZXBsb3ltZW50LCBubyBhY2NvdW50IHJlcXVpcmVkLCBmcmVlIGFuZCBvcGVuLXNvdXJjZS4KCkl0IGNvbWJpbmVzIGEgW2Rlc2t0b3AgYXBwbGljYXRpb25dKGh0dHBzOi8vbW9ja29vbi5jb20vZG93bmxvYWQvKSB0byBkZXNpZ24gYW5kIHJ1biBtb2NrIHNlcnZlcnMgbG9jYWxseSwgYW5kIGEgW0NMSV0oaHR0cHM6Ly9tb2Nrb29uLmNvbS9jbGkvKSB0byBzZWxmLWhvc3QgeW91ciBmYWtlIEFQSXMuIEEgW2Nsb3VkXSgjc3Vic2NyaWJlLXRvLW1vY2tvb24tY2xvdWQpIGlzIGFsc28gYXZhaWxhYmxlIHRvIGNvbGxhYm9yYXRlIHdpdGggeW91ciB0ZWFtLCBrZWVwIHlvdXIgZGF0YSBpbiBzeW5jLCBhbmQgZGVwbG95IHlvdXIgbW9jayBBUElzLgoKQVBJIG1vY2tpbmcgaGVscHMgeW91IHNwZWVkIHVwIGRldmVsb3BtZW50IGFuZCB0aGlyZC1wYXJ0eSBBUEkgaW50ZWdyYXRpb24gYnkgcmVkdWNpbmcgZGVwZW5kZW5jeSBvbiBleHRlcm5hbCBzZXJ2aWNlcyBhbmQgdGhlaXIgbGltaXRhdGlvbnM6IHJhdGUgbGltaXRzLCBjb3N0cywgYXZhaWxhYmlsaXR5LCBldGMuCkl0IGFsc28gYWxsb3dzIHlvdSB0byB0ZXN0IHlvdXIgYXBwbGljYXRpb25zIGluIGEgY29udHJvbGxlZCBlbnZpcm9ubWVudCB3aXRoIHByZWRpY3RhYmxlIHJlc3BvbnNlcywgc3RhdHVzIGNvZGVzLCBhbmQgbGF0ZW5jaWVzLCBhbmQgZWFzaWx5IHNpbXVsYXRlIGVkZ2UgY2FzZXMgYW5kIGVycm9yIHNjZW5hcmlvcy4KRmluYWxseSwgeW91IGNhbiBvbmJvYXJkIG5ldyB0ZWFtIG1lbWJlcnMgZmFzdGVyIGJ5IHByb3ZpZGluZyB0aGVtIHdpdGggYSBjb25zaXN0ZW50IGFuZCByZWxpYWJsZSBlbnZpcm9ubWVudCB0byB0ZXN0IGFuZCBkZXZlbG9wIHRoZWlyIGFwcGxpY2F0aW9ucy4KCuKeoe+4jyBbRG93bmxvYWRdKGh0dHBzOi8vbW9ja29vbi5jb20vZG93bmxvYWQvKQoKPGRpdiBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHdpZHRoPSI1MCUiIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvaGVyby1yZXBvLnBuZyI+CjwvZGl2PgoKIyMgRmVhdHVyZXMKCk1vY2tvb24gb2ZmZXJzIG1hbnkgZmVhdHVyZXM6CgotIFVubGltaXRlZCBudW1iZXIgb2YgbW9jayBsb2NhbCBzZXJ2ZXJzIGFuZCByb3V0ZXMKLSBDTEkgdG8gcnVuIHlvdXIgbW9jayBpbiBoZWFkbGVzcyBlbnZpcm9ubWVudHMsIENJLCBldGMuCi0gQ29tcGxldGUgY29udHJvbCBvbiByb3V0ZXMgZGVmaW5pdGlvbjogSFRUUCBtZXRob2RzIGFuZCBzdGF0dXNlcywgcmVnZXggcGF0aHMsIGZpbGUgc2VydmluZywgY3VzdG9tIGhlYWRlcnMsIGV0Yy4KLSBPcGVuQVBJIGNvbXBhdGliaWxpdHkKLSBSZWNvcmQvbG9ncyBvZiBhbGwgZW50ZXJpbmcgYW5kIGZvcndhcmRlZCByZXF1ZXN0cwotIEpTT04gdGVtcGxhdGluZwotIFByb3h5IGZvcndhcmRpbmcgbW9kZQotIEhUVFBTIHN1cHBvcnQKCllvdSBjYW4gY2hlY2sgdGhlIFtjb21wbGV0ZSBsaXN0XShodHRwczovL21vY2tvb24uY29tL2ZlYXR1cmVzLykgb24gdGhlIHdlYnNpdGUuCgojIyBEb3dubG9hZCB0aGUgZGVza3RvcCBhcHBsaWNhdGlvbgoKWW91IGNhbiBnZXQgTW9ja29vbiBkZXNrdG9wJ3MgW2xhdGVzdCByZWxlYXNlXShodHRwczovL2dpdGh1Yi5jb20vbW9ja29vbi9tb2Nrb29uL3JlbGVhc2VzL2xhdGVzdCkgZGlyZWN0bHkgZnJvbSB0aGlzIHJlcG9zaXRvcnkgb3Igb24gdGhlIG9mZmljaWFsIFt3ZWJzaXRlXShodHRwczovL21vY2tvb24uY29tL2Rvd25sb2FkLykuIE1vY2tvb24gZGVza3RvcCBpcyBhbHNvIGF2YWlsYWJsZSB0aHJvdWdoOgoKTWFjT1M6CgotIFtfSG9tZWJyZXdfXShodHRwczovL2Zvcm11bGFlLmJyZXcuc2gvY2Fzay9tb2Nrb29uKTogYGJyZXcgaW5zdGFsbCAtLWNhc2sgbW9ja29vbmAuCgpXaW5kb3dzOgoKLSBfd2luZ2V0XzogYHdpbmdldCBpbnN0YWxsIG1vY2tvb25gLgotIFtfQ2hvY29sYXRleV9dKGh0dHBzOi8vY29tbXVuaXR5LmNob2NvbGF0ZXkub3JnL3BhY2thZ2VzL21vY2tvb24pOiBgY2hvY28gaW5zdGFsbCBtb2Nrb29uYC4KLSBbX1dpbmRvd3MgU3RvcmVfXShodHRwczovL3d3dy5taWNyb3NvZnQuY29tL2VuLXVzL3AvbW9ja29vbi85cGs4ZG1zbjAwamopCgpMaW51eDoKCi0gW19TbmFwIHN0b3JlX10oaHR0cHM6Ly9zbmFwY3JhZnQuaW8vbW9ja29vbik6IGBzbmFwIGluc3RhbGwgbW9ja29vbmAuCi0gW19BVVJfXShodHRwczovL2F1ci5hcmNobGludXgub3JnL3BhY2thZ2VzL21vY2tvb24tYmluKTogYHlheSAtUyBtb2Nrb29uLWJpbmAuCgojIyBJbnN0YWxsIHRoZSBDTEkKCk1vY2tvb24gQ0xJIGlzIGF2YWlsYWJsZSBhcyBhbiBbTlBNIHBhY2thZ2VdKGh0dHBzOi8vd3d3Lm5wbWpzLmNvbS9wYWNrYWdlL0Btb2Nrb29uL2NsaSkuIFBsZWFzZSBjaGVjayBvdXIgW2RlZGljYXRlZCBkb2N1bWVudGF0aW9uXShodHRwczovL2dpdGh1Yi5jb20vbW9ja29vbi9tb2Nrb29uL2Jsb2IvbWFpbi9wYWNrYWdlcy9jbGkvUkVBRE1FLm1kKSB0byBsZWFybiBob3cgdG8gaW5zdGFsbCBhbmQgdXNlIGl0LgoKIyMgVXNlIGluIGNsb3VkIGZ1bmN0aW9ucyBhbmQgc2VydmVybGVzcyBlbnZpcm9ubWVudHMKCk1vY2tvb24ncyBTZXJ2ZXJsZXNzIFtOUE0gcGFja2FnZV0oaHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvQG1vY2tvb24vc2VydmVybGVzcykgcHJvdmlkZXMgYW4gZWFzeSB3YXkgdG8gcnVuIE1vY2tvb24ncyBtb2NrIEFQSXMgaW4gY2xvdWQgZnVuY3Rpb25zIGFuZCBzZXJ2ZXJsZXNzIGVudmlyb25tZW50czogQVdTIExhbWJkYSwgR0NQIEZ1bmN0aW9ucywgRmlyZWJhc2UgRnVuY3Rpb25zLCBldGMuCgpQbGVhc2UgY2hlY2sgb3VyIFtkZWRpY2F0ZWQgZG9jdW1lbnRhdGlvbl0oaHR0cHM6Ly9naXRodWIuY29tL21vY2tvb24vbW9ja29vbi9ibG9iL21haW4vcGFja2FnZXMvc2VydmVybGVzcy9SRUFETUUubWQpIHRvIGxlYXJuIGhvdyB0byB1c2UgaXQuCgojIyBTdXBwb3J0IHVzIQoKTW9ja29vbiBpcyBwcm91ZGx5ICoqaW5kZXBlbmRlbnQqKiBhbmQgKipvcGVuLXNvdXJjZSoqLCBtYWludGFpbmVkIHdpdGhvdXQgZXh0ZXJuYWwgZnVuZGluZy4gV2UgcmVseSBvbiBib3RoICoqc3BvbnNvcnNoaXBzKiogYW5kICoqTW9ja29vbiBDbG91ZCBzdWJzY3JpcHRpb25zKiogdG8ga2VlcCBpbXByb3ZpbmcgdGhlIHByb2plY3QgYW5kIGJ1aWxkaW5nIG5ldyBmZWF0dXJlcy4gQSAqKmJpZyB0aGFuayB5b3UqKiB0byB0aGUgY29tcGFuaWVzIGJlbG93IGZvciBzdXBwb3J0aW5nIG91ciB3b3JrIGFuZCBoZWxwaW5nIHVzIGdyb3cgKGFuZCBhbGwgdGhlIFtzcG9uc29yc10oaHR0cHM6Ly9naXRodWIuY29tL21vY2tvb24vbW9ja29vbi9ibG9iL21haW4vYmFja2Vycy5tZCkgd2hvIGhlbHBlZCB0aGlzIHByb2plY3Qgb3ZlciB0aW1lISk6CgojIyMgUGxhdGludW0KCjxkaXYgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6MjBweDttYXJnaW4tYm90dG9tOjIwcHg7Ij4KICA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5ibG9nLzIwMjMtMDQtMTItZ2l0aHViLWFjY2VsZXJhdG9yLW91ci1maXJzdC1jb2hvcnQtYW5kLXdoYXRzLW5leHQvIj4KICAgICAgPHBpY3R1cmU+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykiIHNyY3NldD0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvZ2l0aHViLnBuZyI+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogbGlnaHQpIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2dpdGh1Yi5wbmciPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvZ2l0aHViLnBuZyIgYWx0PSJHaXRIdWIgbG9nbyIgLz4KICAgICAgPC9waWN0dXJlPgogIDwvYT4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsKICA8YSBocmVmPSJodHRwczovL2xvY2FsYXp5LmNvbS9yZWdpc3Rlcj9yZWY9YTlDaURDNjFnT2FjLWF6TyI+CiAgICAgIDxwaWN0dXJlPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2xpZ2h0L2xvY2FsYXp5LnBuZyI+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogbGlnaHQpIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2xvY2FsYXp5LnBuZyI+CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC9sb2NhbGF6eS5wbmciIGFsdD0iTG9jYWxhenkgbG9nbyIgLz4KICAgICAgPC9waWN0dXJlPgogIDwvYT48YnIvPjxici8+CiAgPGEgaHJlZj0iaHR0cHM6Ly9zZXJwYXBpLmNvbS8/dXRtX3NvdXJjZT1tb2Nrb29uIj4KICAgICAgPHBpY3R1cmU+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykiIHNyY3NldD0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvc2VycGFwaS5wbmciPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSIgc3Jjc2V0PSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9zZXJwYXBpLnBuZyI+CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC9zZXJwYXBpLnBuZyIgYWx0PSJTZXJwQXBpIGxvZ28iIC8+CiAgICAgIDwvcGljdHVyZT4KICA8L2E+CjwvZGl2PgoKIyMjIEdvbGQKCjxkaXYgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6MjBweDttYXJnaW4tYm90dG9tOjIwcHg7Ij4KICA8YSBocmVmPSJodHRwczovL2NvZGVyYWJiaXQubGluay9tb2Nrb29uIj4KICAgICAgPHBpY3R1cmU+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykiIHNyY3NldD0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvY29kZXJhYmJpdC5wbmciPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSIgc3Jjc2V0PSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9jb2RlcmFiYml0LnBuZyI+CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC9jb2RlcmFiYml0LnBuZyIgYWx0PSJDb2RlUmFiYml0IGxvZ28iIC8+CiAgICAgIDwvcGljdHVyZT4KICA8L2E+PGJyLz48YnIvPgogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnN3aWZ0cHJveHkubmV0Lz9yZWY9bW9ja29vbiI+CiAgICAgIDxwaWN0dXJlPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2xpZ2h0L3N3aWZ0cHJveHkucG5nIj4KICAgICAgPHNvdXJjZSBtZWRpYT0iKHByZWZlcnMtY29sb3Itc2NoZW1lOiBsaWdodCkiIHNyY3NldD0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvc3dpZnRwcm94eS5wbmciPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvc3dpZnRwcm94eS5wbmciIGFsdD0iU3dpZnRQcm94eSBsb2dvIiAvPgogICAgICA8L3BpY3R1cmU+CiAgPC9hPjxici8+PGJyLz48YSBocmVmPSJodHRwczovL3d3dy50ZXN0bXVhaS5jb20vP3V0bV9tZWRpdW09c3BvbnNvciZ1dG1fc291cmNlPW1vY2tvb24iPgogICAgICA8cGljdHVyZT4KICAgICAgPHNvdXJjZSBtZWRpYT0iKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrKSIgc3Jjc2V0PSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC90ZXN0bXVhaS5wbmciPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSIgc3Jjc2V0PSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy90ZXN0bXVhaS5wbmciPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvdGVzdG11YWkucG5nIiBhbHQ9IlRlc3RNdSBBSSBsb2dvIiAvPgogICAgICA8L3BpY3R1cmU+CiAgPC9hPgo8L2Rpdj4KCiMjIyBTaWx2ZXIKCjxkaXYgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6MjBweDttYXJnaW4tYm90dG9tOjIwcHg7Ij4gIAogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmVtcXguaW8vIj4gIAogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvZW1xeC5wbmciIGFsdD0iZW1xeCBsb2dvIiAvPgogIDwvYT4KPC9kaXY+CgpJZiB5b3UnZCBsaWtlIHRvICoqc3VwcG9ydCBNb2Nrb29uKiogYXMgd2VsbCwgeW91IGNhbiAqKmJlY29tZSBhIHNwb25zb3IqKiBvciAqKnN1YnNjcmliZSB0byBNb2Nrb29uIENsb3VkKiosIGV2ZXJ5IGNvbnRyaWJ1dGlvbiBoZWxwcyBrZWVwIHRoZSBwcm9qZWN0IGFsaXZlIGFuZCBldm9sdmluZy4gVGhhbmsgeW91IQoKPGRpdiBhbGlnbj0iY2VudGVyIiBzdHlsZT0ibWFyZ2luLXRvcDoyMHB4O21hcmdpbi1ib3R0b206MjBweDsiPgo8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vc3BvbnNvcnMvbW9ja29vbiI+PGltZyBzcmM9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3ItYnRuLnBuZz8iIHdpZHRoPSIyNTAiIGFsdD0ic3BvbnNvciBidXR0b24iIC8+PC9hPgo8L2Rpdj4KCiMjIFN1YnNjcmliZSB0byBNb2Nrb29uIENsb3VkCgpXaXRoIGFkdmFuY2VkIGZlYXR1cmVzIGZvciBzb2xvIGRldmVsb3BlcnMgYW5kIHRlYW1zLCBNb2Nrb29uIENsb3VkIHN1cGVyY2hhcmdlcyB5b3VyIEFQSSBkZXZlbG9wbWVudDoKCi0g4piB77iPIFtjbG91ZCBkZXBsb3ltZW50c10oaHR0cHM6Ly9tb2Nrb29uLmNvbS9jbG91ZC9kb2NzL2FwaS1tb2NrLWNsb3VkLWRlcGxveW1lbnRzLykKLSDwn5SE77iPIFtkYXRhIHN5bmNocm9uaXphdGlvbiBhbmQgcmVhbC10aW1lIGNvbGxhYm9yYXRpb25dKGh0dHBzOi8vbW9ja29vbi5jb20vY2xvdWQvZG9jcy9kYXRhLXN5bmNocm9uaXphdGlvbi10ZWFtLWNvbGxhYm9yYXRpb24vKQotIPCfpJYgW0FJIHBvd2VyZWQgQVBJIG1vY2tpbmddKGh0dHBzOi8vbW9ja29vbi5jb20vYWktcG93ZXJlZC1hcGktbW9ja2luZy8pCi0g8J+TgyBBY2Nlc3MgdG8gZG96ZW5zIG9mIFtyZWFkeS10by11c2UgSlNPTiB0ZW1wbGF0ZXNdKGh0dHBzOi8vbW9ja29vbi5jb20vdGVtcGxhdGVzLykuCi0g8J+SrCBQcmlvcml0eSBzdXBwb3J0IGFuZCB0cmFpbmluZy4KClVwZ3JhZGUgdG9kYXkgYW5kIHRha2UgeW91ciBBUEkgZGV2ZWxvcG1lbnQgdG8gdGhlIG5leHQgbGV2ZWwuCgo8ZGl2IGFsaWduPSJjZW50ZXIiIHN0eWxlPSJtYXJnaW4tdG9wOjIwcHg7bWFyZ2luLWJvdHRvbToyMHB4OyI+CjxhIGhyZWY9Imh0dHBzOi8vbW9ja29vbi5jb20vY2xvdWQvIj48aW1nIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvY2xvdWQtYnRuLnBuZz8iIHdpZHRoPSIyNTAiIGFsdD0iY2xvdWQgYnV0dG9uIiAvPjwvYT4KPC9kaXY+CgojIyBNb2Nrb29uJ3MgZG9jdW1lbnRhdGlvbgoKWW91IHdpbGwgZmluZCBNb2Nrb29uJ3MgW2RvY3VtZW50YXRpb25dKGh0dHBzOi8vbW9ja29vbi5jb20vZG9jcy9sYXRlc3QvYWJvdXQvKSBvbiB0aGUgb2ZmaWNpYWwgd2Vic2l0ZS4gSXQgY292ZXJzIE1vY2tvb24ncyBtb3N0IGNvbXBsZXggZmVhdHVyZXMuIEZlZWwgZnJlZSB0byBjb250cmlidXRlIG9yIGFzayBmb3IgbmV3IHRvcGljcyB0byBiZSBjb3ZlcmVkLgoKIyMgQ2hhbmdlbG9ncwoKWW91IHdpbGwgZmluZCBNb2Nrb29uIGFwcGxpY2F0aW9ucyBbY2hhbmdlbG9nc10oaHR0cHM6Ly9tb2Nrb29uLmNvbS9yZWxlYXNlcy8pIG9uIHRoZSBvZmZpY2lhbCB3ZWJzaXRlLgoKIyMgU3VwcG9ydC9mZWVkYmFjawoKWW91IGNhbiBkaXNjdXNzIGFsbCB0aGluZ3MgcmVsYXRlZCB0byBNb2Nrb29uIGFuZCBhc2sgZm9yIGhlbHAgb24gdGhlIFtvZmZpY2lhbCBjb21tdW5pdHldKGh0dHBzOi8vZ2l0aHViLmNvbS9tb2Nrb29uL21vY2tvb24vZGlzY3Vzc2lvbnMpLiBJdCdzIGFsc28gYSBnb29kIHBsYWNlIHRvIGRpc2N1c3MgYnVncyBhbmQgZmVhdHVyZSByZXF1ZXN0cyBiZWZvcmUgb3BlbmluZyBhbiBpc3N1ZSBvbiB0aGlzIHJlcG9zaXRvcnkuCgojIyBDb250cmlidXRpbmcKCklmIHlvdSBhcmUgaW50ZXJlc3RlZCBpbiBjb250cmlidXRpbmcgdG8gTW9ja29vbiwgcGxlYXNlIHRha2UgYSBsb29rIGF0IHRoZSBbY29udHJpYnV0aW5nIGd1aWRlbGluZXNdKGh0dHBzOi8vZ2l0aHViLmNvbS9tb2Nrb29uL21vY2tvb24vYmxvYi9tYWluL0NPTlRSSUJVVElORy5tZCkuCgpQbGVhc2UgYWxzbyB0YWtlIGEgbG9vayBhdCBvdXIgW0NvZGUgb2YgQ29uZHVjdF0oaHR0cHM6Ly9naXRodWIuY29tL21vY2tvb24vLmdpdGh1Yi9ibG9iL21haW4vQ09ERV9PRl9DT05EVUNULm1kKS4KCiMjIFJvYWRtYXAKCklmIHlvdSB3YW50IHRvIGtub3cgd2hhdCB3aWxsIGJlIGNvbWluZyBpbiB0aGUgbmV4dCByZWxlYXNlIHlvdSBjYW4gY2hlY2sgdGhlIGdsb2JhbCBbUm9hZG1hcF0oaHR0cHM6Ly9tb2Nrb29uLmNvbS9wdWJsaWMtcm9hZG1hcC8pIG9yIFtzdWJzY3JpYmUgdG8gb3VyIG5ld3NsZXR0ZXJdKGh0dHBzOi8vbW9ja29vbi5jb20vbmV3c2xldHRlci8pLgo=
-    readmeEtag: '"9ef275610a369a294b02f41ee070241c37496af4"'
-    readmeLastModified: Sun, 09 Aug 2026 06:12:58 GMT
+      PGRpdiBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL21vY2tvb24uY29tIiBhbHQ9Im1vY2tvb24gbG9nbyI+CiAgICA8aW1nIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBzcmM9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL2xvZ28tc3F1YXJlLWFwcC5wbmciPgogIDwvYT4KICA8YnI+CiAgPGEgaHJlZj0iaHR0cHM6Ly9tb2Nrb29uLmNvbS8iPjxpbWcgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1dlYnNpdGUtR28tZ3JlZW4uc3ZnP3N0eWxlPWZsYXQtc3F1YXJlJmNvbG9yQj0xOTk3YzYiLz48L2E+CiAgPGEgaHJlZj0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9uZXdzbGV0dGVyLyI+PGltZyBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvTmV3c2xldHRlci1TdWJzY3JpYmUtZ3JlZW4uc3ZnP3N0eWxlPWZsYXQtc3F1YXJlIi8+PC9hPgogIDxicj4KICA8YnI+CiAgPGgxPk1vY2tvb246IGF3ZXNvbWUgQVBJIG1vY2tpbmc8L2gxPgo8L2Rpdj4KCk1vY2tvb24gaXMgdGhlIGVhc2llc3QgYW5kIHF1aWNrZXN0IHdheSB0byBkZXNpZ24gYW5kIHJ1biBtb2NrIEFQSXMuIE5vIHJlbW90ZSBkZXBsb3ltZW50LCBubyBhY2NvdW50IHJlcXVpcmVkLCBmcmVlIGFuZCBvcGVuLXNvdXJjZS4KCkl0IGNvbWJpbmVzIGEgW2Rlc2t0b3AgYXBwbGljYXRpb25dKGh0dHBzOi8vbW9ja29vbi5jb20vZG93bmxvYWQvKSB0byBkZXNpZ24gYW5kIHJ1biBtb2NrIHNlcnZlcnMgbG9jYWxseSwgYW5kIGEgW0NMSV0oaHR0cHM6Ly9tb2Nrb29uLmNvbS9jbGkvKSB0byBzZWxmLWhvc3QgeW91ciBmYWtlIEFQSXMuIEEgW2Nsb3VkXSgjc3Vic2NyaWJlLXRvLW1vY2tvb24tY2xvdWQpIGlzIGFsc28gYXZhaWxhYmxlIHRvIGNvbGxhYm9yYXRlIHdpdGggeW91ciB0ZWFtLCBrZWVwIHlvdXIgZGF0YSBpbiBzeW5jLCBhbmQgZGVwbG95IHlvdXIgbW9jayBBUElzLgoKQVBJIG1vY2tpbmcgaGVscHMgeW91IHNwZWVkIHVwIGRldmVsb3BtZW50IGFuZCB0aGlyZC1wYXJ0eSBBUEkgaW50ZWdyYXRpb24gYnkgcmVkdWNpbmcgZGVwZW5kZW5jeSBvbiBleHRlcm5hbCBzZXJ2aWNlcyBhbmQgdGhlaXIgbGltaXRhdGlvbnM6IHJhdGUgbGltaXRzLCBjb3N0cywgYXZhaWxhYmlsaXR5LCBldGMuCkl0IGFsc28gYWxsb3dzIHlvdSB0byB0ZXN0IHlvdXIgYXBwbGljYXRpb25zIGluIGEgY29udHJvbGxlZCBlbnZpcm9ubWVudCB3aXRoIHByZWRpY3RhYmxlIHJlc3BvbnNlcywgc3RhdHVzIGNvZGVzLCBhbmQgbGF0ZW5jaWVzLCBhbmQgZWFzaWx5IHNpbXVsYXRlIGVkZ2UgY2FzZXMgYW5kIGVycm9yIHNjZW5hcmlvcy4KRmluYWxseSwgeW91IGNhbiBvbmJvYXJkIG5ldyB0ZWFtIG1lbWJlcnMgZmFzdGVyIGJ5IHByb3ZpZGluZyB0aGVtIHdpdGggYSBjb25zaXN0ZW50IGFuZCByZWxpYWJsZSBlbnZpcm9ubWVudCB0byB0ZXN0IGFuZCBkZXZlbG9wIHRoZWlyIGFwcGxpY2F0aW9ucy4KCuKeoe+4jyBbRG93bmxvYWRdKGh0dHBzOi8vbW9ja29vbi5jb20vZG93bmxvYWQvKQoKPGRpdiBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHdpZHRoPSI1MCUiIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvaGVyby1yZXBvLnBuZyI+CjwvZGl2PgoKIyMgRmVhdHVyZXMKCk1vY2tvb24gb2ZmZXJzIG1hbnkgZmVhdHVyZXM6CgotIFVubGltaXRlZCBudW1iZXIgb2YgbW9jayBsb2NhbCBzZXJ2ZXJzIGFuZCByb3V0ZXMKLSBDTEkgdG8gcnVuIHlvdXIgbW9jayBpbiBoZWFkbGVzcyBlbnZpcm9ubWVudHMsIENJLCBldGMuCi0gQ29tcGxldGUgY29udHJvbCBvbiByb3V0ZXMgZGVmaW5pdGlvbjogSFRUUCBtZXRob2RzIGFuZCBzdGF0dXNlcywgcmVnZXggcGF0aHMsIGZpbGUgc2VydmluZywgY3VzdG9tIGhlYWRlcnMsIGV0Yy4KLSBPcGVuQVBJIGNvbXBhdGliaWxpdHkKLSBSZWNvcmQvbG9ncyBvZiBhbGwgZW50ZXJpbmcgYW5kIGZvcndhcmRlZCByZXF1ZXN0cwotIEpTT04gdGVtcGxhdGluZwotIFByb3h5IGZvcndhcmRpbmcgbW9kZQotIEhUVFBTIHN1cHBvcnQKCllvdSBjYW4gY2hlY2sgdGhlIFtjb21wbGV0ZSBsaXN0XShodHRwczovL21vY2tvb24uY29tL2ZlYXR1cmVzLykgb24gdGhlIHdlYnNpdGUuCgojIyBEb3dubG9hZCB0aGUgZGVza3RvcCBhcHBsaWNhdGlvbgoKWW91IGNhbiBnZXQgTW9ja29vbiBkZXNrdG9wJ3MgW2xhdGVzdCByZWxlYXNlXShodHRwczovL2dpdGh1Yi5jb20vbW9ja29vbi9tb2Nrb29uL3JlbGVhc2VzL2xhdGVzdCkgZGlyZWN0bHkgZnJvbSB0aGlzIHJlcG9zaXRvcnkgb3Igb24gdGhlIG9mZmljaWFsIFt3ZWJzaXRlXShodHRwczovL21vY2tvb24uY29tL2Rvd25sb2FkLykuIE1vY2tvb24gZGVza3RvcCBpcyBhbHNvIGF2YWlsYWJsZSB0aHJvdWdoOgoKTWFjT1M6CgotIFtfSG9tZWJyZXdfXShodHRwczovL2Zvcm11bGFlLmJyZXcuc2gvY2Fzay9tb2Nrb29uKTogYGJyZXcgaW5zdGFsbCAtLWNhc2sgbW9ja29vbmAuCgpXaW5kb3dzOgoKLSBfd2luZ2V0XzogYHdpbmdldCBpbnN0YWxsIG1vY2tvb25gLgotIFtfQ2hvY29sYXRleV9dKGh0dHBzOi8vY29tbXVuaXR5LmNob2NvbGF0ZXkub3JnL3BhY2thZ2VzL21vY2tvb24pOiBgY2hvY28gaW5zdGFsbCBtb2Nrb29uYC4KLSBbX1dpbmRvd3MgU3RvcmVfXShodHRwczovL3d3dy5taWNyb3NvZnQuY29tL2VuLXVzL3AvbW9ja29vbi85cGs4ZG1zbjAwamopCgpMaW51eDoKCi0gW19TbmFwIHN0b3JlX10oaHR0cHM6Ly9zbmFwY3JhZnQuaW8vbW9ja29vbik6IGBzbmFwIGluc3RhbGwgbW9ja29vbmAuCi0gW19BVVJfXShodHRwczovL2F1ci5hcmNobGludXgub3JnL3BhY2thZ2VzL21vY2tvb24tYmluKTogYHlheSAtUyBtb2Nrb29uLWJpbmAuCgojIyBJbnN0YWxsIHRoZSBDTEkKCk1vY2tvb24gQ0xJIGlzIGF2YWlsYWJsZSBhcyBhbiBbTlBNIHBhY2thZ2VdKGh0dHBzOi8vd3d3Lm5wbWpzLmNvbS9wYWNrYWdlL0Btb2Nrb29uL2NsaSkuIFBsZWFzZSBjaGVjayBvdXIgW2RlZGljYXRlZCBkb2N1bWVudGF0aW9uXShodHRwczovL2dpdGh1Yi5jb20vbW9ja29vbi9tb2Nrb29uL2Jsb2IvbWFpbi9wYWNrYWdlcy9jbGkvUkVBRE1FLm1kKSB0byBsZWFybiBob3cgdG8gaW5zdGFsbCBhbmQgdXNlIGl0LgoKIyMgVXNlIGluIGNsb3VkIGZ1bmN0aW9ucyBhbmQgc2VydmVybGVzcyBlbnZpcm9ubWVudHMKCk1vY2tvb24ncyBTZXJ2ZXJsZXNzIFtOUE0gcGFja2FnZV0oaHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvQG1vY2tvb24vc2VydmVybGVzcykgcHJvdmlkZXMgYW4gZWFzeSB3YXkgdG8gcnVuIE1vY2tvb24ncyBtb2NrIEFQSXMgaW4gY2xvdWQgZnVuY3Rpb25zIGFuZCBzZXJ2ZXJsZXNzIGVudmlyb25tZW50czogQVdTIExhbWJkYSwgR0NQIEZ1bmN0aW9ucywgRmlyZWJhc2UgRnVuY3Rpb25zLCBldGMuCgpQbGVhc2UgY2hlY2sgb3VyIFtkZWRpY2F0ZWQgZG9jdW1lbnRhdGlvbl0oaHR0cHM6Ly9naXRodWIuY29tL21vY2tvb24vbW9ja29vbi9ibG9iL21haW4vcGFja2FnZXMvc2VydmVybGVzcy9SRUFETUUubWQpIHRvIGxlYXJuIGhvdyB0byB1c2UgaXQuCgojIyBTdXBwb3J0IHVzIQoKTW9ja29vbiBpcyBwcm91ZGx5ICoqaW5kZXBlbmRlbnQqKiBhbmQgKipvcGVuLXNvdXJjZSoqLCBtYWludGFpbmVkIHdpdGhvdXQgZXh0ZXJuYWwgZnVuZGluZy4gV2UgcmVseSBvbiBib3RoICoqc3BvbnNvcnNoaXBzKiogYW5kICoqTW9ja29vbiBDbG91ZCBzdWJzY3JpcHRpb25zKiogdG8ga2VlcCBpbXByb3ZpbmcgdGhlIHByb2plY3QgYW5kIGJ1aWxkaW5nIG5ldyBmZWF0dXJlcy4gQSAqKmJpZyB0aGFuayB5b3UqKiB0byB0aGUgY29tcGFuaWVzIGJlbG93IGZvciBzdXBwb3J0aW5nIG91ciB3b3JrIGFuZCBoZWxwaW5nIHVzIGdyb3cgKGFuZCBhbGwgdGhlIFtzcG9uc29yc10oaHR0cHM6Ly9naXRodWIuY29tL21vY2tvb24vbW9ja29vbi9ibG9iL21haW4vYmFja2Vycy5tZCkgd2hvIGhlbHBlZCB0aGlzIHByb2plY3Qgb3ZlciB0aW1lISk6CgojIyMgUGxhdGludW0KCjxkaXYgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6MjBweDttYXJnaW4tYm90dG9tOjIwcHg7Ij4KICA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5ibG9nLzIwMjMtMDQtMTItZ2l0aHViLWFjY2VsZXJhdG9yLW91ci1maXJzdC1jb2hvcnQtYW5kLXdoYXRzLW5leHQvIj4KICAgICAgPHBpY3R1cmU+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykiIHNyY3NldD0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvZ2l0aHViLnBuZyI+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogbGlnaHQpIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2dpdGh1Yi5wbmciPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvZ2l0aHViLnBuZyIgYWx0PSJHaXRIdWIgbG9nbyIgLz4KICAgICAgPC9waWN0dXJlPgogIDwvYT4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsKICA8YSBocmVmPSJodHRwczovL2xvY2FsYXp5LmNvbS9yZWdpc3Rlcj9yZWY9YTlDaURDNjFnT2FjLWF6TyI+CiAgICAgIDxwaWN0dXJlPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2xpZ2h0L2xvY2FsYXp5LnBuZyI+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogbGlnaHQpIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2xvY2FsYXp5LnBuZyI+CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC9sb2NhbGF6eS5wbmciIGFsdD0iTG9jYWxhenkgbG9nbyIgLz4KICAgICAgPC9waWN0dXJlPgogIDwvYT48YnIvPjxici8+CiAgPGEgaHJlZj0iaHR0cHM6Ly9zZXJwYXBpLmNvbS8/dXRtX3NvdXJjZT1tb2Nrb29uIj4KICAgICAgPHBpY3R1cmU+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykiIHNyY3NldD0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvc2VycGFwaS5wbmciPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSIgc3Jjc2V0PSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9zZXJwYXBpLnBuZyI+CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC9zZXJwYXBpLnBuZyIgYWx0PSJTZXJwQXBpIGxvZ28iIC8+CiAgICAgIDwvcGljdHVyZT4KICA8L2E+CjwvZGl2PgoKIyMjIEdvbGQKCjxkaXYgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6MjBweDttYXJnaW4tYm90dG9tOjIwcHg7Ij4KICA8YSBocmVmPSJodHRwczovL2NvZGVyYWJiaXQubGluay9tb2Nrb29uIj4KICAgICAgPHBpY3R1cmU+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaykiIHNyY3NldD0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvcnMvbGlnaHQvY29kZXJhYmJpdC5wbmciPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSIgc3Jjc2V0PSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9jb2RlcmFiYml0LnBuZyI+CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC9jb2RlcmFiYml0LnBuZyIgYWx0PSJDb2RlUmFiYml0IGxvZ28iIC8+CiAgICAgIDwvcGljdHVyZT4KICA8L2E+PGJyLz48YnIvPjxhIGhyZWY9Imh0dHBzOi8vd3d3LnRlc3RtdWFpLmNvbS8/dXRtX21lZGl1bT1zcG9uc29yJnV0bV9zb3VyY2U9bW9ja29vbiI+CiAgICAgIDxwaWN0dXJlPgogICAgICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL2xpZ2h0L3Rlc3RtdWFpLnBuZyI+CiAgICAgIDxzb3VyY2UgbWVkaWE9IihwcmVmZXJzLWNvbG9yLXNjaGVtZTogbGlnaHQpIiBzcmNzZXQ9Imh0dHBzOi8vbW9ja29vbi5jb20vaW1hZ2VzL3Nwb25zb3JzL3Rlc3RtdWFpLnBuZyI+CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9saWdodC90ZXN0bXVhaS5wbmciIGFsdD0iVGVzdE11IEFJIGxvZ28iIC8+CiAgICAgIDwvcGljdHVyZT4KICA8L2E+CjwvZGl2PgoKIyMjIFNpbHZlcgoKPGRpdiBhbGlnbj0iY2VudGVyIiBzdHlsZT0ibWFyZ2luLXRvcDoyMHB4O21hcmdpbi1ib3R0b206MjBweDsiPiAgCiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cuZW1xeC5pby8iPiAgCiAgICAgIDxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9zcG9uc29ycy9lbXF4LnBuZyIgYWx0PSJlbXF4IGxvZ28iIC8+CiAgPC9hPgo8L2Rpdj4KCklmIHlvdSdkIGxpa2UgdG8gKipzdXBwb3J0IE1vY2tvb24qKiBhcyB3ZWxsLCB5b3UgY2FuICoqYmVjb21lIGEgc3BvbnNvcioqIG9yICoqc3Vic2NyaWJlIHRvIE1vY2tvb24gQ2xvdWQqKiwgZXZlcnkgY29udHJpYnV0aW9uIGhlbHBzIGtlZXAgdGhlIHByb2plY3QgYWxpdmUgYW5kIGV2b2x2aW5nLiBUaGFuayB5b3UhCgo8ZGl2IGFsaWduPSJjZW50ZXIiIHN0eWxlPSJtYXJnaW4tdG9wOjIwcHg7bWFyZ2luLWJvdHRvbToyMHB4OyI+CjxhIGhyZWY9Imh0dHBzOi8vZ2l0aHViLmNvbS9zcG9uc29ycy9tb2Nrb29uIj48aW1nIHNyYz0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9pbWFnZXMvc3BvbnNvci1idG4ucG5nPyIgd2lkdGg9IjI1MCIgYWx0PSJzcG9uc29yIGJ1dHRvbiIgLz48L2E+CjwvZGl2PgoKIyMgU3Vic2NyaWJlIHRvIE1vY2tvb24gQ2xvdWQKCldpdGggYWR2YW5jZWQgZmVhdHVyZXMgZm9yIHNvbG8gZGV2ZWxvcGVycyBhbmQgdGVhbXMsIE1vY2tvb24gQ2xvdWQgc3VwZXJjaGFyZ2VzIHlvdXIgQVBJIGRldmVsb3BtZW50OgoKLSDimIHvuI8gW2Nsb3VkIGRlcGxveW1lbnRzXShodHRwczovL21vY2tvb24uY29tL2Nsb3VkL2RvY3MvYXBpLW1vY2stY2xvdWQtZGVwbG95bWVudHMvKQotIPCflITvuI8gW2RhdGEgc3luY2hyb25pemF0aW9uIGFuZCByZWFsLXRpbWUgY29sbGFib3JhdGlvbl0oaHR0cHM6Ly9tb2Nrb29uLmNvbS9jbG91ZC9kb2NzL2RhdGEtc3luY2hyb25pemF0aW9uLXRlYW0tY29sbGFib3JhdGlvbi8pCi0g8J+kliBbQUkgcG93ZXJlZCBBUEkgbW9ja2luZ10oaHR0cHM6Ly9tb2Nrb29uLmNvbS9haS1wb3dlcmVkLWFwaS1tb2NraW5nLykKLSDwn5ODIEFjY2VzcyB0byBkb3plbnMgb2YgW3JlYWR5LXRvLXVzZSBKU09OIHRlbXBsYXRlc10oaHR0cHM6Ly9tb2Nrb29uLmNvbS90ZW1wbGF0ZXMvKS4KLSDwn5KsIFByaW9yaXR5IHN1cHBvcnQgYW5kIHRyYWluaW5nLgoKVXBncmFkZSB0b2RheSBhbmQgdGFrZSB5b3VyIEFQSSBkZXZlbG9wbWVudCB0byB0aGUgbmV4dCBsZXZlbC4KCjxkaXYgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6MjBweDttYXJnaW4tYm90dG9tOjIwcHg7Ij4KPGEgaHJlZj0iaHR0cHM6Ly9tb2Nrb29uLmNvbS9jbG91ZC8iPjxpbWcgc3JjPSJodHRwczovL21vY2tvb24uY29tL2ltYWdlcy9jbG91ZC1idG4ucG5nPyIgd2lkdGg9IjI1MCIgYWx0PSJjbG91ZCBidXR0b24iIC8+PC9hPgo8L2Rpdj4KCiMjIE1vY2tvb24ncyBkb2N1bWVudGF0aW9uCgpZb3Ugd2lsbCBmaW5kIE1vY2tvb24ncyBbZG9jdW1lbnRhdGlvbl0oaHR0cHM6Ly9tb2Nrb29uLmNvbS9kb2NzL2xhdGVzdC9hYm91dC8pIG9uIHRoZSBvZmZpY2lhbCB3ZWJzaXRlLiBJdCBjb3ZlcnMgTW9ja29vbidzIG1vc3QgY29tcGxleCBmZWF0dXJlcy4gRmVlbCBmcmVlIHRvIGNvbnRyaWJ1dGUgb3IgYXNrIGZvciBuZXcgdG9waWNzIHRvIGJlIGNvdmVyZWQuCgojIyBDaGFuZ2Vsb2dzCgpZb3Ugd2lsbCBmaW5kIE1vY2tvb24gYXBwbGljYXRpb25zIFtjaGFuZ2Vsb2dzXShodHRwczovL21vY2tvb24uY29tL3JlbGVhc2VzLykgb24gdGhlIG9mZmljaWFsIHdlYnNpdGUuCgojIyBTdXBwb3J0L2ZlZWRiYWNrCgpZb3UgY2FuIGRpc2N1c3MgYWxsIHRoaW5ncyByZWxhdGVkIHRvIE1vY2tvb24gYW5kIGFzayBmb3IgaGVscCBvbiB0aGUgW29mZmljaWFsIGNvbW11bml0eV0oaHR0cHM6Ly9naXRodWIuY29tL21vY2tvb24vbW9ja29vbi9kaXNjdXNzaW9ucykuIEl0J3MgYWxzbyBhIGdvb2QgcGxhY2UgdG8gZGlzY3VzcyBidWdzIGFuZCBmZWF0dXJlIHJlcXVlc3RzIGJlZm9yZSBvcGVuaW5nIGFuIGlzc3VlIG9uIHRoaXMgcmVwb3NpdG9yeS4KCiMjIENvbnRyaWJ1dGluZwoKSWYgeW91IGFyZSBpbnRlcmVzdGVkIGluIGNvbnRyaWJ1dGluZyB0byBNb2Nrb29uLCBwbGVhc2UgdGFrZSBhIGxvb2sgYXQgdGhlIFtjb250cmlidXRpbmcgZ3VpZGVsaW5lc10oaHR0cHM6Ly9naXRodWIuY29tL21vY2tvb24vbW9ja29vbi9ibG9iL21haW4vQ09OVFJJQlVUSU5HLm1kKS4KClBsZWFzZSBhbHNvIHRha2UgYSBsb29rIGF0IG91ciBbQ29kZSBvZiBDb25kdWN0XShodHRwczovL2dpdGh1Yi5jb20vbW9ja29vbi8uZ2l0aHViL2Jsb2IvbWFpbi9DT0RFX09GX0NPTkRVQ1QubWQpLgoKIyMgUm9hZG1hcAoKSWYgeW91IHdhbnQgdG8ga25vdyB3aGF0IHdpbGwgYmUgY29taW5nIGluIHRoZSBuZXh0IHJlbGVhc2UgeW91IGNhbiBjaGVjayB0aGUgZ2xvYmFsIFtSb2FkbWFwXShodHRwczovL21vY2tvb24uY29tL3B1YmxpYy1yb2FkbWFwLykgb3IgW3N1YnNjcmliZSB0byBvdXIgbmV3c2xldHRlcl0oaHR0cHM6Ly9tb2Nrb29uLmNvbS9uZXdzbGV0dGVyLykuCg==
+    readmeEtag: '"536d7bd8d857d8582ab7dfab831edde0f4ee1ed4"'
+    readmeLastModified: Thu, 10 Sep 2026 07:15:34 GMT
     repositoryId: 97478419
     description: >-
       Mockoon is the easiest and quickest way to run mock APIs locally. No
       remote deployment, no account required, open source.
     created: '2017-07-17T13:19:16Z'
-    updated: '2026-09-09T06:47:34Z'
+    updated: '2026-09-10T07:15:52Z'
     language: TypeScript
     archived: false
-    stars: 8394
+    stars: 8395
     watchers: 63
-    forks: 475
+    forks: 476
     owner: mockoon
     logo: https://avatars.githubusercontent.com/u/49429147?v=4
     license: MIT
-    repoEtag: '"26d42387f7145d9cb1ea431fbe6387ef7b7d12a780f6ee998c37ce43b715ba44"'
-    repoLastModified: Wed, 09 Sep 2026 06:47:34 GMT
+    repoEtag: '"59bca2c93a5a92970306648b91c90b4f17fc6e9541617a5738a916c138985fca"'
+    repoLastModified: Thu, 10 Sep 2026 07:15:52 GMT
   foundInMaster: true
   category: Testing
   id: 8728dfca2c1908dbecdcddd31597fad4
@@ -7682,17 +7683,17 @@
     repositoryId: 173009358
     description: Generate Go client and server boilerplate from OpenAPI 3 specifications
     created: '2019-02-27T23:59:59Z'
-    updated: '2026-09-08T22:48:19Z'
+    updated: '2026-09-09T22:14:48Z'
     language: Go
     archived: false
-    stars: 8568
+    stars: 8566
     watchers: 40
     forks: 1059
     owner: oapi-codegen
     logo: https://avatars.githubusercontent.com/u/142752710?v=4
     license: Apache-2.0
-    repoEtag: '"99c2f7b8bfbb5e9da89c3dfd39d5eb8ce9c5581c926275b921e602b9d519a06e"'
-    repoLastModified: Tue, 08 Sep 2026 22:48:19 GMT
+    repoEtag: '"c71df3601dc3f229cf8adc4e42211e9f4ce98c18cf41914bc053337dda4ead4b"'
+    repoLastModified: Wed, 09 Sep 2026 22:14:48 GMT
   foundInMaster: true
   id: 770a221110cc4ef0e399089f5caf8694
   oldLocations:
@@ -7721,17 +7722,17 @@
     repositoryId: 161691324
     description: Generate TypeScript types from OpenAPI 3 specs
     created: '2018-12-13T20:28:01Z'
-    updated: '2026-09-08T13:10:00Z'
+    updated: '2026-09-10T05:32:15Z'
     language: TypeScript
     archived: false
-    stars: 8360
-    watchers: 25
+    stars: 8363
+    watchers: 26
     forks: 664
     owner: openapi-ts
     logo: https://avatars.githubusercontent.com/u/172838200?v=4
     license: MIT
-    repoEtag: '"7a2619e184a3617d9d8ef1c37a819521395918d1e59f48633d4782ef37f43777"'
-    repoLastModified: Tue, 08 Sep 2026 13:10:00 GMT
+    repoEtag: '"49c11dfa9c806e9444548af3199e1098d2ad834a07c9250d1addd7a0c773565e"'
+    repoLastModified: Thu, 10 Sep 2026 05:32:15 GMT
   foundInMaster: true
   oldLocations:
     - https://github.com/drwpow/openapi-typescript
@@ -7773,17 +7774,17 @@
       🌐 Wikipedia for Web APIs. Directory of REST API definitions in OpenAPI
       2.0/3.x format
     created: '2015-02-22T19:58:12Z'
-    updated: '2026-09-07T01:27:13Z'
+    updated: '2026-09-09T21:44:27Z'
     language: null
     archived: false
-    stars: 4547
+    stars: 4550
     watchers: 105
     forks: 746
     owner: APIs-guru
     logo: https://avatars.githubusercontent.com/u/10975548?v=4
     license: CC0-1.0
-    repoEtag: '"b2c2fa70099f2308fae08529027fe7203941dd182744d065c3aef8bec11bc6a2"'
-    repoLastModified: Mon, 07 Sep 2026 01:27:13 GMT
+    repoEtag: '"81b3edd840c7dd3bcd72311227302ffc0f7e94f0ddfc626259009d7f3f45bbdc"'
+    repoLastModified: Wed, 09 Sep 2026 21:44:27 GMT
   foundInMaster: true
   category: SDK
   id: 667f2aef78d9d19418fbd6c0a7835abb
@@ -7833,7 +7834,7 @@
       Docker image with Uvicorn managed by Gunicorn for high-performance FastAPI
       web applications in Python with performance auto-tuning.
     created: '2019-01-04T17:33:29Z'
-    updated: '2026-09-06T11:17:10Z'
+    updated: '2026-09-09T16:38:33Z'
     language: Python
     archived: false
     stars: 2915
@@ -7842,8 +7843,8 @@
     owner: tiangolo
     logo: https://avatars.githubusercontent.com/u/1326112?v=4
     license: MIT
-    repoEtag: '"1aa31f18c54c0a3578a519d05103540e83e5b51c21b06b7928295c146ec533f0"'
-    repoLastModified: Sun, 06 Sep 2026 11:17:10 GMT
+    repoEtag: '"06fa925c9f36a102cd04786b9b64fc37f2b42c87fceba6a2b6b242877ccf98bd"'
+    repoLastModified: Wed, 09 Sep 2026 16:38:33 GMT
   foundInMaster: true
   category: Server Implementations
   id: d0f3fc0bd35fcadacc8ed2c531780739
@@ -7893,17 +7894,17 @@
       A fast serialization and validation library, with builtin support for
       JSON, MessagePack, YAML, and TOML
     created: '2021-01-26T02:53:57Z'
-    updated: '2026-09-09T05:10:18Z'
+    updated: '2026-09-10T06:28:50Z'
     language: Python
     archived: false
-    stars: 4092
+    stars: 4093
     watchers: 27
     forks: 188
     owner: msgspec
     logo: https://avatars.githubusercontent.com/u/287455683?v=4
     license: BSD-3-Clause
-    repoEtag: '"916e8be83bfd66b08952019fcb90b86a73c5b216e82dd33cc8fb4ca331ffa131"'
-    repoLastModified: Wed, 09 Sep 2026 05:10:18 GMT
+    repoEtag: '"54cf1df5b1a184a63e7f5fa7e9f701074a6d58b14d2c01d8af6793ef89507c60"'
+    repoLastModified: Thu, 10 Sep 2026 06:28:50 GMT
   category: Server Implementations
   foundInMaster: true
   oldLocations:
@@ -7919,17 +7920,17 @@
     repositoryId: 244234763
     description: Sane and flexible OpenAPI 3 schema generation for Django REST framework.
     created: '2020-03-01T22:36:54Z'
-    updated: '2026-09-06T14:53:06Z'
+    updated: '2026-09-09T09:26:37Z'
     language: Python
     archived: false
-    stars: 2862
+    stars: 2861
     watchers: 9
     forks: 335
     owner: tfranzel
     logo: https://avatars.githubusercontent.com/u/13507857?v=4
     license: BSD-3-Clause
-    repoEtag: '"a860a55cc7b56887a3a5f04d3da03e6af2037d1ef417b94ab35b2f6a6ecdb90d"'
-    repoLastModified: Sun, 06 Sep 2026 14:53:06 GMT
+    repoEtag: '"da474ff39beb4f01da4d94cb71969b3f3d472ef8c51b7a80f8d66d392e94c5f4"'
+    repoLastModified: Wed, 09 Sep 2026 09:26:37 GMT
   foundInMaster: true
   category: Server Implementations
   id: 520f5c66c3e42a7b3fbface4f156c1dc
@@ -7953,17 +7954,17 @@
     repositoryId: 203157084
     description: Catch API bugs before your users do
     created: '2019-08-19T11:13:01Z'
-    updated: '2026-09-09T07:47:59Z'
+    updated: '2026-09-10T07:10:27Z'
     language: Python
     archived: false
-    stars: 3590
+    stars: 3593
     watchers: 20
     forks: 223
     owner: schemathesis
     logo: https://avatars.githubusercontent.com/u/70383271?v=4
     license: MIT
-    repoEtag: '"6e2c7a52e8a8a7823f2fbe1366adcca2c2660969bb02f3fafb302da6af8b1fc0"'
-    repoLastModified: Wed, 09 Sep 2026 07:47:59 GMT
+    repoEtag: '"616b0f435e789457d6df23e9a4795dc6f40cfc27f600aeddf8da666e764e6d7c"'
+    repoLastModified: Thu, 10 Sep 2026 07:10:27 GMT
   foundInMaster: true
   id: f4032fb371a703acffa691c0f1239d45
   oldLocations:
@@ -8008,17 +8009,17 @@
     repositoryId: 165951750
     description: RapiDoc -WebComponent for OpenAPI Spec
     created: '2019-01-16T01:29:58Z'
-    updated: '2026-09-08T17:18:05Z'
+    updated: '2026-09-10T00:48:22Z'
     language: JavaScript
     archived: false
-    stars: 1899
+    stars: 1898
     watchers: 17
     forks: 325
     owner: rapi-doc
     logo: https://avatars.githubusercontent.com/u/104180085?v=4
     license: MIT
-    repoEtag: '"0942c655bf0a297f071df574980c4da86df92ae97e880a4e94b39f91b7edd7ca"'
-    repoLastModified: Tue, 08 Sep 2026 17:18:05 GMT
+    repoEtag: '"3cf95f4e888ccedeb660bccc6f1fc9c6ce44c0e00285b765ee15a9d976e604a2"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:22 GMT
   foundInMaster: true
   category:
     - Documentation
@@ -8038,7 +8039,7 @@
     repositoryId: 372032505
     description: OpenAPI v3 code generator for go
     created: '2021-05-29T17:25:48Z'
-    updated: '2026-09-07T15:22:18Z'
+    updated: '2026-09-09T22:15:07Z'
     language: Go
     archived: false
     stars: 2136
@@ -8047,8 +8048,8 @@
     owner: ogen-go
     logo: https://avatars.githubusercontent.com/u/85122432?v=4
     license: Apache-2.0
-    repoEtag: '"fb027780bb5b23216b7365e93338c8c8ddfd22f903af05739cde2ca04194e994"'
-    repoLastModified: Mon, 07 Sep 2026 15:22:18 GMT
+    repoEtag: '"8e92c05ed72a08092d053697b78991dc8b6ddc256f025b19c08f823914887c90"'
+    repoLastModified: Wed, 09 Sep 2026 22:15:07 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi3 tags
@@ -8064,7 +8065,7 @@
       A node package wrapper for
       https://github.com/OpenAPITools/openapi-generator
     created: '2018-10-26T10:21:23Z'
-    updated: '2026-09-03T09:36:25Z'
+    updated: '2026-09-10T01:44:52Z'
     language: TypeScript
     archived: false
     stars: 1973
@@ -8073,8 +8074,8 @@
     owner: OpenAPITools
     logo: https://avatars.githubusercontent.com/u/37325267?v=4
     license: Apache-2.0
-    repoEtag: '"dec66de730cae61a2aa4543a6e724b09948eae2416cf73037932246fca27fa31"'
-    repoLastModified: Thu, 03 Sep 2026 09:36:25 GMT
+    repoEtag: '"a7ef26b91b0e3ce084dd43894e701ba791d160616d8595670667196427fc4555"'
+    repoLastModified: Thu, 10 Sep 2026 01:44:52 GMT
   foundInMaster: true
   category:
     - Code Generators
@@ -8098,17 +8099,17 @@
     repositoryId: 71986592
     description: GUI / visual editor for creating and editing OpenAPI / Swagger definitions
     created: '2016-10-26T09:15:55Z'
-    updated: '2026-08-26T19:18:29Z'
+    updated: '2026-09-10T00:48:02Z'
     language: JavaScript
     archived: false
-    stars: 1494
+    stars: 1493
     watchers: 41
     forks: 170
     owner: Mermade
     logo: https://avatars.githubusercontent.com/u/15950345?v=4
     license: MIT
-    repoEtag: '"0641e00d7654d730ec48347b14decdd4fc1eea992e9f6d17364e98cb0d327039"'
-    repoLastModified: Wed, 26 Aug 2026 19:18:29 GMT
+    repoEtag: '"80be0e9c4c1fb8044d84f9c6e0b680a9599ba1be65bb3a2fd1d8dfd1bb1be9b4"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:02 GMT
   foundInMaster: true
   id: 71f1a528dc0a6366fb580d1b8c703ea8
 - source: openapi3 tags
@@ -8228,17 +8229,17 @@
     repositoryId: 113924383
     description: Utility for comparing two OpenAPI specifications.
     created: '2017-12-12T00:39:30Z'
-    updated: '2026-08-27T14:10:06Z'
+    updated: '2026-09-10T00:48:24Z'
     language: Java
     archived: false
-    stars: 1096
+    stars: 1094
     watchers: 19
     forks: 189
     owner: OpenAPITools
     logo: https://avatars.githubusercontent.com/u/37325267?v=4
     license: Apache-2.0
-    repoEtag: '"57afdba60d7314a1d91fd11f1c52e1bf283319a29c21963f0679115ccc3ce7a6"'
-    repoLastModified: Thu, 27 Aug 2026 14:10:06 GMT
+    repoEtag: '"536208809a014e3567e3f134f994b87467640b0d522c1ec73c2922bbb9563c5b"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:24 GMT
   foundInMaster: true
   category: Parsers
   id: c128907e9d949a67c1bda0e0ceda755a
@@ -8314,17 +8315,17 @@
       (MCP) resources through a unified SQL-based framework for humans and AI
       agents.
     created: '2022-01-03T08:20:06Z'
-    updated: '2026-09-09T07:59:16Z'
+    updated: '2026-09-10T05:57:41Z'
     language: Go
     archived: false
-    stars: 914
+    stars: 948
     watchers: 11
-    forks: 84
+    forks: 85
     owner: stackql
     logo: https://avatars.githubusercontent.com/u/95105302?v=4
     license: MIT
-    repoEtag: '"6a759e60c9c13ea5b1e797fc9e537ed9a19db90ed63fc8e12143959f3aa07451"'
-    repoLastModified: Wed, 09 Sep 2026 07:59:16 GMT
+    repoEtag: '"6aa1c08e1e7742060c0df39f8413a806979386819ada3d072da9e447caae2ce7"'
+    repoLastModified: Thu, 10 Sep 2026 05:57:41 GMT
   category: Server Implementations
   foundInMaster: true
 - source:
@@ -8342,17 +8343,17 @@
       The most comprehensive collection of quality OpenAPI tooling, curated by
       Phil Sturgeon and the team at APIs You Won't Hate.
     created: '2017-12-15T22:51:00Z'
-    updated: '2026-09-04T20:15:36Z'
+    updated: '2026-09-10T00:48:32Z'
     language: TypeScript
     archived: false
-    stars: 843
+    stars: 842
     watchers: 27
     forks: 398
     owner: apisyouwonthate
     logo: https://avatars.githubusercontent.com/u/35378327?v=4
     license: MIT
-    repoEtag: '"73e5f8e93e0a58e178289dfc3ed1e8929f2073fdfb5f7fa7e1479b72d3d35c49"'
-    repoLastModified: Fri, 04 Sep 2026 20:15:36 GMT
+    repoEtag: '"8f1cad7fdfdc3521be5c7b798375058303dfe86a3d37346eef1fa5cd4e1ff58e"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:32 GMT
   foundInMaster: true
   category: Description Validators
   id: bf8b6a3a6298d701eabc857d42d5c371
@@ -8471,7 +8472,7 @@
       😎 A list of awesome projects related to OpenAPI 3.0.x, curated by the
       community
     created: '2017-03-02T19:31:41Z'
-    updated: '2026-09-09T00:02:09Z'
+    updated: '2026-09-10T00:03:00Z'
     language: JavaScript
     archived: false
     stars: 706
@@ -8480,8 +8481,8 @@
     owner: APIs-guru
     logo: https://avatars.githubusercontent.com/u/10975548?v=4
     license: BSD-3-Clause
-    repoEtag: '"0dce100967cb854563253d371f191d6478f537cdea7f0244076fa0284abb45dd"'
-    repoLastModified: Wed, 09 Sep 2026 00:02:09 GMT
+    repoEtag: '"adc0a108df82c595330bda13bc5d0e7663166b510fbeb06d1c855a15c605c7a8"'
+    repoLastModified: Thu, 10 Sep 2026 00:03:00 GMT
   foundInMaster: true
   category: Parsers
   id: 64d4029fd6b82879b746263cac7ce274
@@ -8572,17 +8573,17 @@
     repositoryId: 273958287
     description: 🦕 OpenAPI plugin for generating API reference docs in Docusaurus.
     created: '2020-06-21T18:06:52Z'
-    updated: '2026-08-28T21:26:41Z'
+    updated: '2026-09-10T00:43:17Z'
     language: TypeScript
     archived: false
-    stars: 536
+    stars: 537
     watchers: 9
     forks: 82
     owner: cloud-annotations
     logo: https://avatars.githubusercontent.com/u/47490031?v=4
     license: MIT
-    repoEtag: '"af62912424478d00018791844e4ab906c74b5bb29813eda24c23140e581522f8"'
-    repoLastModified: Fri, 28 Aug 2026 21:26:41 GMT
+    repoEtag: '"29348c9a2ea9aac74be0700e1e0b9d4b8f57595a52ddb67fdb1dc015184c4949"'
+    repoLastModified: Thu, 10 Sep 2026 00:43:17 GMT
   foundInMaster: true
   category: SDK
   id: 5acf9bbe5338a800925f2b0e23eca0a1
@@ -8814,17 +8815,17 @@
     repositoryId: 222924508
     description: FastAPI framework plugins
     created: '2019-11-20T11:41:50Z'
-    updated: '2026-09-07T02:16:45Z'
+    updated: '2026-09-10T07:59:20Z'
     language: Python
     archived: false
-    stars: 608
+    stars: 609
     watchers: 2
     forks: 28
     owner: madkote
     logo: https://avatars.githubusercontent.com/u/4921881?v=4
     license: MIT
-    repoEtag: '"6984a63300e87912a7591c2e1e34a24e1394211f91238ef4bd1116b03081fb68"'
-    repoLastModified: Mon, 07 Sep 2026 02:16:45 GMT
+    repoEtag: '"2129cff5b1fdd54f5e6dd7ad7af9d8faa384b05b8af3913a0985c2ffdef32b42"'
+    repoLastModified: Thu, 10 Sep 2026 07:59:20 GMT
   foundInMaster: true
   category: Server Implementations
   id: 5b8a96994e594bd26bca9505bbc19018
@@ -8934,7 +8935,7 @@
     owner: cloudflare
     logo: https://avatars.githubusercontent.com/u/314135?v=4
     license: MIT
-    repoEtag: '"d3d125d0bf9f5a023c85fda357958014931be68921805075fee470f8d4cffe7e"'
+    repoEtag: '"76004bcdafa3f5407c6b6d22ceb07f3d22119222734b5cde14c74541d1a041ab"'
     repoLastModified: Tue, 08 Sep 2026 05:32:45 GMT
   category: Server Implementations
   foundInMaster: true
@@ -9095,17 +9096,17 @@
       validates OpenAPI Specs against the OpenAPI 2.0 (aka Swagger), OpenAPI 3.0
       and OpenAPI 3.1 specification.
     created: '2017-09-06T08:08:25Z'
-    updated: '2026-09-05T15:42:10Z'
+    updated: '2026-09-09T08:44:07Z'
     language: Python
     archived: false
-    stars: 408
+    stars: 409
     watchers: 8
     forks: 72
     owner: python-openapi
     logo: https://avatars.githubusercontent.com/u/126442889?v=4
     license: Apache-2.0
-    repoEtag: '"93ad5bffe902e8f36b988b1e25b5245e139db3361ab491017a08561e3034369f"'
-    repoLastModified: Sat, 05 Sep 2026 15:42:10 GMT
+    repoEtag: '"3c0dfb66f4286eaef1a1c2fe6ed529ca27ed186386da185bbdb51a7a5c4a521f"'
+    repoLastModified: Wed, 09 Sep 2026 08:44:07 GMT
   category: Parsers
   oldLocations:
     - https://github.com/p1c2u/openapi-spec-validator
@@ -9134,7 +9135,7 @@
     owner: asyncapi
     logo: https://avatars.githubusercontent.com/u/16401334?v=4
     license: Apache-2.0
-    repoEtag: '"0c40311989bef98d6de63120f2239c568340ff03897773755f95592fb9ceed80"'
+    repoEtag: '"1f21e15029cfdd1150086bdf8d298c175c6f4b469349d2657778bf18973802a1"'
     repoLastModified: Fri, 28 Aug 2026 05:41:48 GMT
   foundInMaster: true
 - source: openapi3 tags
@@ -9160,7 +9161,7 @@
     owner: dymmond
     logo: https://avatars.githubusercontent.com/u/65982469?v=4
     license: BSD-3-Clause
-    repoEtag: '"40d81996cccb8959524f6b3da1c4ed4d8f934630264ffefce8d148131777c913"'
+    repoEtag: '"c06e2e39fd429c0fffa21199d70fac985530ebef395d86e64d2594d970737942"'
     repoLastModified: Tue, 08 Sep 2026 11:14:15 GMT
   category: Server Implementations
   foundInMaster: true
@@ -9376,7 +9377,7 @@
     repositoryId: 32864387
     description: F# generative Type Provider for Swagger
     created: '2015-03-25T12:54:10Z'
-    updated: '2026-09-05T15:13:50Z'
+    updated: '2026-09-09T19:03:59Z'
     language: F#
     archived: false
     stars: 278
@@ -9385,8 +9386,8 @@
     owner: fsprojects
     logo: https://avatars.githubusercontent.com/u/6001315?v=4
     license: Unlicense
-    repoEtag: '"902c130bc47acb502ad4d9f2e752d7d8bd7373e6c5da8a9c92740635efa63ba2"'
-    repoLastModified: Sat, 05 Sep 2026 15:13:50 GMT
+    repoEtag: '"63bbc4536dbd4b64043e8b56488f9784e610ca45f030a948442cff67b0ed789c"'
+    repoLastModified: Wed, 09 Sep 2026 19:03:59 GMT
   foundInMaster: true
   category: SDK
   id: f1cc73d13ad58d7db2b0a9fb9428dbc3
@@ -9415,7 +9416,7 @@
     owner: testingisdocumenting
     logo: https://avatars.githubusercontent.com/u/54154955?v=4
     license: Apache-2.0
-    repoEtag: '"48c67137b46aa42ce4dfb0fef28e77f7d5a6eed9f4326a71c1dcf120f6efe780"'
+    repoEtag: '"c29ce4dadf48b840a25234ef25787a6a39fa18abc5a555f9a927dfa6e772f6a3"'
     repoLastModified: Fri, 04 Sep 2026 02:29:31 GMT
   foundInMaster: true
   category: Documentation
@@ -9525,7 +9526,7 @@
     owner: christianhelle
     logo: https://avatars.githubusercontent.com/u/710400?v=4
     license: MIT
-    repoEtag: '"e48e97398932544d2d95d902f6e9848c8b84da297868027066e599050d2b78f5"'
+    repoEtag: '"c3c67b81684646d54bb8617cdea457d6b4f40d8a9ce15acbf6c592c4eac503af"'
     repoLastModified: Tue, 08 Sep 2026 09:41:00 GMT
   category: Parsers
   foundInMaster: true
@@ -9541,17 +9542,17 @@
     repositoryId: 673944158
     description: This repository contains the specification files for PayPal REST APIs.
     created: '2023-08-02T19:26:26Z'
-    updated: '2026-09-07T21:36:38Z'
+    updated: '2026-09-09T13:03:08Z'
     language: null
     archived: false
-    stars: 440
+    stars: 441
     watchers: 40
     forks: 344
     owner: paypal
     logo: https://avatars.githubusercontent.com/u/476675?v=4
     license: Apache-2.0
-    repoEtag: '"1a32be072b0975b54b5ad9d79e3dbe498f8484b427f78b175c8a452da1c86a49"'
-    repoLastModified: Mon, 07 Sep 2026 21:36:38 GMT
+    repoEtag: '"35f884fea59c71d6b03508ed48ccf37cacdd85812da3ee333c848bfea9f0a994"'
+    repoLastModified: Wed, 09 Sep 2026 13:03:08 GMT
   category: Code Generators
   foundInMaster: true
 - source: openapi3 tags
@@ -9574,7 +9575,7 @@
     owner: grafana
     logo: https://avatars.githubusercontent.com/u/7195757?v=4
     license: Apache-2.0
-    repoEtag: '"b376644c148a99488fe75bc2e76e73abd68e4076158929ff29fad58b490f5dbb"'
+    repoEtag: '"c547b5450aee3a38792e6b1fda3930048bf585f8d5c36c3cf34ccdab802e38bb"'
     repoLastModified: Sat, 15 Aug 2026 11:05:06 GMT
   foundInMaster: true
   category:
@@ -9641,17 +9642,17 @@
     repositoryId: 112473994
     description: Convert class-validator-decorated classes into JSON schema
     created: '2017-11-29T12:41:25Z'
-    updated: '2026-04-14T09:31:00Z'
+    updated: '2026-09-09T22:28:03Z'
     language: TypeScript
     archived: false
-    stars: 241
+    stars: 242
     watchers: 5
     forks: 38
     owner: epiphone
     logo: https://avatars.githubusercontent.com/u/1923531?v=4
     license: MIT
-    repoEtag: '"f0a27264c905eda2a4856814dd06da3d04c74bf2630d025e0bef942cbec9999e"'
-    repoLastModified: Tue, 14 Apr 2026 09:31:00 GMT
+    repoEtag: '"a301f37df86af0fc3afea8ec3cd2f4ff5386c74b1f738cce9e3a61e6e92356c8"'
+    repoLastModified: Wed, 09 Sep 2026 22:28:03 GMT
   foundInMaster: true
   category:
     - Data Validators
@@ -10020,7 +10021,7 @@
     owner: christianhelle
     logo: https://avatars.githubusercontent.com/u/710400?v=4
     license: GPL-3.0
-    repoEtag: '"2e66aba4bce37504d7b97056d8c75e695b43d55067eb105c918ac64245ceecf8"'
+    repoEtag: '"8b6ee1897ec09ded2b40f43c74da802c1ac551307f1b9b1e41e71bdead3bc561"'
     repoLastModified: Thu, 27 Aug 2026 00:27:40 GMT
   category: SDK
   foundInMaster: true
@@ -10216,7 +10217,7 @@
     repositoryId: 691100358
     description: Actix-web wrapper for automatic OpenAPI 3.0 documentation generation.
     created: '2023-09-13T13:54:51Z'
-    updated: '2026-09-02T14:53:15Z'
+    updated: '2026-09-09T12:09:22Z'
     language: Rust
     archived: false
     stars: 217
@@ -10225,8 +10226,8 @@
     owner: netwo-io
     logo: https://avatars.githubusercontent.com/u/64151169?v=4
     license: MIT
-    repoEtag: '"a183720223b30a2c5142f2730868ef4481e434cc2d7a204577a16ed7f4d92c65"'
-    repoLastModified: Wed, 02 Sep 2026 14:53:15 GMT
+    repoEtag: '"c9aca6848fac9adf16d4fd23d34da7d698bf683a6e726977b505f3eba69c76ff"'
+    repoLastModified: Wed, 09 Sep 2026 12:09:22 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi3 tags
@@ -10466,7 +10467,7 @@
       A collection of open-source and commercial tools for creating your APIs
       with OpenAPI - Sourced from and published for the community
     created: '2022-01-14T19:24:14Z'
-    updated: '2026-09-08T08:17:32Z'
+    updated: '2026-09-09T08:14:01Z'
     language: JavaScript
     archived: false
     stars: 177
@@ -10474,8 +10475,8 @@
     forks: 86
     owner: OAI
     logo: https://avatars.githubusercontent.com/u/16343502?v=4
-    repoEtag: '"94eb150d6180553cbd5e6e21577cec123aa90f082bfbb370c2a293fbce027ca9"'
-    repoLastModified: Tue, 08 Sep 2026 08:17:32 GMT
+    repoEtag: '"9b98419f9ba146da560ff6eaccea0ff6d48d8d23e96dae7ae449600a6bfc6ff0"'
+    repoLastModified: Wed, 09 Sep 2026 08:14:01 GMT
   category: Server Implementations
   foundInMaster: true
   oldLocations:
@@ -10655,7 +10656,7 @@
     repositoryId: 264196717
     description: The OpenAPI v3 specification for DigitalOcean's public API.
     created: '2020-05-15T13:10:36Z'
-    updated: '2026-09-07T09:02:55Z'
+    updated: '2026-09-10T04:01:12Z'
     language: JavaScript
     archived: false
     stars: 140
@@ -10664,8 +10665,8 @@
     owner: digitalocean
     logo: https://avatars.githubusercontent.com/u/4650108?v=4
     license: Apache-2.0
-    repoEtag: '"28f47e9738bdcc88b81333080c27aa1debad013737cfb4458831492b9af893d7"'
-    repoLastModified: Mon, 07 Sep 2026 09:02:55 GMT
+    repoEtag: '"2eeb96eced0ec2f2ccbd8d98abb72fd3f484a995c121183b1aaa2d0d7f1fd206"'
+    repoLastModified: Thu, 10 Sep 2026 04:01:12 GMT
   foundInMaster: true
   category:
     - Testing
@@ -11025,7 +11026,7 @@
     owner: jellyfin
     logo: https://avatars.githubusercontent.com/u/45698031?v=4
     license: LGPL-3.0
-    repoEtag: '"09faa313fb476e8592e251bb56e997b5ec686508faa8f0aaa1fd6571365130d7"'
+    repoEtag: '"8a17502bbc03f2ab48f38534935ef434052f0f7853d06da46fe3757a51db1f8c"'
     repoLastModified: Wed, 09 Sep 2026 03:34:04 GMT
   foundInMaster: true
   category: Testing
@@ -11833,7 +11834,7 @@
     repositoryId: 261799480
     description: SwaggerHub CLI
     created: '2020-05-06T15:21:34Z'
-    updated: '2026-09-08T07:04:57Z'
+    updated: '2026-09-09T10:47:10Z'
     language: JavaScript
     archived: false
     stars: 52
@@ -11842,8 +11843,8 @@
     owner: SmartBear
     logo: https://avatars.githubusercontent.com/u/1644671?v=4
     license: Apache-2.0
-    repoEtag: '"7434edbbd3b16630e25b7ffc9e9a4f12840dd23506f22721afbd494a55436765"'
-    repoLastModified: Tue, 08 Sep 2026 07:04:57 GMT
+    repoEtag: '"07856227240eaf46328962576b8d6662a638d933f8ee32b514b7b931ea48be2a"'
+    repoLastModified: Wed, 09 Sep 2026 10:47:10 GMT
   foundInMaster: true
   category: Code Generators
   id: 4921a5a6c94697cd438f25deccf95ab6
@@ -12075,7 +12076,7 @@
     owner: javalin
     logo: https://avatars.githubusercontent.com/u/28701086?v=4
     license: Apache-2.0
-    repoEtag: '"b158e865f6e68386a1b0d91b250a3e6015a5c30ed38f3dc2da28590676c710de"'
+    repoEtag: '"6d85761b071977676fb9cbbc7339fec3f6f589c32f7bf7d65dcdb80dd85f3650"'
     repoLastModified: Thu, 13 Aug 2026 01:25:24 GMT
   category: SDK
   foundInMaster: true
@@ -12094,7 +12095,7 @@
     repositoryId: 535564203
     description: OpenAPI helper and code generator for Julia
     created: '2022-09-12T07:55:03Z'
-    updated: '2026-08-31T09:29:41Z'
+    updated: '2026-09-09T11:34:34Z'
     language: Julia
     archived: false
     stars: 55
@@ -12103,8 +12104,8 @@
     owner: JuliaComputing
     logo: https://avatars.githubusercontent.com/u/10258468?v=4
     license: NOASSERTION
-    repoEtag: '"bb45bdec4b200cfd5fbd974977b07dec9c43ead2d4eefd6d3705e23d0cf0a15e"'
-    repoLastModified: Mon, 31 Aug 2026 09:29:41 GMT
+    repoEtag: '"88a6a66d4e41e8bbd84895406195b2bc2afb636161e1b1095e1bc5258316f577"'
+    repoLastModified: Wed, 09 Sep 2026 11:34:34 GMT
   foundInMaster: true
   category: Parsers
 - source: openapi3 tags
@@ -12209,7 +12210,7 @@
     forks: 27
     owner: piomin
     logo: https://avatars.githubusercontent.com/u/2892502?v=4
-    repoEtag: '"e823aa2b88cbbcb9b58cce105f2aeb58c083580c330ea7460ee4e0f89711df59"'
+    repoEtag: '"e22e53b3dc9084b1a6a20df6336e4e92f5a69308eaf411438862a8baf6d2ec57"'
     repoLastModified: Fri, 19 Jun 2026 07:55:01 GMT
   foundInMaster: true
   category: SDK
@@ -12673,10 +12674,10 @@
     archived: false
     stars: 42
     watchers: 2
-    forks: 25
+    forks: 26
     owner: hpoul
     logo: https://avatars.githubusercontent.com/u/313066?v=4
-    repoEtag: '"9fbdab867f94fb64ea879180803d67f42e07dadac4e666c3ea60dbb32191d573"'
+    repoEtag: '"3af591731d49f577f29f461bb6ddc56ce9e3030af39aca19c55446447eeecda0"'
     repoLastModified: Tue, 18 Aug 2026 11:18:35 GMT
   foundInMaster: true
   category: Code Generators
@@ -12957,7 +12958,7 @@
       open-source solution for your open and private data needs. French only for
       the time being, internationalization coming soon.
     created: '2017-11-24T22:19:00Z'
-    updated: '2026-09-08T09:51:12Z'
+    updated: '2026-09-09T20:28:33Z'
     language: TypeScript
     archived: false
     stars: 45
@@ -12966,8 +12967,8 @@
     owner: data-fair
     logo: https://avatars.githubusercontent.com/u/83776320?v=4
     license: AGPL-3.0
-    repoEtag: '"199f3f6cd2ac2b22a5d7a34d4b946a5d91afacccc571d557bd8f6216b6965710"'
-    repoLastModified: Tue, 08 Sep 2026 09:51:12 GMT
+    repoEtag: '"97b1be5ecfb38e5ce8f7ad97df7192edab3953c99ca27ea3ce0d9d2050ac9512"'
+    repoLastModified: Wed, 09 Sep 2026 20:28:33 GMT
   foundInMaster: true
   category:
     - Documentation
@@ -13042,16 +13043,16 @@
     repositoryId: 84547405
     description: React based OpenAPI 3.0+ documentation generator
     created: '2017-03-10T10:16:22Z'
-    updated: '2024-10-03T09:19:57Z'
+    updated: '2026-09-09T08:59:48Z'
     language: JavaScript
     archived: false
-    stars: 33
+    stars: 32
     watchers: 1
     forks: 3
     owner: contentjet
     logo: https://avatars.githubusercontent.com/u/21168640?v=4
-    repoEtag: '"b939141fe664568e5dedddd1594e30a84a449d7c6fe9725afd5af1f329730270"'
-    repoLastModified: Thu, 03 Oct 2024 09:19:57 GMT
+    repoEtag: '"48668edc716aa625552392fbb42496dd601678e994151a5f1a1c4f82cdf467ac"'
+    repoLastModified: Wed, 09 Sep 2026 08:59:48 GMT
   foundInMaster: true
   category:
     - Description Validators
@@ -13310,7 +13311,7 @@
     repositoryId: 393620909
     description: RESTful API for managing a school
     created: '2021-08-07T08:06:01Z'
-    updated: '2026-09-08T11:24:05Z'
+    updated: '2026-09-09T19:45:05Z'
     language: Java
     archived: false
     stars: 36
@@ -13319,8 +13320,8 @@
     owner: hei-school
     logo: https://avatars.githubusercontent.com/u/88576095?v=4
     license: MIT
-    repoEtag: '"3b3a5001b164567f45d6261ec70714a86cd91413aada44f56a0ab0db0843a6a5"'
-    repoLastModified: Tue, 08 Sep 2026 11:24:05 GMT
+    repoEtag: '"ad5d2446ddaedf180cd42e71b448bbbe53033beae456af25c84c4eafb638c214"'
+    repoLastModified: Wed, 09 Sep 2026 19:45:05 GMT
   foundInMaster: true
   category: Code Generators
   id: bf98240ea893afa32efc180fb73dd5b6
@@ -13361,17 +13362,17 @@
     repositoryId: 118493814
     description: Extract single paths/operations from OpenAPI definitions
     created: '2018-01-22T17:56:20Z'
-    updated: '2026-08-17T14:39:06Z'
+    updated: '2026-09-10T06:04:07Z'
     language: JavaScript
     archived: false
-    stars: 35
+    stars: 36
     watchers: 2
     forks: 8
     owner: Mermade
     logo: https://avatars.githubusercontent.com/u/15950345?v=4
     license: BSD-3-Clause
-    repoEtag: '"ac6303151843a91f995b6811604caeb37b7639c39c6b9375a2b30350ca8a73fd"'
-    repoLastModified: Mon, 17 Aug 2026 14:39:06 GMT
+    repoEtag: '"05ee59bfd7ba1dfa4376907a3f6bce7bfc90b5eda52516c764fdf9e30f3658e7"'
+    repoLastModified: Thu, 10 Sep 2026 06:04:07 GMT
   foundInMaster: true
   category: Parsers
   id: 8345bfb16b8aa0dc647fa5b2ab90b100
@@ -14255,7 +14256,7 @@
     owner: mnahkies
     logo: https://avatars.githubusercontent.com/u/2555533?v=4
     license: MIT
-    repoEtag: '"2766fa9d25127ec6600cd038786b7cd5866e6a55f7f3d8481f0ce6f16970dfad"'
+    repoEtag: '"4d31fba9fbe7eb764853f6c9d957d8567e286b2543dd5537ece33e630baa4d66"'
     repoLastModified: Sun, 06 Sep 2026 08:13:48 GMT
   foundInMaster: true
   category: Parsers
@@ -14377,17 +14378,17 @@
     repositoryId: 591983470
     description: Apply overlays to OpenAPI descriptions
     created: '2023-01-22T15:11:54Z'
-    updated: '2026-06-11T09:47:19Z'
+    updated: '2026-09-10T00:48:34Z'
     language: JavaScript
     archived: false
-    stars: 28
+    stars: 27
     watchers: 3
     forks: 7
     owner: lornajane
     logo: https://avatars.githubusercontent.com/u/172607?v=4
     license: Apache-2.0
-    repoEtag: '"8e686abe2e1bfe97775ef463a460a2315c531ac422273a57733636fb3492b397"'
-    repoLastModified: Thu, 11 Jun 2026 09:47:19 GMT
+    repoEtag: '"caa220f9ea52f2afacdc93bd92621a81f1d676e8a68e78b8671d3961da1243b7"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:34 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi3 tags
@@ -14632,7 +14633,7 @@
     repositoryId: 98350934
     description: Mockoon application official website repository and documentation
     created: '2017-07-25T21:19:22Z'
-    updated: '2026-09-03T14:14:45Z'
+    updated: '2026-09-10T07:19:03Z'
     language: TypeScript
     archived: false
     stars: 24
@@ -14641,8 +14642,8 @@
     owner: mockoon
     logo: https://avatars.githubusercontent.com/u/49429147?v=4
     license: MIT
-    repoEtag: '"ea58a04e954b0c3e349e6f2e8a8734f13c0c9c14d41581d6dfdbea288de9a9c0"'
-    repoLastModified: Thu, 03 Sep 2026 14:14:45 GMT
+    repoEtag: '"502a81cdbc8640de487e9dcdca86c13f6ac24db019ae44d63fb9fda793b3a964"'
+    repoLastModified: Thu, 10 Sep 2026 07:19:03 GMT
   foundInMaster: true
   category: Testing
   id: 84d3391fa9deedcd6398666ba504eb78
@@ -16210,7 +16211,7 @@
     owner: Jnig
     logo: https://avatars.githubusercontent.com/u/3729585?v=4
     license: MIT
-    repoEtag: '"743324ed08c8e860438756cbd5e5720de974490d0bbe8957cfd3c8a7bf833b46"'
+    repoEtag: '"25095919cb4e5c5f9aad4b714fc0e2ce546d2a196810f7186fafbbdc185da76b"'
     repoLastModified: Thu, 07 May 2026 15:35:21 GMT
   category:
     - Data Validators
@@ -17344,7 +17345,7 @@
       OpenAPI 3 contract and save a lot of time and effort, especially for
       larger projects with many endpoints or many services.
     created: '2023-03-08T23:18:03Z'
-    updated: '2026-09-07T22:56:09Z'
+    updated: '2026-09-09T20:42:19Z'
     language: Go
     archived: false
     stars: 11
@@ -17353,8 +17354,8 @@
     owner: cerberauth
     logo: https://avatars.githubusercontent.com/u/127022998?v=4
     license: MIT
-    repoEtag: '"99ddd068eee36a66147d5077ad1c90ab790c764f8356b38d85d88652ef405dd3"'
-    repoLastModified: Mon, 07 Sep 2026 22:56:09 GMT
+    repoEtag: '"e4e8f75b058ae71046036ec7bf2456dc80778763adff1027952dc562323a2df9"'
+    repoLastModified: Wed, 09 Sep 2026 20:42:19 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi3 tags
@@ -17875,7 +17876,7 @@
     owner: meabed
     logo: https://avatars.githubusercontent.com/u/45731?v=4
     license: MIT
-    repoEtag: '"f5be0ff8f4742eb9f32919fa9a6f014f571384e48d90d666bd3fc2038b8e4658"'
+    repoEtag: '"4f6605cba1ae12f6edab406501a9cf635b2d0d6ca4ce66b1fd8ed9b97d9daa99"'
     repoLastModified: Wed, 25 Jun 2025 15:57:25 GMT
   foundInMaster: true
   category:
@@ -18313,7 +18314,7 @@
       🛠️ A sample of Spring boot WebFlux and Kotlin Coroutine with Handler and
       Router
     created: '2022-04-01T22:24:52Z'
-    updated: '2026-08-26T02:11:51Z'
+    updated: '2026-09-10T01:54:21Z'
     language: Kotlin
     archived: false
     stars: 8
@@ -18321,8 +18322,8 @@
     forks: 1
     owner: yasuflatland-lf
     logo: https://avatars.githubusercontent.com/u/2855663?v=4
-    repoEtag: '"38bee1ea554453577c3b8b5dec7455aac41aaaf8fbb6249d87543e38f522eba7"'
-    repoLastModified: Wed, 26 Aug 2026 02:11:51 GMT
+    repoEtag: '"3a9132c66829be8b728e83d2428d60618a27d62f67de035daa7947d64bd57134"'
+    repoLastModified: Thu, 10 Sep 2026 01:54:21 GMT
   category: Server Implementations
   foundInMaster: true
 - source: openapi3 tags
@@ -18336,7 +18337,7 @@
     repositoryId: 318430456
     description: The OpenAPI specifications for the Apideck APIs.
     created: '2020-12-04T06:55:12Z'
-    updated: '2026-09-08T12:51:58Z'
+    updated: '2026-09-10T06:38:07Z'
     language: null
     archived: false
     stars: 7
@@ -18345,8 +18346,8 @@
     owner: apideck-libraries
     logo: https://avatars.githubusercontent.com/u/73573473?v=4
     license: MIT
-    repoEtag: '"30f2d5d35893329f757e3eda4ce853fef59cce1e7f9173929327a627f661693c"'
-    repoLastModified: Tue, 08 Sep 2026 12:51:58 GMT
+    repoEtag: '"80d7d09742d8072fedc4d3c8baeadbd6fe2f0d5977657de200894f170d46a12a"'
+    repoLastModified: Thu, 10 Sep 2026 06:38:07 GMT
   foundInMaster: true
   category:
     - Testing
@@ -18580,7 +18581,7 @@
     owner: apiaddicts
     logo: https://avatars.githubusercontent.com/u/31730093?v=4
     license: LGPL-3.0
-    repoEtag: '"d95b27bdfa8b5b01afb8d36f5169c2a5444725dc68aabe65d4b280247129df3c"'
+    repoEtag: '"6300422c4c40e74f422b1da0922c5c5cdc68fd2aad61319e34696c1b526d263c"'
     repoLastModified: Tue, 25 Aug 2026 16:43:39 GMT
   category: Server Implementations
   foundInMaster: true
@@ -19091,7 +19092,7 @@
     owner: stackql-registry
     logo: https://avatars.githubusercontent.com/u/256086561?v=4
     license: MIT
-    repoEtag: '"256f6f60a3d2af1dcbcfc1d63c207153500c4f563e2ac778295f2b1c8ec6209e"'
+    repoEtag: '"7539266bcc3101af8270a03d01d58c6c308c1edf2f61f6d56d9c4e0e7bceb4f5"'
     repoLastModified: Wed, 15 Jul 2026 07:56:26 GMT
   category: Parsers
   foundInMaster: true
@@ -20418,7 +20419,7 @@
     owner: apiaddicts
     logo: https://avatars.githubusercontent.com/u/31730093?v=4
     license: LGPL-3.0
-    repoEtag: '"e8ab50ef9fbf8db27b32aad988735ce2246faf7889099fe9be405a440807ae85"'
+    repoEtag: '"267ba0fdc37add9bd4f744f17d7aa5a49f1c229e6bbe0b51636e0707e5556f72"'
     repoLastModified: Tue, 25 Aug 2026 17:22:54 GMT
   category:
     - Code Generators
@@ -20572,7 +20573,7 @@
     owner: keisuke6065
     logo: https://avatars.githubusercontent.com/u/6197330?v=4
     license: MIT
-    repoEtag: '"8e28b0bf77d86c84dc3dd6f18f10c8f1e3edd4ebde3a0de2c3ec4dec790ef6d6"'
+    repoEtag: '"0da3685ddbc0468257cde634da6191d157397ce0fb83c062b99c21d2fab7dbf8"'
     repoLastModified: Wed, 09 Sep 2026 07:44:48 GMT
   foundInMaster: true
   category: Parsers
@@ -21133,13 +21134,13 @@
   v3: true
   repositoryMetadata:
     base64Readme: >-
-      IyBSYW1sVG9PcGVuQXBpQ29udmVydGVyDQpDb252ZXJ0cyBhIFJBTUwgdG8gT3BlbiBBUEkgU3BlY2lmaWNhdGlvbg0KDQpbIVtOdUdldDogUmFtbFRvT3BlbkFwaUNvbnZlcnRlcl0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9udWdldC92L1JhbWxUb09wZW5BcGlDb252ZXJ0ZXIpXShodHRwczovL3d3dy5udWdldC5vcmcvcGFja2FnZXMvUmFtbFRvT3BlbkFwaUNvbnZlcnRlcikNCg0KIyMgVXNhZ2UNCg0KIyMjIENvbnZlcnQgYSBSQU1MIGZpbGUNCmBgYCBjIw0KbmV3IFJhbWxDb252ZXJ0ZXIoKQ0KICAuQ29udmVydFRvRmlsZSgiTWVkaWFXaWtpLnJhbWwiLCAiTWVkaWFXaWtpLmpzb24iLCBPcGVuQXBpU3BlY1ZlcnNpb24uT3BlbkFwaTNfMCwgT3BlbkFwaUZvcm1hdC5Kc29uKTsNCmBgYA0KDQoNCiMjIyBMaW1pdHMNCi0gLi4uDQoNCg0KIyMgRGV0YWlscw0KVGhpcyBwcm9qZWN0IHVzZXMgdGhlIGZvbGxvd2luZyB0b29sczoNCi0gWWFtbERvdE5ldCAtLT4gdG8gcmVhZCB0aGUgUkFNTCAoYXMgWUFNTCBvciBKU09OKQ0KLSBNaWNyb3NvZnQuT3BlbkFwaS5ZYW1sUmVhZGVyIC0tPiB0byBwcm9jZXNzIHRoZSBPcGVuIEFQSSBNb2RlbCBhbmQgY29udmVydCB0aGUgbW9kZWwgdG8gdGhlIG91dHB1dCBmaWxlDQoNCiANCiMjIFNwb25zb3JzDQoNCltFbnRpdHkgRnJhbWV3b3JrIEV4dGVuc2lvbnNdKGh0dHBzOi8vZW50aXR5ZnJhbWV3b3JrLWV4dGVuc2lvbnMubmV0Lz91dG1fc291cmNlPVN0ZWZIKSBhbmQgW0RhcHBlciBQbHVzXShodHRwczovL2RhcHBlci1wbHVzLm5ldC8/dXRtX3NvdXJjZT1TdGVmSCkgYXJlIG1ham9yIHNwb25zb3JzIGFuZCBwcm91ZCB0byBjb250cmlidXRlIHRvIHRoZSBkZXZlbG9wbWVudCBvZiAqKlJhbWxUb09wZW5BcGlDb252ZXJ0ZXIqKi4NCg0KWyFbRW50aXR5IEZyYW1ld29yayBFeHRlbnNpb25zXShodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vU3RlZkgvcmVzb3VyY2VzL21haW4vc3BvbnNvci9lbnRpdHktZnJhbWV3b3JrLWV4dGVuc2lvbnMtc3BvbnNvci5wbmcpXShodHRwczovL2VudGl0eWZyYW1ld29yay1leHRlbnNpb25zLm5ldC9idWxrLWluc2VydD91dG1fc291cmNlPVN0ZWZIKQ0KDQpbIVtEYXBwZXIgUGx1c10oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1N0ZWZIL3Jlc291cmNlcy9tYWluL3Nwb25zb3IvZGFwcGVyLXBsdXMtc3BvbnNvci5wbmcpXShodHRwczovL2RhcHBlci1wbHVzLm5ldC9idWxrLWluc2VydD91dG1fc291cmNlPVN0ZWZIKQ==
-    readmeEtag: '"e4f9a9a47906e7bf329fc4b87a7634c6f2c97eb1"'
-    readmeLastModified: Mon, 16 Jun 2025 06:10:01 GMT
+      IyBSYW1sVG9PcGVuQXBpQ29udmVydGVyDQpDb252ZXJ0cyBhIFJBTUwgdG8gT3BlbiBBUEkgU3BlY2lmaWNhdGlvbg0KDQpbIVtOdUdldDogUmFtbFRvT3BlbkFwaUNvbnZlcnRlcl0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9udWdldC92L1JhbWxUb09wZW5BcGlDb252ZXJ0ZXIpXShodHRwczovL3d3dy5udWdldC5vcmcvcGFja2FnZXMvUmFtbFRvT3BlbkFwaUNvbnZlcnRlcikNCg0KIyMgVXNhZ2UNCg0KIyMjIENvbnZlcnQgYSBSQU1MIGZpbGUNCmBgYCBjIw0KbmV3IFJhbWxDb252ZXJ0ZXIoKQ0KICAuQ29udmVydFRvRmlsZSgiTWVkaWFXaWtpLnJhbWwiLCAiTWVkaWFXaWtpLmpzb24iLCBPcGVuQXBpU3BlY1ZlcnNpb24uT3BlbkFwaTNfMCwgT3BlbkFwaUZvcm1hdC5Kc29uKTsNCmBgYA0KDQoNCiMjIyBMaW1pdHMNCi0gLi4uDQoNCg0KIyMgRGV0YWlscw0KVGhpcyBwcm9qZWN0IHVzZXMgdGhlIGZvbGxvd2luZyB0b29sczoNCi0gTWljcm9zb2Z0Lk9wZW5BcGkuWWFtbFJlYWRlciAtLT4gdG8gcHJvY2VzcyB0aGUgT3BlbiBBUEkgTW9kZWwgYW5kIGNvbnZlcnQgdGhlIG1vZGVsIHRvIHRoZSBvdXRwdXQgZmlsZQ0KDQogDQojIyBTcG9uc29ycw0KDQpbRW50aXR5IEZyYW1ld29yayBFeHRlbnNpb25zXShodHRwczovL2VudGl0eWZyYW1ld29yay1leHRlbnNpb25zLm5ldC8/dXRtX3NvdXJjZT1TdGVmSCkgYW5kIFtEYXBwZXIgUGx1c10oaHR0cHM6Ly9kYXBwZXItcGx1cy5uZXQvP3V0bV9zb3VyY2U9U3RlZkgpIGFyZSBtYWpvciBzcG9uc29ycyBhbmQgcHJvdWQgdG8gY29udHJpYnV0ZSB0byB0aGUgZGV2ZWxvcG1lbnQgb2YgKipSYW1sVG9PcGVuQXBpQ29udmVydGVyKiouDQoNClshW0VudGl0eSBGcmFtZXdvcmsgRXh0ZW5zaW9uc10oaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1N0ZWZIL3Jlc291cmNlcy9tYWluL3Nwb25zb3IvZW50aXR5LWZyYW1ld29yay1leHRlbnNpb25zLXNwb25zb3IucG5nKV0oaHR0cHM6Ly9lbnRpdHlmcmFtZXdvcmstZXh0ZW5zaW9ucy5uZXQvYnVsay1pbnNlcnQ/dXRtX3NvdXJjZT1TdGVmSCkNCg0KWyFbRGFwcGVyIFBsdXNdKGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9TdGVmSC9yZXNvdXJjZXMvbWFpbi9zcG9uc29yL2RhcHBlci1wbHVzLXNwb25zb3IucG5nKV0oaHR0cHM6Ly9kYXBwZXItcGx1cy5uZXQvYnVsay1pbnNlcnQ/dXRtX3NvdXJjZT1TdGVmSCk=
+    readmeEtag: '"3b2c5aa9092f76c8346bc0c0a5dccdbccced2276"'
+    readmeLastModified: Wed, 09 Sep 2026 16:18:03 GMT
     repositoryId: 237777850
     description: Converts a RAML to Open API Specification (native C# dotnet)
     created: '2020-02-02T13:47:59Z'
-    updated: '2026-09-07T05:46:48Z'
+    updated: '2026-09-09T16:37:47Z'
     language: C#
     archived: false
     stars: 4
@@ -21148,8 +21149,8 @@
     owner: StefH
     logo: https://avatars.githubusercontent.com/u/249938?v=4
     license: MIT
-    repoEtag: '"9c677a00749979fb6671e5501aad9d4c0caf22b8db61410624af5f0dfa2e0284"'
-    repoLastModified: Mon, 07 Sep 2026 05:46:48 GMT
+    repoEtag: '"395e7238f81b2b7f9be6f1298e0dc38606a5769be3b90912e3df4a5599b3d922"'
+    repoLastModified: Wed, 09 Sep 2026 16:37:47 GMT
   foundInMaster: true
   category: Parsers
   id: fc6d82a523fbcf983a51caa78aa81344
@@ -21229,7 +21230,7 @@
     owner: tidepool-org
     logo: https://avatars.githubusercontent.com/u/4390820?v=4
     license: BSD-2-Clause
-    repoEtag: '"cf7dd86c8fddfc63884c63e871f7eb65dce81edd50f8553ee50907da92809067"'
+    repoEtag: '"7ea94804650840100cd99e924babee1942bda0b2955133727f0d089ebc05da81"'
     repoLastModified: Thu, 03 Sep 2026 05:22:29 GMT
   category: Server Implementations
   foundInMaster: true
@@ -21783,17 +21784,17 @@
       Building, documenting, validating, securing and customizing REST APIs
       through code-first development
     created: '2025-01-08T07:53:15Z'
-    updated: '2026-07-14T21:55:58Z'
+    updated: '2026-09-10T00:47:47Z'
     language: Go
     archived: false
-    stars: 81
+    stars: 80
     watchers: 2
     forks: 1
     owner: gopher-fleece
     logo: https://avatars.githubusercontent.com/u/195629235?v=4
     license: MIT
-    repoEtag: '"288951e098ecd0385bf64dabea015987f03ec9fcbe0b6841799b3b040bb3f65b"'
-    repoLastModified: Tue, 14 Jul 2026 21:55:58 GMT
+    repoEtag: '"8b909ecc7e3a468292edd8f2b11b99946f77eaee9e7634e297cdfa3082e63114"'
+    repoLastModified: Thu, 10 Sep 2026 00:47:47 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi3 tags
@@ -22476,7 +22477,7 @@
       This project extracts the OpenAPI v2 and v3 specifications of a given
       Kubernetes API server
     created: '2022-10-05T13:22:32Z'
-    updated: '2026-09-09T07:31:06Z'
+    updated: '2026-09-09T08:46:12Z'
     language: Go
     archived: false
     stars: 3
@@ -22485,8 +22486,8 @@
     owner: ironcore-dev
     logo: https://avatars.githubusercontent.com/u/147836484?v=4
     license: Apache-2.0
-    repoEtag: '"9830de1667638df411233ad994832f185c06d898866d100b5faa0fe7b1f0fdc9"'
-    repoLastModified: Wed, 09 Sep 2026 07:31:06 GMT
+    repoEtag: '"61ff12f0f4205c86662f5422dff81abea0484da5d5b0de37fba64e8384118052"'
+    repoLastModified: Wed, 09 Sep 2026 08:46:12 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi3 tags
@@ -23005,7 +23006,7 @@
     owner: hiroyoshii
     logo: https://avatars.githubusercontent.com/u/40140638?v=4
     license: Apache-2.0
-    repoEtag: '"230f7e9dcf2d10ae7e27a1d530283fe07c5d05573643de48a9d4604cd17f512e"'
+    repoEtag: '"d707ca4ca4156e078b5be42f72b149c4715c3fecef4038263c7202a3ac8b3c3c"'
     repoLastModified: Sat, 04 Oct 2025 01:51:39 GMT
   category: Server Implementations
   foundInMaster: true
@@ -24556,11 +24557,11 @@
     archived: false
     stars: 2
     watchers: 1
-    forks: 6
+    forks: 7
     owner: essentialprogramming
     logo: https://avatars.githubusercontent.com/u/46305342?v=4
     license: GPL-3.0
-    repoEtag: '"8532d6af48b5be1d25c19791a2cdf3cb67cd643c557b0c722006cb2dfb6b18cf"'
+    repoEtag: '"9d5aea85bec2a170c0095f49f655c90638e1a30008159c4e97d6e48d6b9bd4c1"'
     repoLastModified: Thu, 10 Oct 2024 00:06:56 GMT
   foundInMaster: true
   category:
@@ -24791,7 +24792,7 @@
       TRAPI is a collection of packages to create/generate metadata for
       REST-APis and generate swagger documentations.
     created: '2022-08-20T13:17:32Z'
-    updated: '2026-09-08T11:22:48Z'
+    updated: '2026-09-09T08:36:48Z'
     language: TypeScript
     archived: false
     stars: 2
@@ -24800,8 +24801,8 @@
     owner: tada5hi
     logo: https://avatars.githubusercontent.com/u/13162758?v=4
     license: MIT
-    repoEtag: '"e35b5e4be5294943aed18272ce5e7108540cd6ae5cab56103f8ff0558d29d51b"'
-    repoLastModified: Tue, 08 Sep 2026 11:22:48 GMT
+    repoEtag: '"6301d53729ef8e37e733a012eb23455609ee99094e2de3a8ab9063861c733cdd"'
+    repoLastModified: Wed, 09 Sep 2026 08:36:48 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi3 tags
@@ -24879,7 +24880,7 @@
     forks: 0
     owner: roar-skinderviken
     logo: https://avatars.githubusercontent.com/u/7499642?v=4
-    repoEtag: '"ff926fa74a449df7f71a7d8972d5c4bad83d091ab2814ddbe84b40c7abbccc0b"'
+    repoEtag: '"e3aa82c26bd4aefa4e464ca046dc5dfd2cc281b444c543373da06c95491b5978"'
     repoLastModified: Sun, 28 Jun 2026 16:47:56 GMT
   category: Server Implementations
   foundInMaster: true
@@ -25367,7 +25368,7 @@
     owner: protung
     logo: https://avatars.githubusercontent.com/u/81255167?v=4
     license: MIT
-    repoEtag: '"d193f9d896e5a60c38cadea5413607b70e56a21e90c001715adb9075b37e4c6d"'
+    repoEtag: '"e88c4aa9e2ca496e1f177199a00721eda055db5f7096cd4b25ff8ea08815e0e4"'
     repoLastModified: Fri, 04 Sep 2026 18:32:00 GMT
   category:
     - Server
@@ -27188,7 +27189,7 @@
       A Linux system management API with async job processing over NATS
       JetStream.
     created: '2024-08-16T00:37:30Z'
-    updated: '2026-09-07T17:34:12Z'
+    updated: '2026-09-09T19:31:08Z'
     language: Go
     archived: false
     stars: 3
@@ -27197,8 +27198,8 @@
     owner: osapi-io
     logo: https://avatars.githubusercontent.com/u/198162647?v=4
     license: MIT
-    repoEtag: '"f6acc36f55c43b3ee76deda91290520f6d5830d2b034b9f76ca3e7c6fb5c0ec2"'
-    repoLastModified: Mon, 07 Sep 2026 17:34:12 GMT
+    repoEtag: '"c17e6b7bbe0345933c70635634ce1b9f8909dc47dc7f30e807637ba78808ff54"'
+    repoLastModified: Wed, 09 Sep 2026 19:31:08 GMT
   category: Server Implementations
   foundInMaster: true
   oldLocations:
@@ -28836,31 +28837,6 @@
     repoLastModified: Mon, 15 Jan 2024 11:21:35 GMT
   category: SDK
   foundInMaster: true
-- source: openapi3 tags
-  repository: https://github.com/elomagic/yacog4openapi
-  v3: true
-  id: b068e391411b136805dc8897fb4e93f0
-  repositoryMetadata:
-    base64Readme: >-
-      IyBZYXN0IEFub3RoZXIgQ29kZSBHZW5lcmF0b3IgVG9vbCA0IE9wZW5BUEkKCkN1cnJlbnRseSwgcHJvdG90eXBlIHN0YXR1cwoKLS0tCgpbIVtHaXRIdWIgdGFnXShodHRwczovL2ltZy5zaGllbGRzLmlvL2dpdGh1Yi90YWcvZWxvbWFnaWMveWFjb2c0b3BlbmFwaS5zdmcpXShodHRwczovL2dpdGh1Yi5jb20vZWxvbWFnaWMveWFjb2c0b3BlbmFwaS90YWdzLykKWyFbR2l0SHViIGlzc3Vlc10oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9naXRodWIvaXNzdWVzLXJhdy9lbG9tYWdpYy95YWNvZzRvcGVuYXBpKV0oaHR0cHM6Ly9naXRodWIuY29tL2Vsb21hZ2ljL3lhY29nNG9wZW5hcGkvaXNzdWVzKQpbIVtBcGFjaGUgMi4wIGxpY2Vuc2VdKGh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvQXBhY2hlLTIuMC1ibHVlLnN2ZyldKGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvZ3BsLTMuMC1zdGFuZGFsb25lLmh0bWwpClshW21hZGUtd2l0aC1taWNyb3B5dGhvbl0oaHR0cHM6Ly9pbWcuc2hpZWxkcy5pby9iYWRnZS9NYWRlJTIwd2l0aC1QeXRob24tMWY0MjVmLnN2ZyldKGh0dHBzOi8vd3d3LnB5dGhvbi5vcmcpClshW01haW50ZW5hbmNlXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL01haW50YWluZWQlM0YteWVzLWdyZWVuLnN2ZyldKGh0dHBzOi8vZ2l0aHViLmNvbS9lbG9tYWdpYy95YWNvZzRvcGVuYXBpL2dyYXBocy9jb21taXQtYWN0aXZpdHkpClshW0J1eW1lYWNvZmZlZV0oaHR0cHM6Ly9iYWRnZW4ubmV0L2JhZGdlL2ljb24vYnV5bWVhY29mZmVlP2ljb249YnV5bWVhY29mZmVlJmxhYmVsKV0oaHR0cHM6Ly93d3cuYnV5bWVhY29mZmVlLmNvbS9lbG9tYWdpYykKCiMjIFRhYmxlIG9mIENvbnRlbnRzCgotIFtXaGF0IGFib3V0P10oI3doYXQtYWJvdXQ/KQotIFtJbnN0YWxsYXRpb25dKCNpbnN0YWxsYXRpb24pCi0gW0NvbmZpZ3VyYXRpb25dKCNjb25maWd1cmF0aW9uKQotIFtVc2luZ10oI3VzaW5nKQotIFtDb250cmlidXRpb25dKCNjb250cmlidXRpb24pCgojIFdoYXQgQWJvdXQ/CgpUaGlzIHByb2plY3QgaXMgY3VycmVudGx5IGEgc21hbGwgcHJvdG90eXBlIHByb2plY3QgaG93IHRvIHJlYWQgYW4gT3BlbiBBUEkgZmlsZSBhbmQgdXNlIGEgdGVtcGxhdGUgZW5naW5lIGluIFB5dGhvbi4gCgojIEluc3RhbGxhdGlvbgoKQWxsIHJlcXVpcmVkIFB5dGhvbiBkZXBlbmRlbmNpZXMgYXJlIGRlY2xhcmVkIGluIHRoZSAqcmVxdWlyZW1lbnQudHh0KiBmaWxlIGFuZCBtdXN0IGJlIGluc3RhbGxlZCB3aXRoIHRoZSBmb2xsb3dpbmcgCmNvbW1hbmQgYnkgdXNpbmcgdGhlIFB5dGhvbiBwYWNrYWdlIG1hbmFnZXIgKlBpcCo6IAoKYGBgc2hlbGwKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dApgYGAKCiMgQ29uZmlndXJhdGlvbgoKYGBganNvbjUKewogICAgImlucHV0IjogewogICAgICAgIC8vIERlZmF1bHQgT3BlbkFQSSBkZWZpbml0aW9uIGZpbGUKICAgICAgICAic291cmNlIjogIi4uL3Rlc3Qvb3BlbmFwaS5qc29uIgogICAgfSwgICAgCiAgICAvLyBUZW1wbGF0ZSB0byB1c2UKICAgICJ0ZW1wbGF0ZSI6ICJyZXNvdXJjZXMvZGVscGhpLXVuaXQuamluamEyIiwKICAgIC8vIEZpbGUgZ2VuZXJhdGVkIG91dHB1dAogICAgIm91dHB1dCI6ICIuLi9vdXQvdVJlc3RTZXJ2aWNlQ2xpZW50LnBhcyIsCiAgICAvLyBPcGVuIEFQSSBkYXRhdHlwZSBtYXBwaW5ncwogICAgImRhdGF0eXBlLW1hcCI6IHsKICAgICAgICAibnVtYmVyLGZsb2F0IjogICJTaW5nbGUiLAogICAgICAgICJudW1iZXIsZG91YmxlIjogIkRvdWJsZSIsCiAgICAgICAgIm51bWJlciwiOiAiU2luZ2xlIiwKCiAgICAgICAgImludGVnZXIsaW4zMiI6ICJJbnRlZ2VyIiwKICAgICAgICAiaW50ZWdlcixpbnQ2NCI6ICJJbnQ2NCIsCiAgICAgICAgImludGVnZXIsIjogIkludGVnZXIiLAoKICAgICAgICAic3RyaW5nLGJ5dGUiOiAiU3RyaW5nIiwKICAgICAgICAic3RyaW5nLGJpbmFyeSI6ICJTdHJpbmciLAogICAgICAgICJzdHJpbmcsIjogIlN0cmluZyIsCgogICAgICAgICJzdHJpbmcsZGF0ZSI6ICJURGF0ZSIsCiAgICAgICAgInN0cmluZyxkYXRlLXRpbWUiOiAiVERhdGVUaW1lIiwKCiAgICAgICAgInN0cmluZyx1dWlkIjogIlN0cmluZyIsCgogICAgICAgICJib29sZWFuLCI6ICJCb29sZWFuIgogICAgfQp9CmBgYAoKdGJjCgojIFVzaW5nCgojIyBDcmVhdGluZyBvdXRwdXQKCiMjIyBFeGFtcGxlCgpgYGBzaGVsbApzcmMvZ2VuY2xpZW50LnB5IC0tc291cmNlPXRlc3Qvb3BlbmFwaS5qc29uIC0tdGVtcGxhdGU9dGVzdC9kZWxwaGktdGVzdC1leGFtcGxlLmppbmphMiAtLW91dHB1dD10ZXN0LW91dHB1dC9kZWxwaGktdW5pdC5wYXMKYGBgCgojIyBTdXBwb3J0ZWQgcGFyYW1ldGVycwoKVG8gZ2V0IGFuIG92ZXJ2aWV3IG9mIHRoZSBzdXBwb3J0ZWQgcGFyYW1ldGVycywgZW50ZXIgdGhlIGZvbGxvd2luZyBjb21tYW5kIGluIHlvdXIgc2hlbGw6CgpgYGBzaGVsbApzcmMvZ2VuY2xpZW50LnB5IC0taGVscApgYGAKCnRiYwoKIyBDb250cmlidXRpb24KCnRiZA==
-    readmeEtag: '"5449f612c93d25e8231a6291b08989be6f8dddd6"'
-    readmeLastModified: Mon, 15 Aug 2022 09:30:44 GMT
-    repositoryId: 523364744
-    description: Yast Another Code Generator Tool 4 Open API
-    created: '2022-08-10T13:57:05Z'
-    updated: '2026-04-08T16:51:42Z'
-    language: Python
-    archived: false
-    stars: 0
-    watchers: 1
-    forks: 0
-    owner: elomagic
-    logo: https://avatars.githubusercontent.com/u/2555557?v=4
-    license: Apache-2.0
-    repoEtag: '"b3ccaebc29ac232bb60f8fb8d08255c489284ca5ccb18b0f1035af4e03e1969a"'
-    repoLastModified: Wed, 08 Apr 2026 16:51:42 GMT
-  category: Server Implementations
-  foundInMaster: true
 - source:
     - openapi3 tags
     - openapi31 tags
@@ -29229,7 +29205,7 @@
     owner: sv-tools
     logo: https://avatars.githubusercontent.com/u/59230487?v=4
     license: Apache-2.0
-    repoEtag: '"a1d74d77b11ec4c9cba6c49d7999ebd19f2a88a2b3382457fbd0799f2ab6f570"'
+    repoEtag: '"6cb121d912e1332f491c4850a2c6a1ce428010300953785b60e271b66b4ea042"'
     repoLastModified: Tue, 08 Sep 2026 15:09:32 GMT
   category: Parsers
   foundInMaster: true
@@ -29416,7 +29392,7 @@
     owner: ExpediaGroup
     logo: https://avatars.githubusercontent.com/u/38541875?v=4
     license: Apache-2.0
-    repoEtag: '"b9f4f8ad99c1f99a68296ab404eecd462597ee6738f9b57d6835226eaddce781"'
+    repoEtag: '"46fc38c3e5cd5519ca6d6766005130f878b8505600d37b852487e0cf25eca1da"'
     repoLastModified: Wed, 08 Jul 2026 23:12:47 GMT
   category: Parsers
   foundInMaster: true
@@ -31186,17 +31162,17 @@
       Simple, Fast, Code first and Compile time generated OpenAPI documentation
       for Rust
     created: '2021-09-30T22:00:31Z'
-    updated: '2026-09-09T03:08:36Z'
+    updated: '2026-09-10T07:11:24Z'
     language: Rust
     archived: false
-    stars: 4076
-    watchers: 25
-    forks: 436
+    stars: 4079
+    watchers: 24
+    forks: 434
     owner: juhaku
     logo: https://avatars.githubusercontent.com/u/26358664?v=4
     license: Apache-2.0
-    repoEtag: '"8ca9c0bbb5d83e4ccdd15f921709040e3941339a49479b71d6f83a4bdad2f25a"'
-    repoLastModified: Wed, 09 Sep 2026 03:08:36 GMT
+    repoEtag: '"7bfc0717ad54b798986610d32aabfaed56bdc664ea074fb41a30cd137090fc21"'
+    repoLastModified: Thu, 10 Sep 2026 07:11:24 GMT
   foundInMaster: true
   category: Parsers
   id: 14269a89115b3be71493769fca4d995e
@@ -31240,17 +31216,17 @@
       Sample OpenAPI description to use for whatever you like, as a hopefully
       more modern and useful alternative to the Petstore.
     created: '2024-02-01T12:49:32Z'
-    updated: '2026-08-16T11:54:47Z'
+    updated: '2026-09-10T00:48:30Z'
     language: JavaScript
     archived: false
-    stars: 72
+    stars: 71
     watchers: 6
     forks: 10
     owner: bump-sh-examples
     logo: https://avatars.githubusercontent.com/u/157144805?v=4
     license: NOASSERTION
-    repoEtag: '"eb7e627e04bd6eea7b5b7040407404a0192bab5c4d57f0ef3ea34a53550480ba"'
-    repoLastModified: Sun, 16 Aug 2026 11:54:47 GMT
+    repoEtag: '"d3676ff464ecfd516e8d6dd27d89caf39ac75e8ab95e53f0c10487ccbdc6e5aa"'
+    repoLastModified: Thu, 10 Sep 2026 00:48:30 GMT
   category: Server Implementations
   foundInMaster: true
 - source: openapi31 tags
@@ -31267,7 +31243,7 @@
       Structures and tools to parse, navigate and validate OpenAPI v3.1
       specifications.
     created: '2020-10-12T16:49:47Z'
-    updated: '2026-09-07T18:34:25Z'
+    updated: '2026-09-09T10:10:41Z'
     language: Rust
     archived: false
     stars: 78
@@ -31276,8 +31252,8 @@
     owner: x52dev
     logo: https://avatars.githubusercontent.com/u/140988044?v=4
     license: MIT
-    repoEtag: '"65612a56ae06f79747842f2c52d949ed693e29f131b966f68bb737d1061322e3"'
-    repoLastModified: Mon, 07 Sep 2026 18:34:25 GMT
+    repoEtag: '"a69064f0bf2b3edbe76a4503d56bc4b06f606f3207383ca2d490e539e57e4133"'
+    repoLastModified: Wed, 09 Sep 2026 10:10:41 GMT
   category: Parsers
   foundInMaster: true
 - source: openapi31 tags
@@ -31444,7 +31420,7 @@
     owner: dotnet
     logo: https://avatars.githubusercontent.com/u/9141961?v=4
     license: MIT
-    repoEtag: '"41935d5d68b4e12871f8b93c6248c488c3abfb448cb7437995ee397fb4c54cae"'
+    repoEtag: '"1ab963f4ebbd1d3bdebab0e26c1bc45085c0475340655dd2a23443f7c47c93d3"'
     repoLastModified: Wed, 09 Sep 2026 07:03:45 GMT
   foundInMaster: true
   oldLocations:
@@ -32014,7 +31990,7 @@
     owner: hackolade
     logo: https://avatars.githubusercontent.com/u/20265734?v=4
     license: NOASSERTION
-    repoEtag: '"8212c0ae185ff162d62f3de146bf241c3e999aac049053724e81bde29f41b31d"'
+    repoEtag: '"3ee7992114830fb626386c2b652803373e0ca26a778c4b309fde238d72e72ba1"'
     repoLastModified: Wed, 09 Sep 2026 07:59:03 GMT
   foundInMaster: true
   category:
@@ -32739,17 +32715,17 @@
       Email, Socket.io, Django-style admin, multi-provider storage/cache/email,
       Zod validation
     created: '2024-08-11T02:19:59Z'
-    updated: '2026-09-01T02:12:46Z'
+    updated: '2026-09-10T07:47:41Z'
     language: TypeScript
     archived: false
-    stars: 326
+    stars: 327
     watchers: 6
     forks: 59
     owner: muneebhashone
     logo: https://avatars.githubusercontent.com/u/88892379?v=4
     license: MIT
-    repoEtag: '"5857f2e3522ecc801804774a6c899d90a56545e137b0581ac801d78c7848bf93"'
-    repoLastModified: Tue, 01 Sep 2026 02:12:46 GMT
+    repoEtag: '"bc0703aed6f611dffbc14bd1f8470dd2a3d3f7ed7146e9733d45f242212b8b8b"'
+    repoLastModified: Thu, 10 Sep 2026 07:47:41 GMT
   category: Server Implementations
   foundInMaster: true
 - source: openapi3 tags
@@ -32928,17 +32904,17 @@
       (TypeScript) from any valid OpenAPI v3 or Swagger v2 specification, either
       in yaml or json formats. 🍺
     created: '2020-02-05T08:31:50Z'
-    updated: '2026-09-09T06:57:37Z'
+    updated: '2026-09-09T23:59:44Z'
     language: TypeScript
     archived: false
-    stars: 6445
+    stars: 6449
     watchers: 13
-    forks: 679
+    forks: 681
     owner: orval-labs
     logo: https://avatars.githubusercontent.com/u/176128704?v=4
     license: MIT
-    repoEtag: '"65e77e162e6a7a33e7bb28213a5f87519ffeb47dd46b98bfc09d39a88f26ec13"'
-    repoLastModified: Wed, 09 Sep 2026 06:57:37 GMT
+    repoEtag: '"aebe803977475a1628ce59e319f423be68f82f0f6abb44507e26565f0a36bec1"'
+    repoLastModified: Wed, 09 Sep 2026 23:59:44 GMT
   foundInMaster: true
   oldLocations:
     - https://github.com/anymaniax/orval
@@ -33564,17 +33540,17 @@
       applications. Currently targeting whitebox and blackbox testing of Web
       APIs, like REST, GraphQL and RPC (e.g., gRPC and Thrift).
     created: '2017-05-25T09:11:23Z'
-    updated: '2026-09-08T12:16:02Z'
+    updated: '2026-09-09T20:26:02Z'
     language: Kotlin
     archived: false
     stars: 779
     watchers: 18
-    forks: 116
+    forks: 117
     owner: WebFuzzing
     logo: https://avatars.githubusercontent.com/u/29148026?v=4
     license: LGPL-3.0
-    repoEtag: '"0714974726ca54722f7f6849caa44a0bd6f87b330db0c0e65d91ce70b6b9db13"'
-    repoLastModified: Tue, 08 Sep 2026 12:16:02 GMT
+    repoEtag: '"9310b55b36e9ec1cf75b836dba3a45e126113ce94bdec9ce95a76b62f7e3921a"'
+    repoLastModified: Wed, 09 Sep 2026 20:26:02 GMT
   foundInMaster: true
   id: d1d3d85149c4a9437dbdbf157cf3d7c7
   oldLocations:
@@ -34774,7 +34750,7 @@
       🧡 The meta framework for code generation. Automate OpenAPI to type-safe
       TypeScript, Zod, and TanStack Query with a modular, plugin-based engine.
     created: '2023-01-08T14:15:23Z'
-    updated: '2026-09-08T22:25:14Z'
+    updated: '2026-09-10T06:43:45Z'
     language: TypeScript
     archived: false
     stars: 1795
@@ -34783,8 +34759,8 @@
     owner: kubb-labs
     logo: https://avatars.githubusercontent.com/u/122118236?v=4
     license: MIT
-    repoEtag: '"ee508e4611f501581b10240ff875c1e4a804426253e3e16bb09b13a70108999f"'
-    repoLastModified: Tue, 08 Sep 2026 22:25:14 GMT
+    repoEtag: '"048a0e93bd9e6edc25f04d1a70956298a3bef66c760309fbbb37726897511de3"'
+    repoLastModified: Thu, 10 Sep 2026 06:43:45 GMT
   foundInMaster: true
   oldLocations:
     - https://github.com/kubb-project/kubb
@@ -34883,17 +34859,17 @@
       PostgreSQL, Vite, Tailwind CSS, shadcn/ui, FastAPI Cloud, and Docker
       Compose.
     created: '2019-02-23T15:08:34Z'
-    updated: '2026-09-09T07:33:43Z'
+    updated: '2026-09-10T07:58:12Z'
     language: TypeScript
     archived: false
-    stars: 45467
-    watchers: 304
-    forks: 9046
+    stars: 45485
+    watchers: 305
+    forks: 9054
     owner: fastapi
     logo: https://avatars.githubusercontent.com/u/156354296?v=4
     license: MIT
-    repoEtag: '"74db9a772e1b17443dfdeea773fdf644589a928a81dfdcec7e311f14e20978ea"'
-    repoLastModified: Wed, 09 Sep 2026 07:33:43 GMT
+    repoEtag: '"130b867d79688d7d7140f0098a082d2658a89c73c008d1ddd354553b4fff512f"'
+    repoLastModified: Thu, 10 Sep 2026 07:58:12 GMT
   foundInMaster: true
   category: Server Implementations
   id: 0354007b562b4efc3f08ce3da7f03afb
@@ -37106,17 +37082,17 @@
     repositoryId: 351849045
     description: OpenAPI Web component to generate a UI from the spec.
     created: '2021-03-26T16:42:43Z'
-    updated: '2026-08-20T21:09:01Z'
+    updated: '2026-09-10T00:49:01Z'
     language: JavaScript
     archived: false
-    stars: 353
+    stars: 352
     watchers: 6
     forks: 52
     owner: Authress-Engineering
     logo: https://avatars.githubusercontent.com/u/35577654?v=4
     license: Apache-2.0
-    repoEtag: '"8c1fba6e34aeba9cd2b985694f3a1c8cacc73c9e32b79a7f90e13bb1500a5ede"'
-    repoLastModified: Thu, 20 Aug 2026 21:09:01 GMT
+    repoEtag: '"d4a1f27d8637d332cb2cba02b1adfcae0d3b93c1808f4b0fe9cc88b16340ff9f"'
+    repoLastModified: Thu, 10 Sep 2026 00:49:01 GMT
   foundInMaster: true
   id: c8fb58ca4a515c7e0b381f4e63d7c355
   oldLocations:
@@ -39362,7 +39338,7 @@
     owner: swagger-api
     logo: https://avatars.githubusercontent.com/u/7658037?v=4
     license: Apache-2.0
-    repoEtag: '"920f11fcb7cbbc5276e306376f19c125cb70d0a8b3ca39727b8abb75e0c71260"'
+    repoEtag: '"5bb7b0b48ec1a25035eb4b67e2f2ef70b22ec7c2a34f6e1a8c950de3e29110b5"'
     repoLastModified: Wed, 09 Sep 2026 05:08:05 GMT
   id: 266d60df2d48ad8a47539de3c1071f3a
 - source: IMPLEMENTATIONS.md
@@ -40524,17 +40500,17 @@
       LoopBack makes it easy to build modern API applications that require
       complex integrations.
     created: '2017-01-09T17:27:14Z'
-    updated: '2026-09-06T23:50:58Z'
+    updated: '2026-09-09T21:34:05Z'
     language: TypeScript
     archived: false
-    stars: 5107
+    stars: 5106
     watchers: 128
     forks: 1064
     owner: loopbackio
     logo: https://avatars.githubusercontent.com/u/22173486?v=4
     license: NOASSERTION
-    repoEtag: '"f60715de4d524fd3cfa0d2116ec57976670ea55989707f7a46b14cf456eecce3"'
-    repoLastModified: Sun, 06 Sep 2026 23:50:58 GMT
+    repoEtag: '"c8abf4196f0f6d0375f8a5a7c6100bafe2b31df21dafaa3e723740911dbf380b"'
+    repoLastModified: Wed, 09 Sep 2026 21:34:05 GMT
   foundInMaster: true
   id: 9132c25ad468bed25b9dbbe3a352abc2
   v3: true
@@ -40606,17 +40582,17 @@
       testing cloud services through their REST APIs and finding security and
       reliability bugs in these services.
     created: '2020-07-24T21:40:11Z'
-    updated: '2026-09-09T01:27:27Z'
+    updated: '2026-09-10T00:50:27Z'
     language: Python
     archived: false
-    stars: 2942
+    stars: 2941
     watchers: 37
     forks: 331
     owner: microsoft
     logo: https://avatars.githubusercontent.com/u/6154722?v=4
     license: MIT
-    repoEtag: '"76a3fbfb3e1b9e4be9ce9d8a6e64541782092083f56de3a67d70d51639f546c0"'
-    repoLastModified: Wed, 09 Sep 2026 01:27:27 GMT
+    repoEtag: '"8649ba87505a35981d61be4c74748b0be0839f019fbef2c1c8a5c612120f3655"'
+    repoLastModified: Thu, 10 Sep 2026 00:50:27 GMT
   foundInMaster: true
   oldLocations:
     - https://github.com/microsoft/restler
@@ -41249,7 +41225,7 @@
     owner: vert-x3
     logo: https://avatars.githubusercontent.com/u/8124623?v=4
     license: Apache-2.0
-    repoEtag: '"b0c3dfdb1c5a7d95647360a6c6030cec42d053163c838b12e4f089d0c77a90bf"'
+    repoEtag: '"c99d5ebe2012d2c8d06e2fe2734bfd1bbe62653bf6c0773b43fc3dfccabf4c60"'
     repoLastModified: Mon, 07 Sep 2026 14:13:11 GMT
   foundInMaster: true
   v3_link: https://github.com/vert-x3/vertx-web/issues/1872
