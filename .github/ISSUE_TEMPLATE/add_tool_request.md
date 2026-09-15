@@ -6,7 +6,7 @@ labels: ""
 assignees: ""
 ---
 
-> **Please use this template for tools that cannot be tagged on GitHub. If your tool is on GitHub use the `openapi3` and `openapi31` tags to allow your data to be collected automatically.**
+> **Please use this template for tools that cannot be tagged on GitHub. If your tool is on GitHub use the `openapi3`, `openapi31`, and `openapi32` tags to allow your data to be collected automatically.**
 
 ## Tool Properties
 
@@ -21,6 +21,7 @@ assignees: ""
 
 > **Please indicate the versions of OpenAPI supported by your tool by marking them true or false below.**
 
+- 3.2: false
 - 3.1: false
 - 3.0: false
 - 2.0: false
