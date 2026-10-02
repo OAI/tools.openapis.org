@@ -9,7 +9,10 @@
   "sources": [
     {
       "title": "https://openapi.tools/",
-      "url": "https://raw.githubusercontent.com/apisyouwonthate/openapi.tools/master/_data/tools.yml",
+      "repositoryOwner": "apisyouwonthate",
+      "repositoryName": "openapi.tools",
+      "ref": "main",
+      "path": "src/content/tools",
       "processor": "../processors/openapi-tools-processor.js"
     },
     {
