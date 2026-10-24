@@ -41315,3 +41315,27 @@
     repoLastModified: Tue, 10 Jun 2025 08:39:30 GMT
   foundInMaster: true
   id: deb9defcd95175a7029de6b81cf1ca78
+- source: https://octri.dev
+  name: Octri
+  category:
+    - SDK
+    - Documentation
+  link: https://octri.dev
+  language:
+    - TypeScript
+    - Python
+    - Go
+    - Rust
+    - Ruby
+    - PHP
+    - Dart
+    - Swift
+    - Java
+    - Kotlin
+  source_description: >-
+    Hosted platform that generates SDKs in 10 languages, a docs site and an MCP
+    server from one OpenAPI description, with an opt-in error reporter in every
+    SDK.
+  v2: true
+  v3: true
+  v3_1: true
