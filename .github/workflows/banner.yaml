@@ -1,0 +1,41 @@
+name: Publish retirement banner
+
+# Publishes the static banner page in banner/ to GitHub Pages, replacing the
+# Eleventy site previously served from docs/. Requires the repository Pages
+# source to be set to "GitHub Actions" (Settings → Pages → Build and deployment).
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - banner/**
+      - .github/workflows/banner.yaml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      # Serve the banner for every path, so deep links to the old site
+      # (e.g. /categories/...) land on the banner instead of a 404.
+      - run: cp banner/index.html banner/404.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: banner
+      - id: deployment
+        uses: actions/deploy-pages@v4
