@@ -15,6 +15,7 @@
     "coverage": "export NODE_ENV=test && nyc --reporter=html --reporter=text ./node_modules/.bin/_mocha test/lib/* --exit --recursive --timeout 10000",
     "coverage:desktop": "yarn run coverage && open coverage/index.html",
     "clean": "rimraf docs/*",
+    "find:active-projects": "node scripts/find-active-projects.js",
     "serve:webpack": "webpack --mode development --watch",
     "serve:eleventy": "ELEVENTY_ENV=development eleventy --serve",
     "serve": "yarn run clean && yarn run build:site:cname && npm-run-all --parallel serve:*",
