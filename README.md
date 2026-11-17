@@ -1,3 +1,7 @@
+# IMPORTANT - PLEASE READ
+
+**AS OF 2026/16/11 THIS REPOSITORY HAS BEEN ARCHIVED DUE TO LACK OF AVAILABLE MAINTAINERS. PLEASE REFER TO https://openapi.tools FOR A COMPREHENSIVE LIST OF OPENAPI INITIATIVE COMPATIBLE TOOLS.**
+
 # OpenAPI Tooling
 
 This project is provided by the OpenAPI Initiative as a means to centralize ecosystem information on OpenAPI-related tooling. It leverages open-source projects that have gone before to provide a consolidated list of tooling.
